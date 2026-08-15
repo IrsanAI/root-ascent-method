@@ -30,6 +30,20 @@ It is deliberately domain-agnostic. Wherever technical, organizational, or socie
 - Climate adaptation technologies and their side effects
 - Any socio-technical system showing persistent governance lag
 
+## Who Benefits Most
+
+**Primary audience**  
+Investigative journalists, independent researchers, civil-society technologists, technology & society policy analysts, and advanced AI users who need structured depth instead of surface takes.
+
+**Secondary audience**  
+Academic researchers in Science & Technology Studies, security studies, public policy, and information ethics; digital-rights organizations; strategic teams inside governments and regulators.
+
+**Tertiary audience**  
+Think-tank analysts, open-source intelligence practitioners, and professionals dealing with complex socio-technical risk.
+
+**Experimental / High-Potential audience** (actively invited to test and prove the method)  
+PhD researchers and labs in STS / AI Governance / Critical Security Studies (environments connected to Oxford Internet Institute, Berkman Klein Center, HIIG Berlin, Weizenbaum Institute, Stanford HAI, TU Delft and similar), independent AI-agent developers, data-journalism units, civic technologists, and forward-leaning public-sector innovation teams. These groups are especially well positioned to put the method under real pressure and generate further evidence.
+
 ## What You Can Achieve With It
 
 ### What humans can achieve *today*
@@ -85,18 +99,19 @@ That trajectory is the method’s strongest proof.
 | [WORKING-PAPER.md](WORKING-PAPER.md) | Extended working paper with reasoning and evolution |
 | [WORKING-PAPER.de.md](WORKING-PAPER.de.md) | Ausführliches Working Paper (Deutsch) |
 | [PROMPT.md](PROMPT.md) | Ready-to-use system prompt / blueprint for AI systems |
+| [PROMPT.de.md](PROMPT.de.md) | Einsatzbereiter System-Prompt (Deutsch) |
 
 ## Quick Start
 
 1. **Seeded Mode**: Provide a concrete article, link, incident, or statement.
 2. **Autonomous Mode**: Let the system find a relevant current case where capability is scaling faster than governance.
 
-Use the ready-to-use instruction set in [PROMPT.md](PROMPT.md) with most capable AI systems.
+Use the ready-to-use instruction set in [PROMPT.md](PROMPT.md) (or [PROMPT.de.md](PROMPT.de.md)) with most capable AI systems.
 
 ## Status
 
 This repository is the public home of the Root-Ascent Method.  
-The method is under active documentation and refinement.
+The method is under active documentation and refinement. Experimental users are explicitly invited to test it under real conditions and share results via Issues or Pull Requests.
 
 ---
 
