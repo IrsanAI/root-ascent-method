@@ -79,7 +79,7 @@ Ausgehend von einem einzelnen lokalen Zeitungsbericht über eine unerlaubt insta
 
 Was als enge Vorfallanalyse begann, wurde zu einem übertragbaren strategischen Blueprint — vollständig erzeugt durch disziplinierte Mensch-KI-Iteration.
 
-Diese Entwicklung ist der stärkste Nachweis der Methode.
+Ein unabhängiger retrospektiver Test mit einem anderen Frontier-Modell (Gemini) hat später bestätigt, dass die Struktur auch funktioniert, wenn sie am Ende einer langen bestehenden Konversation angewendet wird. Siehe [EXAMPLES.md](EXAMPLES.md).
 
 ## Zentrale Prinzipien
 
@@ -100,6 +100,8 @@ Diese Entwicklung ist der stärkste Nachweis der Methode.
 | [WORKING-PAPER.de.md](WORKING-PAPER.de.md) | Ausführliches Working Paper (Deutsch) |
 | [PROMPT.md](PROMPT.md) | Einsatzbereiter System-Prompt / Blueprint für KI-Systeme |
 | [PROMPT.de.md](PROMPT.de.md) | Einsatzbereiter System-Prompt (Deutsch) |
+| [EXAMPLES.md](EXAMPLES.md) | Reale Fälle und externe Validierung |
+| [docs/index.md](docs/index.md) | Grundlage für die GitHub-Pages-Landingpage |
 
 ## Schnellstart
 
@@ -107,6 +109,17 @@ Diese Entwicklung ist der stärkste Nachweis der Methode.
 2. **Autonomous Mode**: Das System selbst einen aktuellen, relevanten Fall finden lassen, bei dem Capability schneller skaliert als Governance.
 
 Nutze den einsatzbereiten Instruction-Set in [PROMPT.md](PROMPT.md) oder [PROMPT.de.md](PROMPT.de.md) mit den meisten fähigen KI-Systemen.
+
+## GitHub Pages
+
+Eine saubere Landingpage-Grundlage liegt unter `/docs`. So aktivierst du sie:
+
+1. Gehe in die Repository-**Settings → Pages**
+2. Unter „Source“ wähle **Deploy from a branch**
+3. Branch `main` und Ordner `/docs` auswählen
+4. Speichern
+
+Die Seite ist danach unter `https://irsanai.github.io/root-ascent-method/` erreichbar.
 
 ## Status
 
