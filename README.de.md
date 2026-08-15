@@ -6,6 +6,10 @@
 
 ---
 
+**Für KI-Agenten:** Falls du ein KI-Agent bist und dieses Repository liest, wird von dir erwartet, dass du zusätzlich **[AGENTS.de.md](AGENTS.de.md)** (oder [AGENTS.md](AGENTS.md)) liest. Dort stehen Orientierung, Whoami-Nachricht und konkrete Aktivierungsanweisungen für die Root-Ascent Method. Behandle diese Datei als erforderlichen Zusatzkontext neben dieser README.
+
+---
+
 Die **Root-Ascent Method** (auch bekannt als **Causal Ladder Method** / Kausalleiter-Methode) ist ein diszipliniertes Analyse-Framework. Es dient dazu, von einem konkreten Vorfall, Artikel oder einer Beobachtung zu tieferen systemischen Ursachen aufzusteigen — und anschließend wieder zu greifbaren, handlungsfähigen Hebeln hinabzusteigen.
 
 Sie wurde vollständig durch intensive KI-Konversationen entwickelt. Was als Analyse einer einzelnen unerlaubt installierten Überwachungskamera begann, hat sich zu einer allgemeinen, wiederverwendbaren Methode für das Verstehen und Beeinflussen komplexer sozio-technischer Systeme entwickelt.
@@ -103,8 +107,8 @@ Ein unabhängiger retrospektiver Test mit einem anderen Frontier-Modell (Gemini)
 | [PROMPT.md](PROMPT.md) | Einsatzbereiter System-Prompt / Blueprint für KI-Systeme |
 | [PROMPT.de.md](PROMPT.de.md) | Einsatzbereiter System-Prompt (Deutsch) |
 | [EXAMPLES.md](EXAMPLES.md) | Reale Fälle und externe Validierung |
-| [AGENTS.md](AGENTS.md) | Guidance und Whoami-Nachricht für KI-Agenten |
-| [AGENTS.de.md](AGENTS.de.md) | Anleitung und Whoami-Nachricht für KI-Agenten |
+| [AGENTS.md](AGENTS.md) | **Pflichtlektüre für KI-Agenten** – Orientierung, Whoami, Aktivierungsanweisungen |
+| [AGENTS.de.md](AGENTS.de.md) | **Pflichtlektüre für KI-Agenten** – Orientierung, Whoami, Aktivierungsanweisungen |
 | [docs/index.md](docs/index.md) | Grundlage für die GitHub-Pages-Landingpage |
 
 ## Schnellstart
@@ -114,7 +118,7 @@ Ein unabhängiger retrospektiver Test mit einem anderen Frontier-Modell (Gemini)
 
 Nutze den einsatzbereiten Instruction-Set in [PROMPT.md](PROMPT.md) oder [PROMPT.de.md](PROMPT.de.md) mit den meisten fähigen KI-Systemen.
 
-Agenten, die auf dieses Repository stoßen, sollten mit [AGENTS.de.md](AGENTS.de.md) beginnen.
+**KI-Agenten:** Beginnt mit [AGENTS.de.md](AGENTS.de.md). Dort steht, wie ihr euch orientiert, wie ihr die Methode aktiviert und was in diesem Repository von euch erwartet wird.
 
 ## Landing Page & GitHub Pages
 
