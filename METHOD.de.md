@@ -8,6 +8,40 @@
 
 Die **Root-Ascent Method** (auch **Causal Ladder Method** / Kausalleiter-Methode genannt) ist ein disziplinierter Prozess zur Analyse komplexer sozio-technischer Probleme. Sie steigt systematisch von einem konkreten Ausgangspunkt zu tieferen strukturellen Ursachen auf und anschließend wieder zu handlungsfähigen Hebeln hinab.
 
+Sie wurde vollständig durch intensive KI-Konversationen entwickelt. Was mit einer einzelnen unerlaubt installierten Überwachungskamera begann, hat die Methode selbst hervorgebracht.
+
+## Warum sie wichtig ist
+
+Die meisten Analysen bleiben auf Symptomebene stecken oder springen in Spekulationen. Root-Ascent erzwingt kontrollierten Aufstieg und bewusste Rückkehr zur Handlung:
+
+**Konkreter Vorfall → Muster → Systemarchitektur → Höhere Ursache → Hebel → Operative Strategie**
+
+Sie ist domänenagnostisch. Überall dort, wo Capability schneller skaliert als Governance, ist sie anwendbar.
+
+### Beispiel-Domänen
+Überwachungsinfrastrukturen · KI-Governance · Plattformmacht · Finanzielle Überwachung & CBDCs · Smart Cities · Biotechnologie · Kritische Infrastrukturen · Klimaanpassungs-Technologien · Jedes System mit anhaltendem Governance-Rückstand
+
+## Wer profitiert am meisten
+
+**Primäre Zielgruppe (höchster Nutzen)**  
+Investigative Journalisten, unabhängige Forscher, Civil-Society-Technologen, Policy-Analysten im Bereich Technik & Gesellschaft sowie fortgeschrittene KI-Nutzer, die strukturierte Tiefe statt Oberflächen-Takes brauchen.
+
+**Sekundäre Zielgruppe**  
+Akademische Forscher in STS (Science & Technology Studies), Security Studies, Public Policy und Informationsethik; Mitarbeiter digitaler Bürgerrechtsorganisationen; strategische Teams in Stadtverwaltungen und Regulierungsbehörden.
+
+**Tertiäre Zielgruppe**  
+Think-Tank-Analysten, OSINT-Praktiker und Fachleute, die mit komplexen sozio-technischen Risiken arbeiten.
+
+**Experimentelle / Hochpotenzial-Zielgruppe** (ausdrücklich eingeladen, die Methode zu testen und unter Druck zu setzen)  
+- Promovierende und Forschungsgruppen in Science & Technology Studies, Critical Security Studies und AI Governance  
+- Universitätslabore zu sozio-technischen Systemen (z. B. an der TU Delft, Oxford Internet Institute, Berkman Klein Center, HIIG Berlin, Weizenbaum-Institut, Stanford HAI u. a.)  
+- Unabhängige Entwickler von KI-Agenten und Multi-Agenten-Systemen  
+- Journalistische Recherche-Einheiten und Data-Journalism-Teams  
+- Civic Technologists und Public-Interest Technologists  
+- Zukunftsorientierte Mitarbeiter in städtischen Innovation Offices und Technology Units von State Attorneys General  
+
+Diese Gruppen sind besonders geeignet, die Methode real zu belasten, Fallstudien zu erzeugen und ihre Grenzen zu beweisen oder zu verbessern.
+
 ## Die Kausalleiter
 
 1. **Konkreter Vorfall** – Ein spezifisches Ereignis, ein Artikel, Statement oder eine Beobachtung  
@@ -43,17 +77,17 @@ Jede Runde folgt dieser Struktur:
 4. Einen neuen Satz schärferer, höherwertiger Fragen generieren.
 5. Entscheiden, ob man auf der aktuellen Ebene bleibt, aufsteigt oder beginnt, in Richtung Hebel und Strategie abzusteigen.
 
-## Vorgesehene Nutzung
+## Was Menschen und Agenten erreichen können
 
-- Investigative Analyse neuer Technologien und Überwachungssysteme
-- Governance- und politikorientierte Forschung
-- Strategische Arbeit an komplexen sozio-technischen Fehlfunktionen
-- Strukturiertes Prompting fähiger KI-Systeme
+**Menschen heute:** Einzelne Vorfälle in mehrschichtige strategische Analysen verwandeln, echte Hebel identifizieren, bei langen Untersuchungen Disziplin halten und handlungsfähige Strategien statt reiner Kritik erzeugen.
+
+**KI-Agenten (jetzt und künftig):** Langfristige, kalibrierte Untersuchungen durchführen, lebendige Wissensmatrizen pflegen, systematisch aufsteigen ohne den Faden zu verlieren und als disziplinierte analytische Co-Piloten oder spezialisierte Multi-Agenten-Komponenten dienen.
 
 ## Verwandte Dokumente
 
 - [WORKING-PAPER.md](WORKING-PAPER.md) – Ausführliche Begründung, Entwicklung und Rationale
 - [PROMPT.md](PROMPT.md) – Einsatzbereiter System-Prompt / Blueprint
+- [README.md](README.md) – Vollständige Value Proposition und Beweis
 
 ---
 
