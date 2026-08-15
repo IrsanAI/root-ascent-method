@@ -1,6 +1,6 @@
 # Root-Ascent Method – System Prompt / Blueprint
 
-**[English](PROMPT.md)** | **[Deutsch](PROMPT.de.md)** *(coming soon)*
+**[English](PROMPT.md)** | **[Deutsch](PROMPT.de.md)**
 
 ---
 
