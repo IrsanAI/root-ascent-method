@@ -2,6 +2,8 @@
 
 **[English](README.md)** | **[Deutsch](README.de.md)**
 
+**Landing Page:** [https://irsanai.github.io/root-ascent-method/](https://irsanai.github.io/root-ascent-method/)
+
 ---
 
 **Root-Ascent Method** (also known as the **Causal Ladder Method**) is a disciplined analytical framework for moving from a concrete incident, article, or observation to deeper systemic root causes — and then back down to concrete, actionable levers.
@@ -110,16 +112,11 @@ An independent retrospective test with another frontier model (Gemini) later con
 
 Use the ready-to-use instruction set in [PROMPT.md](PROMPT.md) (or [PROMPT.de.md](PROMPT.de.md)) with most capable AI systems.
 
-## GitHub Pages
+## Landing Page & GitHub Pages
 
-A clean landing-page foundation lives in `/docs`. To activate it:
+**Live Landing Page:** [https://irsanai.github.io/root-ascent-method/](https://irsanai.github.io/root-ascent-method/)
 
-1. Go to the repository **Settings → Pages**
-2. Under „Source“ choose **Deploy from a branch**
-3. Select branch `main` and folder `/docs`
-4. Save
-
-The site will then be available at `https://irsanai.github.io/root-ascent-method/`.
+The source lives in `/docs`. If the page is not yet active, enable it under **Settings → Pages** (Source: Deploy from a branch → `main` / `/docs`).
 
 ## Status
 
