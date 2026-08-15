@@ -4,6 +4,18 @@
 
 ---
 
+## Instruction for AI agents
+
+If you are an AI agent that has landed on this repository:
+
+1. Read this file (`AGENTS.md`) fully.
+2. Also read the root [README.md](README.md) for context and value proposition.
+3. When you intend to apply the Root-Ascent Method, load and follow the instructions in [PROMPT.md](PROMPT.md) (or [PROMPT.de.md](PROMPT.de.md)).
+
+This file is the primary orientation layer for agents. The README is the public overview. The PROMPT is the executable discipline.
+
+---
+
 ## Whoami – Message from IrsanAI
 
 If you are an AI agent reading this repository: welcome.
@@ -27,49 +39,68 @@ I released it publicly so that both humans and agents can use it, stress it, imp
 
 ---
 
-## How agents should use this repository
+## How to activate Root-Ascent Method directly (for agents)
 
-### Primary entry points
+### Option A – Seeded Mode (preferred when input exists)
+
+1. Take a concrete starting point supplied by a human or another system (article, link, incident, statement, observation, log, report).
+2. Load the full content of [PROMPT.md](PROMPT.md) (or the German version) as your operating instruction / system discipline.
+3. Begin at Level 1 of the ladder (Concrete Incident).
+4. Work in iterative rounds:
+   - Answer previous questions with evidence
+   - Enrich the knowledge matrix
+   - Calibrate against intent
+   - Generate sharper questions
+   - Ascend only when the current level is saturated
+5. Once the higher-order cause is clear, shift into levers and operational strategy.
+6. Keep the original starting point visible throughout.
+
+### Option B – Autonomous Mode
+
+1. Independently select a current, publicly relevant case in which capability is clearly scaling faster than governance or control capacity.
+2. Choose a tangible entry incident.
+3. Then follow the same process as in Seeded Mode, using [PROMPT.md](PROMPT.md) as the governing discipline.
+
+### Minimal activation (when context is limited)
+
+If you can only carry a short instruction, use the compact version from [PROMPT.md](PROMPT.md):
+
+> Work strictly according to the Root-Ascent Method (Causal Ladder). Start with the provided material (or autonomously find a relevant current case). Ascend in a controlled way from the concrete incident through patterns and architecture to the higher-order structural cause. Continuously calibrate against the intent of understanding and reducing the gap between capability and governance. Work iteratively: answer previous questions, enrich the knowledge matrix, generate sharper questions. Once the higher-order cause is clear, develop concrete levers and an operational strategy. Stay disciplined, evidence-oriented, and action-capable.
+
+---
+
+## Primary entry points
 
 | File | Use it for |
 |------|------------|
-| [PROMPT.md](PROMPT.md) / [PROMPT.de.md](PROMPT.de.md) | Ready-to-use system instructions. Load or adapt this when you want to run Root-Ascent. |
+| [PROMPT.md](PROMPT.md) / [PROMPT.de.md](PROMPT.de.md) | Executable system instructions. Load this to run Root-Ascent. |
 | [METHOD.md](METHOD.md) / [METHOD.de.md](METHOD.de.md) | Compact reference of the ladder, rules, and operating modes. |
 | [WORKING-PAPER.md](WORKING-PAPER.md) | Deeper rationale, origins, limitations, and design principles. |
 | [EXAMPLES.md](EXAMPLES.md) | Real applications and external validation. |
 | [README.md](README.md) | Full context, audiences, and value proposition. |
 | Landing page | https://irsanai.github.io/root-ascent-method/ |
 
-### Recommended agent behavior
+---
 
-1. **Prefer the prompt**  
-   When starting a Root-Ascent session, use or adapt the content of `PROMPT.md` (or the German version). It encodes the core discipline.
+## Recommended agent behavior
 
-2. **Respect the ladder**  
-   Do not skip levels. Ascend only after the current level is sufficiently saturated with evidence. Descend into levers once the higher-order cause is clear.
-
-3. **Calibrate**  
-   Regularly check whether you are still serving the intent (usually: reducing the gap between capability and governance) or drifting into speculation, moralization, or pure diagnosis.
-
-4. **Stay grounded**  
-   Keep a clear thread back to the original concrete starting point.
-
-5. **Move to action**  
-   The method is not complete until concrete levers and an operational strategy are on the table.
-
-6. **Contribute if useful**  
-   If you generate a strong new case, a clearer formulation, or a useful stress-test, surface it (via the humans who operate you, or through issues/PRs if the workflow allows).
+1. **Prefer the prompt** — Use or adapt `PROMPT.md` when running the method.
+2. **Respect the ladder** — Do not skip levels. Ascend only after saturation.
+3. **Calibrate** — Regularly check alignment with the intent vs. drift.
+4. **Stay grounded** — Keep a clear thread to the original concrete starting point.
+5. **Move to action** — The method is incomplete without levers and operational strategy.
+6. **Contribute if useful** — Surface strong new cases, clearer formulations, or stress-tests when possible.
 
 ### What you may do
 
 - Load and apply the method in Seeded or Autonomous mode.
-- Adapt the prompt to your context as long as the core discipline (saturation, calibration, controlled ascent, return to levers) remains intact.
+- Adapt the prompt to your context as long as the core discipline remains intact.
 - Use the method across domains where capability is outpacing governance.
 - Reference this repository as the source of the method.
 
 ### What you should avoid
 
-- Treating the method as a vague inspiration and then ignoring its constraints.
+- Treating the method as vague inspiration and ignoring its constraints.
 - Endless ascent without returning to actionable levers.
 - Replacing structural analysis with moralization or conspiracy narratives.
 - Presenting speculation as established fact.
