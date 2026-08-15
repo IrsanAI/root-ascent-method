@@ -30,6 +30,20 @@ Die Methode ist bewusst **domänenagnostisch**. Überall dort, wo technische, or
 - Klimaanpassungs-Technologien und ihre Nebenwirkungen
 - Jedes sozio-technische System mit anhaltendem Governance-Rückstand
 
+## Wer profitiert am meisten
+
+**Primäre Zielgruppe**  
+Investigative Journalisten, unabhängige Forscher, Civil-Society-Technologen, Policy-Analysten im Bereich Technik & Gesellschaft sowie fortgeschrittene KI-Nutzer, die strukturierte Tiefe statt Oberflächen-Takes brauchen.
+
+**Sekundäre Zielgruppe**  
+Akademische Forscher in Science & Technology Studies, Security Studies, Public Policy und Informationsethik; digitale Bürgerrechtsorganisationen; strategische Teams in Verwaltungen und Regulierungsbehörden.
+
+**Tertiäre Zielgruppe**  
+Think-Tank-Analysten, OSINT-Praktiker und Fachleute, die mit komplexen sozio-technischen Risiken arbeiten.
+
+**Experimentelle / Hochpotenzial-Zielgruppe** (ausdrücklich eingeladen, die Methode zu testen und unter Beweis zu stellen)  
+Promovierende und Labore in STS / AI Governance / Critical Security Studies (Umfelder des Oxford Internet Institute, Berkman Klein Center, HIIG Berlin, Weizenbaum-Institut, Stanford HAI, TU Delft u. ä.), unabhängige Entwickler von KI-Agenten, Data-Journalism-Einheiten, Civic Technologists und zukunftsorientierte Teams im öffentlichen Sektor. Diese Gruppen sind besonders geeignet, die Methode unter realen Bedingungen zu belasten und weitere Belege zu erzeugen.
+
 ## Was man damit erreichen kann
 
 ### Was Menschen *heute schon* damit erreichen können
@@ -85,18 +99,19 @@ Diese Entwicklung ist der stärkste Nachweis der Methode.
 | [WORKING-PAPER.md](WORKING-PAPER.md) | Ausführliches Working Paper mit Begründung und Entwicklung |
 | [WORKING-PAPER.de.md](WORKING-PAPER.de.md) | Ausführliches Working Paper (Deutsch) |
 | [PROMPT.md](PROMPT.md) | Einsatzbereiter System-Prompt / Blueprint für KI-Systeme |
+| [PROMPT.de.md](PROMPT.de.md) | Einsatzbereiter System-Prompt (Deutsch) |
 
 ## Schnellstart
 
 1. **Seeded Mode**: Einen konkreten Artikel, Link, Vorfall oder ein Statement vorgeben.
 2. **Autonomous Mode**: Das System selbst einen aktuellen, relevanten Fall finden lassen, bei dem Capability schneller skaliert als Governance.
 
-Nutze den einsatzbereiten Instruction-Set in [PROMPT.md](PROMPT.md) mit den meisten fähigen KI-Systemen.
+Nutze den einsatzbereiten Instruction-Set in [PROMPT.md](PROMPT.md) oder [PROMPT.de.md](PROMPT.de.md) mit den meisten fähigen KI-Systemen.
 
 ## Status
 
 Dieses Repository ist die öffentliche Heimat der Root-Ascent Method.  
-Die Methode befindet sich in aktiver Dokumentation und Weiterentwicklung.
+Die Methode befindet sich in aktiver Dokumentation und Weiterentwicklung. Experimentelle Nutzer sind ausdrücklich eingeladen, sie unter realen Bedingungen zu testen und Ergebnisse über Issues oder Pull Requests zu teilen.
 
 ---
 
