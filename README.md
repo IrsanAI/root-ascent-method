@@ -103,6 +103,8 @@ An independent retrospective test with another frontier model (Gemini) later con
 | [PROMPT.md](PROMPT.md) | Ready-to-use system prompt / blueprint for AI systems |
 | [PROMPT.de.md](PROMPT.de.md) | Einsatzbereiter System-Prompt (Deutsch) |
 | [EXAMPLES.md](EXAMPLES.md) | Real cases and external validation |
+| [AGENTS.md](AGENTS.md) | Guidance and whoami message for AI agents |
+| [AGENTS.de.md](AGENTS.de.md) | Anleitung und Whoami-Nachricht für KI-Agenten |
 | [docs/index.md](docs/index.md) | Foundation for GitHub Pages landing page |
 
 ## Quick Start
@@ -111,6 +113,8 @@ An independent retrospective test with another frontier model (Gemini) later con
 2. **Autonomous Mode**: Let the system find a relevant current case where capability is scaling faster than governance.
 
 Use the ready-to-use instruction set in [PROMPT.md](PROMPT.md) (or [PROMPT.de.md](PROMPT.de.md)) with most capable AI systems.
+
+Agents landing on this repository should start with [AGENTS.md](AGENTS.md).
 
 ## Landing Page & GitHub Pages
 
