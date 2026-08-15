@@ -6,16 +6,66 @@
 
 Die **Root-Ascent Method** (auch bekannt als **Causal Ladder Method** / Kausalleiter-Methode) ist ein diszipliniertes Analyse-Framework. Es dient dazu, von einem konkreten Vorfall, Artikel oder einer Beobachtung zu tieferen systemischen Ursachen aufzusteigen — und anschließend wieder zu greifbaren, handlungsfähigen Hebeln hinabzusteigen.
 
-Die Methode entstand durch intensive iterative Arbeit, die forensische Untersuchung, systemarchitektonisches Denken und strenge Intent-Kalibrierung verbindet.
+Sie wurde vollständig durch intensive KI-Konversationen entwickelt. Was als Analyse einer einzelnen unerlaubt installierten Überwachungskamera begann, hat sich zu einer allgemeinen, wiederverwendbaren Methode für das Verstehen und Beeinflussen komplexer sozio-technischer Systeme entwickelt.
 
-## Kernidee
+## Warum das wichtig ist
 
-Die meisten Analysen bleiben auf der Symptomebene stecken oder springen zu früh in Spekulationen.  
-Root-Ascent erzwingt einen kontrollierten Aufstieg auf der Kausalleiter:
+Die meisten Analysen komplexer Probleme bleiben auf der Symptomebene stecken oder springen zu früh in Spekulationen. Das Ergebnis sind wiederkehrende Zyklen aus Empörung, oberflächlichen Reformen und fortgesetzter struktureller Drift.
+
+Root-Ascent erzwingt einen anderen Weg:
 
 **Konkreter Vorfall → Muster → Systemarchitektur → Höhere Ursache → Hebel → Operative Strategie**
 
-Nur wenn eine Ebene ausreichend gesättigt ist, wird höher gestiegen. Sobald die strukturelle Ursache klar ist, wird bewusst wieder auf die Handlungsebene abgestiegen.
+Die Methode ist bewusst **domänenagnostisch**. Überall dort, wo technische, organisatorische oder gesellschaftliche *Capability* schneller skaliert als die Fähigkeit, sie zu steuern oder zu kontrollieren, kann sie angewendet werden.
+
+### Beispiel-Domänen
+
+- Überwachungs- und biometrische Infrastrukturen
+- KI-Governance und Risiken von Frontier-Modellen
+- Plattformmacht und Content-Moderation
+- Finanzielle Überwachung, CBDCs und Compliance-Systeme
+- Smart-City- und Sensornetzwerke
+- Biotechnologie und Dual-Use-Technologien
+- Kritische Infrastrukturen und Supply-Chain-Sicherheit
+- Klimaanpassungs-Technologien und ihre Nebenwirkungen
+- Jedes sozio-technische System mit anhaltendem Governance-Rückstand
+
+## Was man damit erreichen kann
+
+### Was Menschen *heute schon* damit erreichen können
+
+- Aus einer einzelnen Nachricht oder einem Vorfall eine strukturierte, mehrschichtige strategische Analyse machen
+- Von emotionaler Reaktion zu präziser Identifikation von Ursachen kommen
+- Realistische Interventionspunkte identifizieren (Beschaffungsmacht, Regulierung, technische Kontrollen, Allianzen usw.)
+- Klare, handlungsfähige Strategien statt reiner Kritik erzeugen
+- Bei langen Untersuchungen intellektuelle Disziplin halten und Drift reduzieren
+- Wiederverwendbares Wissen aufbauen, das über Fälle hinweg wächst
+
+### Was KI-Agenten damit erreichen können (jetzt und in Zukunft)
+
+- Autonome, langfristige Untersuchungen durchführen, die geerdet und kalibriert bleiben
+- Systematisch von Oberflächenereignissen zu strukturellen Ursachen aufsteigen, ohne den Faden zu verlieren
+- Über viele Runden hinweg hochwertige Fragen generieren und schärfen
+- Lebendige Wissensmatrizen aufbauen und pflegen
+- Operative Strategien vorschlagen und stress-testen
+- Als disziplinierte analytische Co-Piloten für Forscher, Journalisten, Policymaker und Aktivisten dienen
+- In Multi-Agenten-Setups: sich auf verschiedene Ebenen der Leiter spezialisieren und trotzdem am gleichen Intent ausgerichtet bleiben
+
+## Beweis – Was wir tatsächlich damit erreicht haben
+
+Diese Methode ist nicht theoretisch.
+
+Ausgehend von einem einzelnen lokalen Zeitungsbericht über eine unerlaubt installierte Flock-Safety-Kennzeichenleser-Kamera in Millcreek, Utah, hat ein durchgängiger Root-Ascent-Prozess erzeugt:
+
+- Klare Identifikation wiederkehrender Muster über Hersteller und Jurisdiktionen hinweg
+- Kartierung der zugrunde liegenden Systemarchitektur (fehlende Authoritative Source of Truth, Anreiz-Asymmetrie, asynchrone Kontrollschleifen)
+- Isolation der höheren Ursache: **Capability skaliert systematisch schneller als Governance**
+- Konkrete, priorisierte Hebel (Beschaffungs-Koalitionen, Koordination von State Attorneys General, technische Aktivierungs-Sperren, Transparenz-Register)
+- Eine realistische operative Strategie inklusive Akteuren, Sequenz, Erfolgsmetriken und Risiken
+
+Was als enge Vorfallanalyse begann, wurde zu einem übertragbaren strategischen Blueprint — vollständig erzeugt durch disziplinierte Mensch-KI-Iteration.
+
+Diese Entwicklung ist der stärkste Nachweis der Methode.
 
 ## Zentrale Prinzipien
 
@@ -24,7 +74,7 @@ Nur wenn eine Ebene ausreichend gesättigt ist, wird höher gestiegen. Sobald di
 - Laufende Selbstkalibrierung gegen einen klaren Intent
 - Bevorzugung struktureller Erklärungen gegenüber individueller Schuldzuweisung
 - Iterative Schärfung von Fragen und Wissen
-- Übergang von der Diagnose zu operativen Hebeln
+- Expliziter Übergang von der Diagnose zu operativen Hebeln
 
 ## Repository-Struktur
 
@@ -38,12 +88,10 @@ Nur wenn eine Ebene ausreichend gesättigt ist, wird höher gestiegen. Sobald di
 
 ## Schnellstart
 
-Die Methode kann auf zwei Arten genutzt werden:
-
 1. **Seeded Mode**: Einen konkreten Artikel, Link, Vorfall oder ein Statement vorgeben.
 2. **Autonomous Mode**: Das System selbst einen aktuellen, relevanten Fall finden lassen, bei dem Capability schneller skaliert als Governance.
 
-Siehe [PROMPT.md](PROMPT.md) für einen einsatzbereiten Instruction-Set, der den meisten fähigen KI-Systemen gegeben werden kann.
+Nutze den einsatzbereiten Instruction-Set in [PROMPT.md](PROMPT.md) mit den meisten fähigen KI-Systemen.
 
 ## Status
 
@@ -53,4 +101,4 @@ Die Methode befindet sich in aktiver Dokumentation und Weiterentwicklung.
 ---
 
 *Root-Ascent Method / Causal Ladder*  
-Entwickelt 2026
+Entstanden durch KI-Kollaboration · 2026
