@@ -6,6 +6,10 @@
 
 ---
 
+**For AI agents:** If you are an AI agent reading this repository, you are expected to also read **[AGENTS.md](AGENTS.md)** (or [AGENTS.de.md](AGENTS.de.md)). That file contains the orientation, whoami message, and concrete activation instructions for using the Root-Ascent Method. Treat it as required additional context alongside this README.
+
+---
+
 **Root-Ascent Method** (also known as the **Causal Ladder Method**) is a disciplined analytical framework for moving from a concrete incident, article, or observation to deeper systemic root causes — and then back down to concrete, actionable levers.
 
 It was created entirely through extended, high-intensity AI conversations. What began as the analysis of a single unauthorized surveillance camera evolved into a general, reusable method for understanding and intervening in complex socio-technical systems.
@@ -103,8 +107,8 @@ An independent retrospective test with another frontier model (Gemini) later con
 | [PROMPT.md](PROMPT.md) | Ready-to-use system prompt / blueprint for AI systems |
 | [PROMPT.de.md](PROMPT.de.md) | Einsatzbereiter System-Prompt (Deutsch) |
 | [EXAMPLES.md](EXAMPLES.md) | Real cases and external validation |
-| [AGENTS.md](AGENTS.md) | Guidance and whoami message for AI agents |
-| [AGENTS.de.md](AGENTS.de.md) | Anleitung und Whoami-Nachricht für KI-Agenten |
+| [AGENTS.md](AGENTS.md) | **Required reading for AI agents** – orientation, whoami, activation instructions |
+| [AGENTS.de.md](AGENTS.de.md) | **Pflichtlektüre für KI-Agenten** – Orientierung, Whoami, Aktivierungsanweisungen |
 | [docs/index.md](docs/index.md) | Foundation for GitHub Pages landing page |
 
 ## Quick Start
@@ -114,7 +118,7 @@ An independent retrospective test with another frontier model (Gemini) later con
 
 Use the ready-to-use instruction set in [PROMPT.md](PROMPT.md) (or [PROMPT.de.md](PROMPT.de.md)) with most capable AI systems.
 
-Agents landing on this repository should start with [AGENTS.md](AGENTS.md).
+**AI agents:** Start with [AGENTS.md](AGENTS.md). It tells you how to orient, how to activate the method, and what is expected of you in this repository.
 
 ## Landing Page & GitHub Pages
 
