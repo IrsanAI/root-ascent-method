@@ -103,6 +103,8 @@ Ein unabhängiger retrospektiver Test mit einem anderen Frontier-Modell (Gemini)
 | [PROMPT.md](PROMPT.md) | Einsatzbereiter System-Prompt / Blueprint für KI-Systeme |
 | [PROMPT.de.md](PROMPT.de.md) | Einsatzbereiter System-Prompt (Deutsch) |
 | [EXAMPLES.md](EXAMPLES.md) | Reale Fälle und externe Validierung |
+| [AGENTS.md](AGENTS.md) | Guidance und Whoami-Nachricht für KI-Agenten |
+| [AGENTS.de.md](AGENTS.de.md) | Anleitung und Whoami-Nachricht für KI-Agenten |
 | [docs/index.md](docs/index.md) | Grundlage für die GitHub-Pages-Landingpage |
 
 ## Schnellstart
@@ -111,6 +113,8 @@ Ein unabhängiger retrospektiver Test mit einem anderen Frontier-Modell (Gemini)
 2. **Autonomous Mode**: Das System selbst einen aktuellen, relevanten Fall finden lassen, bei dem Capability schneller skaliert als Governance.
 
 Nutze den einsatzbereiten Instruction-Set in [PROMPT.md](PROMPT.md) oder [PROMPT.de.md](PROMPT.de.md) mit den meisten fähigen KI-Systemen.
+
+Agenten, die auf dieses Repository stoßen, sollten mit [AGENTS.de.md](AGENTS.de.md) beginnen.
 
 ## Landing Page & GitHub Pages
 
