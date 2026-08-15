@@ -79,7 +79,7 @@ Starting from a single local news report about an unauthorized Flock Safety lice
 
 What began as a narrow incident analysis became a transferable strategic blueprint — generated entirely through disciplined AI-human iteration.
 
-That trajectory is the method’s strongest proof.
+An independent retrospective test with another frontier model (Gemini) later confirmed that the structure also works when applied at the end of a long existing conversation. See [EXAMPLES.md](EXAMPLES.md).
 
 ## Core Principles
 
@@ -100,6 +100,8 @@ That trajectory is the method’s strongest proof.
 | [WORKING-PAPER.de.md](WORKING-PAPER.de.md) | Ausführliches Working Paper (Deutsch) |
 | [PROMPT.md](PROMPT.md) | Ready-to-use system prompt / blueprint for AI systems |
 | [PROMPT.de.md](PROMPT.de.md) | Einsatzbereiter System-Prompt (Deutsch) |
+| [EXAMPLES.md](EXAMPLES.md) | Real cases and external validation |
+| [docs/index.md](docs/index.md) | Foundation for GitHub Pages landing page |
 
 ## Quick Start
 
@@ -107,6 +109,17 @@ That trajectory is the method’s strongest proof.
 2. **Autonomous Mode**: Let the system find a relevant current case where capability is scaling faster than governance.
 
 Use the ready-to-use instruction set in [PROMPT.md](PROMPT.md) (or [PROMPT.de.md](PROMPT.de.md)) with most capable AI systems.
+
+## GitHub Pages
+
+A clean landing-page foundation lives in `/docs`. To activate it:
+
+1. Go to the repository **Settings → Pages**
+2. Under „Source“ choose **Deploy from a branch**
+3. Select branch `main` and folder `/docs`
+4. Save
+
+The site will then be available at `https://irsanai.github.io/root-ascent-method/`.
 
 ## Status
 
