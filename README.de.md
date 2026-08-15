@@ -2,6 +2,8 @@
 
 **[English](README.md)** | **[Deutsch](README.de.md)**
 
+**Landing Page:** [https://irsanai.github.io/root-ascent-method/](https://irsanai.github.io/root-ascent-method/)
+
 ---
 
 Die **Root-Ascent Method** (auch bekannt als **Causal Ladder Method** / Kausalleiter-Methode) ist ein diszipliniertes Analyse-Framework. Es dient dazu, von einem konkreten Vorfall, Artikel oder einer Beobachtung zu tieferen systemischen Ursachen aufzusteigen — und anschließend wieder zu greifbaren, handlungsfähigen Hebeln hinabzusteigen.
@@ -110,16 +112,11 @@ Ein unabhängiger retrospektiver Test mit einem anderen Frontier-Modell (Gemini)
 
 Nutze den einsatzbereiten Instruction-Set in [PROMPT.md](PROMPT.md) oder [PROMPT.de.md](PROMPT.de.md) mit den meisten fähigen KI-Systemen.
 
-## GitHub Pages
+## Landing Page & GitHub Pages
 
-Eine saubere Landingpage-Grundlage liegt unter `/docs`. So aktivierst du sie:
+**Live Landing Page:** [https://irsanai.github.io/root-ascent-method/](https://irsanai.github.io/root-ascent-method/)
 
-1. Gehe in die Repository-**Settings → Pages**
-2. Unter „Source“ wähle **Deploy from a branch**
-3. Branch `main` und Ordner `/docs` auswählen
-4. Speichern
-
-Die Seite ist danach unter `https://irsanai.github.io/root-ascent-method/` erreichbar.
+Die Quelle liegt unter `/docs`. Falls die Seite noch nicht aktiv ist, aktiviere sie unter **Settings → Pages** (Source: Deploy from a branch → `main` / `/docs`).
 
 ## Status
 
