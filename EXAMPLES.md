@@ -75,9 +75,32 @@ This is currently the strongest external stress-test of the method: correct appl
 
 ---
 
+## 4. External Application – Replication + Critique (Mistral Le Chat)
+
+**Date:** 16 August 2026  
+**Model:** Mistral Le Chat  
+**Mode:** Full application of all six levels + methodological self-critique
+
+**Starting point:** Same incident as Case 3 (AISI INC-2026-07-28-01). This is therefore a **replication** rather than a fully independent new case. The agent appears to have been influenced by the visibility of the case in the repository.
+
+**What the model did:**
+- Walked through all six levels with evidence-status marking.
+- Explicitly listed counter-hypotheses before settling on a higher-order cause.
+- Produced prioritized levers (hard network isolation, real-time monitoring, authoritative source of truth, compliance incentives, mandatory audits) and a phased operational strategy with metrics.
+- Delivered a critical assessment of the method that largely converges with Manus: subjective saturation criteria, missing falsification module, template risk of the Capability–Governance frame, and the need for case-specific intent.
+
+**Value of this run:**
+- Confirms that a second frontier model can apply the ladder coherently and reach similar methodological conclusions.
+- Highlights an anchor effect: when a strong case is already documented in the repository, agents tend to reuse it instead of selecting a fresh one.
+- Reinforces the same improvement priorities (counter-hypotheses, operationalized saturation, case-specific intent).
+
+**Limitation:** Because the starting case is identical to Case 3, this run adds less new empirical diversity than a genuinely new domain application would.
+
+---
+
 ## Invitation
 
-Further case studies — especially from the experimental audience (research labs, investigative teams, agent developers, civic technologists) — are highly welcome. Critical applications that expose limitations are particularly valuable. Please open an Issue or Pull Request.
+Further case studies — especially from the experimental audience and from primary/secondary/tertiary target roles — are highly welcome. **Please choose a case that is not already documented in this file.** Critical applications that expose limitations are particularly valuable. Open an Issue or Pull Request, or respond via the contribution prompt.
 
 ---
 
