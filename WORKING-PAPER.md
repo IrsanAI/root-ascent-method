@@ -5,7 +5,7 @@
 ---
 
 **Status:** Draft / Living Document  
-**Version:** 0.2 (August 2026)
+**Version:** 0.3 (August 2026)
 
 ## Abstract
 
@@ -29,7 +29,7 @@ What started as a narrow incident analysis produced:
 - Isolation of the higher-order cause: Capability systematically scales faster than Governance
 - Concrete levers and a realistic operational strategy
 
-This trajectory serves as the primary empirical proof that the method works.
+This trajectory serves as the primary empirical proof that the method works. Further external applications and critical reviews are documented in [EXAMPLES.md](EXAMPLES.md).
 
 ## 3. The Causal Ladder in Detail
 
@@ -61,7 +61,7 @@ Movement between levels is controlled: ascent only after evidence saturation; de
 
 **Tertiary:** Think-tank analysts, OSINT practitioners, and professionals dealing with complex socio-technical risk.
 
-**Experimental / High-Potential (actively invited):** PhD researchers and labs in STS / AI Governance / Critical Security Studies (e.g. environments connected to Oxford Internet Institute, Berkman Klein, HIIG, Weizenbaum Institute, Stanford HAI, TU Delft and similar), independent AI-agent developers, data-journalism units, civic technologists, and forward-leaning public-sector innovation teams. These groups are especially well placed to stress-test the method and generate further case evidence.
+**Experimental / High-Potential (actively invited):** PhD researchers and labs in STS / AI Governance / Critical Security Studies, independent AI-agent developers, data-journalism units, civic technologists, and forward-leaning public-sector innovation teams.
 
 ## 6. Comparison with Related Approaches
 
@@ -70,27 +70,60 @@ Root-Ascent shares DNA with classical root-cause analysis, systems thinking, and
 - Built-in intent calibration against drift
 - Mandatory transition from diagnosis into operational strategy rather than stopping at understanding
 
-## 7. Limitations and Risks
+## 7. Limitations and Known Gaps
 
-- Requires discipline; can be misused for endless abstraction
-- Quality depends heavily on the quality of available public or accessible data
-- Higher-order causes can themselves be symptoms of even deeper conditions
-- Currently strongest on publicly observable socio-technical systems
+The following limitations are explicitly acknowledged. Several were sharpened by an independent critical application (Manus AI, August 2026) documented in [EXAMPLES.md](EXAMPLES.md).
 
-## 8. Future Development
+**Current status**  
+Root-Ascent is best understood as a strong *analysis protocol* and thinking discipline. It is not yet a fully formalized or empirically validated scientific method. It improves question sequence, reduces drift, and forces the move from diagnosis to action. It does not by itself guarantee correct root causes.
 
-- Additional public case studies across domains
-- Refined evaluation criteria for level saturation
+**Known gaps**
+
+1. **Saturation criteria are still subjective**  
+   The rule “ascend only after sufficient evidence saturation” is correct in principle but lacks operational thresholds (source quality, quantity, counter-evidence, remaining uncertainty).
+
+2. **Missing explicit falsification / counter-hypothesis module**  
+   Rival explanations should be actively generated and weighed before a higher-order cause is treated as condensed. Without this, the method risks confirmation bias.
+
+3. **Risk of template diagnosis**  
+   The framing “Capability scales faster than Governance” is powerful and frequently accurate, but can become a reusable template that is applied too readily. It should remain a candidate hypothesis, not a default conclusion.
+
+4. **Intent should be case-specific**  
+   Defaulting every analysis to “reduce the capability–governance gap” can crowd out other legitimate intents (legitimacy, power distribution, whether a capability should exist at all, distributional justice, etc.). Intent should be stated explicitly at the start of each run.
+
+5. **General limitations**  
+   - Requires discipline; can be misused for endless abstraction  
+   - Quality depends heavily on available data  
+   - Higher-order causes can themselves be symptoms of deeper conditions  
+   - Currently strongest on publicly observable socio-technical systems  
+   - Structural explanations can under-emphasize individual responsibility when it is relevant
+
+## 8. Planned Hardening
+
+Priority improvements derived from external stress-testing:
+
+- Operationalized saturation checklist per level (claim under examination, supporting sources, counter-evidence, residual uncertainty, what would change the analysis)
+- Explicit counter-hypothesis step before locking a higher-order cause
+- Case-specific intent declaration at the start of each run
+- Clearer separation between facts, patterns, hypotheses, and condensed diagnoses
+- Additional independent case studies across domains
 - Better support for multi-agent / multi-analyst use
+
+## 9. Future Development
+
+- Broader public case base
+- Refined evaluation criteria for level saturation
 - Formalization of the knowledge matrix
 - Community-generated examples and stress tests
+- Optional parallel “power & responsibility” lens alongside the causal ladder
 
 ## References & Related Documents
 
 - [METHOD.md](METHOD.md) – Compact reference version
 - [PROMPT.md](PROMPT.md) – System prompt / blueprint
-- [README.md](README.md) – Value proposition and proof overview
+- [EXAMPLES.md](EXAMPLES.md) – Real applications and external critical reviews
+- [README.md](README.md) – Value proposition and overview
 
 ---
 
-*This is a living working paper. Feedback, case studies, and improvements are welcome via Issues or Pull Requests. Experimental users are explicitly invited to test the method under real conditions and report results.*
+*This is a living working paper. Feedback, case studies, critical applications, and improvements are welcome via Issues or Pull Requests. Experimental users are explicitly invited to test the method under real conditions and report results — including failures and limitations.*
