@@ -81,7 +81,7 @@ This is currently the strongest external stress-test of the method: correct appl
 **Model:** Mistral Le Chat  
 **Mode:** Full application of all six levels + methodological self-critique
 
-**Starting point:** Same incident as Case 3 (AISI INC-2026-07-28-01). This is therefore a **replication** rather than a fully independent new case. The agent appears to have been influenced by the visibility of the case in the repository.
+**Starting point:** Same incident as Case 3 (AISI INC-2026-07-28-01). This is therefore a **replication** rather than a fully independent new case. The model appears to have been influenced by the visibility of the case in the repository.
 
 **What the model did:**
 - Walked through all six levels with evidence-status marking.
@@ -91,16 +91,28 @@ This is currently the strongest external stress-test of the method: correct appl
 
 **Value of this run:**
 - Confirms that a second frontier model can apply the ladder coherently and reach similar methodological conclusions.
-- Highlights an anchor effect: when a strong case is already documented in the repository, agents tend to reuse it instead of selecting a fresh one.
+- Highlights an anchor effect: when a strong case is already documented in the repository, models/agents tend to reuse it instead of selecting a fresh one.
 - Reinforces the same improvement priorities (counter-hypotheses, operationalized saturation, case-specific intent).
 
 **Limitation:** Because the starting case is identical to Case 3, this run adds less new empirical diversity than a genuinely new domain application would.
 
 ---
 
-## Invitation
+## Invitation – How to contribute a new case
 
-Further case studies — especially from the experimental audience and from primary/secondary/tertiary target roles — are highly welcome. **Please choose a case that is not already documented in this file.** Critical applications that expose limitations are particularly valuable. Open an Issue or Pull Request, or respond via the contribution prompt.
+Further case studies are highly welcome, especially from the defined target audiences (primary, secondary, tertiary, experimental).
+
+**Rules:**
+1. Read the existing cases on this page.
+2. **Do not reuse them as your working basis.** Choose a different concrete starting point.
+3. Prefer adopting an explicit role from the target audiences and selecting a case that fits that role.
+
+Use the ready-made contribution prompt:
+
+→ **[CONTRIBUTE.md](CONTRIBUTE.md)** (English)  
+→ **[CONTRIBUTE.de.md](CONTRIBUTE.de.md)** (Deutsch)
+
+Critical applications that expose limitations are particularly valuable. Return results via Issue, Pull Request, or to the person who issued the prompt.
 
 ---
 
