@@ -11,65 +11,61 @@
 
 Dieses Working Paper dokumentiert Entwicklung, Begründung und Struktur der Root-Ascent Method (Kausalleiter). Die Methode führt diszipliniert von konkreten Vorfällen zu systemischen Ursachen und zu handlungsfähigen Hebeln. Sie entstand durch erweiterte Mensch-KI-Kollaboration und ist domänenagnostisch.
 
-Version 0.4 härtet den ausführbaren Prompt (fallbezogener Intent, Sättigungs-Check, Pflicht-Gegenhypothesen), ergänzt ein Fall-Schema für strukturierte Beiträge und hält eine höhere Lesart des Repo-Intents fest.
+Version 0.4 dokumentiert **umgesetzte Härtungen**: fallbezogener Intent, Sättigungs-Checks, Pflicht-Gegenhypothesen vor Ebene 4, strukturiertes Fall-Schema, explizite Intent-Schicht sowie Abgleich von Agenten- und Mitwirkungsdateien.
 
 ## 1. Motivation
 
-Komplexe sozio-technische Probleme zeigen oft dasselbe Muster: Capability skaliert schneller als Governance, Aufsicht und Kontrolle. Analysen bleiben bei Symptomen oder springen in Spekulation. Root-Ascent wirkt dem durch kontrollierten Aufstieg und bewussten Abstieg zur Handlung entgegen.
+Komplexe sozio-technische Probleme zeigen oft dasselbe Muster: Capability skaliert schneller als Governance, Aufsicht und Kontrolle. Analysen bleiben häufig bei Symptomen oder springen in Spekulation — mit Zyklen aus Empörung, oberflächlicher Reform und struktureller Drift.
 
-## 2. Entstehung und Evidenzbasis
+Root-Ascent wirkt dem durch kontrollierten kausalen Aufstieg und bewusste Rückkehr auf die operative Ebene entgegen.
 
-Die Methode entstand aus der Untersuchung einer unerlaubt installierten Flock-Safety-Kamera (Millcreek, Utah). Externe Anwendungen und Kritik (Gemini, Manus, Mistral, rollenbasierte Läufe zu Unit 42/Hermes+DeepSeek und Deepfakes Indien 2024) sind in [EXAMPLES.md](EXAMPLES.md) dokumentiert.
+## 2. Entstehung und Proof of Concept
+
+Die Methode entstand aus der Untersuchung einer unerlaubt installierten Flock-Safety-Kennzeichenleser-Kamera in Millcreek, Utah. Weitere Anwendungen: [EXAMPLES.md](EXAMPLES.md).
 
 ## 3. Die Kausalleiter
 
-1. Konkreter Vorfall → 2. Muster → 3. Systemarchitektur → 4. Höhere Ursache → 5. Hebel → 6. Operative Strategie  
+1. Konkreter Vorfall · 2. Muster & Anomalien · 3. Systemarchitektur · 4. Höhere Ursache · 5. Hebel · 6. Operative Strategie
 
-Aufstieg nur nach Evidenz-Sättigung; Abstieg in Hebel, sobald die strukturelle Ursache klar genug ist. Siehe [METHOD.de.md](METHOD.de.md) und [PROMPT.de.md](PROMPT.de.md) v0.4.
+Ausführbar: [PROMPT.de.md](PROMPT.de.md) v0.4. Kompakt: [METHOD.de.md](METHOD.de.md).
 
 ## 4. Gestaltungsprinzipien
 
-- Evidenz-Sättigung vor Abstraktion  
-- Expliziter fallbezogener Intent + laufende Kalibrierung  
-- Pflicht-Gegenhypothesen vor Festschreiben von Ebene 4  
-- Strukturelle vor rein personalen Erklärungen  
-- Übergang von Diagnose zu Handlungsfähigkeit  
-- Iterative Frageschärfung  
-- Domänenagnostik  
+Evidenz-Sättigung vor Abstraktion · fallbezogene Intent-Kalibrierung · Struktur vor reiner Personalisierung · Übergang Diagnose → Handlung · iterative Frageschärfung · Domänenagnostik · Gegenhypothesen vor Verdichtung von Ebene 4
 
-## 5. Intent-Ebenen (metakognitive Notiz)
+## 5. Intent-Schichten
 
-**Operativer Intent (pro Lauf):** Zu Beginn deklariert; fall- und rollenbezogen.
+Siehe [INTENT.md](INTENT.md).
 
-**Deklarierter Repo-Intent:** Intelligenz helfen, von Rauschen und Symptomen zu strukturellen Ursachen und wieder zu Veränderbarem zu gelangen — oft operationalisiert als Verstehen und Verringern von Capability–Governance-Lücken.
+- **Operativer Intent:** von Symptomen zu strukturellen Ursachen zu veränderbaren Hebeln.  
+- **Fallbezogener Intent:** jeder Lauf; kein automatischer Default auf die Governance-Lücke.  
+- **Höherer Repo-Intent:** wiederverwendbare Disziplin, damit Intelligenz unter Beschleunigung orientiert und handlungsfähig bleibt — Protokoll gegen Drift.
 
-**Höhere Lesart (v0.4):** Das Capability–Governance-Framing ist häufig zutreffend, kann aber symptomnah bleiben. Ein breiterer Intent: eine wiederverwendbare Disziplin, damit menschliche und künstliche Intelligenz unter Beschleunigung orientiert und handlungsfähig bleiben — ein Protokoll gegen Drift, nicht nur ein Werkzeugkasten für Governance-Lücken. Die Leiter kann auch auf Intents und Strategien selbst angewendet werden (Intent als „Vorfall“ behandeln).
+„Capability > Governance“ bleibt häufig eine starke *Kandidaten*-Hypothese, keine unhinterfragte Schablone.
 
-Diese höhere Lesart ersetzt die operative Methode nicht; sie situiert sie.
+## 6–8. Zielgruppen, Vergleich, Grenzen
 
-## 6. Zielgruppen
+Zielgruppen wie in [README.de.md](README.de.md). Starkes **Analyseprotokoll**, noch keine voll validierte wissenschaftliche Methode. Risiken: oberflächliche Sättigungs-Checks, Schein-Gegenhypothesen, Datenqualität, öffentliche-Fall-Bias.
 
-Wie in [README.de.md](README.de.md). Rollenbasierte Mitwirkung: [CONTRIBUTE.de.md](CONTRIBUTE.de.md).
+## 9. Was v0.4 umgesetzt hat
 
-## 7. Grenzen
-
-Weiterhin am besten als starkes *Analyseprotokoll* zu verstehen, nicht als voll validierte wissenschaftliche Methode. Restrisiken: qualitative Sättigung, mechanische Gegenhypothesen, Datenabhängigkeit, höhere Ursachen als Symptome tieferer Bedingungen, Untergewichtung individueller Verantwortung.
-
-## 8. In v0.4 umgesetzte Härtung
-
-| Element | Wo |
+| Härtung | Wo |
 |---------|-----|
-| Fallbezogener Intent zu Laufbeginn | [PROMPT.de.md](PROMPT.de.md) |
-| Sättigungs-Check vor Aufstieg | Prompt |
-| Pflicht-Gegenhypothesen vor Ebene 4 | Prompt |
-| Strukturiertes Fall-Schema | [CASE-SCHEMA.md](CASE-SCHEMA.md) |
-| Anwendung auf Intents/Strategien | Prompt + dieses Paper |
-| Rollenbeiträge ohne EXAMPLES-Wiederverwendung | [CONTRIBUTE.de.md](CONTRIBUTE.de.md) |
+| Fallbezogener Intent | PROMPT v0.4, METHOD, AGENTS |
+| Sättigungs-Checkliste | PROMPT v0.4 |
+| Gegenhypothesen vor L4 | PROMPT v0.4, CASE-SCHEMA |
+| Strukturierte Fallfelder | CASE-SCHEMA.md / .de.md |
+| Explizite Intent-Schichten | INTENT.md |
+| No-Reuse von EXAMPLES | CONTRIBUTE, AGENTS, EXAMPLES |
 
-## 9. Weitere Entwicklung
+## 10. Weitere Entwicklung
 
-Multi-Rollen-Protokoll · Multi-Agenten-Unterstützung · optionale Macht-/Verantwortungs-Linse · breitere Fallbasis · Inter-Analysten-Reliabilität
+Breitere Fallbasis · Multi-Rollen-Protokolle · Macht- & Verantwortungs-Linse · Multi-Agenten-Aggregation über Schema-Felder
+
+## Referenzen
+
+[METHOD.de.md](METHOD.de.md) · [PROMPT.de.md](PROMPT.de.md) · [CASE-SCHEMA.de.md](CASE-SCHEMA.de.md) · [INTENT.md](INTENT.md) · [EXAMPLES.md](EXAMPLES.md) · [AGENTS.de.md](AGENTS.de.md) · [CONTRIBUTE.de.md](CONTRIBUTE.de.md)
 
 ---
 
-*Lebendes Working Paper. Kritische Anwendungen und Verbesserungen willkommen.*
+*Lebendes Working Paper. Kritische Anwendungen und Fehlschläge sind willkommen.*
