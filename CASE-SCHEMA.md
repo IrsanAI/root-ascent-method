@@ -1,6 +1,6 @@
 # Case Schema (Root-Ascent Method)
 
-**Version:** 0.4  
+**Version:** 0.4.1  
 Minimal structure for documenting a Root-Ascent run. Use in Issues, PRs, agent outputs, or EXAMPLES entries.
 
 Human-readable prose is fine; filling these fields makes cases comparable and aggregable.
@@ -45,6 +45,7 @@ ladder:
     condensed_hypothesis: string
     status: plausible_condensation | strong_hypothesis | open
     what_would_falsify: string
+    diagnosis_changed_by_rivals: true | false   # did counter-hypotheses change L4?
   L5_levers:
     - description: string
       priority: high | medium | low
@@ -64,6 +65,25 @@ saturation_notes: string       # optional honesty about where evidence was thin
 
 ---
 
+## Optional (strongly recommended for “how much better” claims)
+
+```yaml
+expectation:
+  pre_registered_structure_metric: string   # e.g. "≥3 levers with cause+actor+12m test+metric"
+  expected_value: string
+  actual_value: string
+  notes: string                             # never confuse structure metrics with field impact
+
+evaluation_design:                          # required if claiming field outcomes
+  comparison_group: string
+  primary_outcome: string
+  data_gaps: string
+  falsification_rule: string
+claim_boundary: string                      # e.g. "desk strategy only; no claimed % sales lift"
+```
+
+---
+
 ## Evidence status values
 
 | Value | Meaning |
@@ -78,8 +98,9 @@ saturation_notes: string       # optional honesty about where evidence was thin
 ## Notes
 
 - Do not reuse cases already listed in [EXAMPLES.md](EXAMPLES.md) as the working basis for a *new* contribution.
-- Counter-hypotheses at L4 are mandatory in spirit even if the YAML list is short.
+- Counter-hypotheses at L4 are mandatory; set `diagnosis_changed_by_rivals` honestly.
 - Fine-grained statistics should be marked if not cross-checked against primary sources.
+- This schema is for the **Causal Ladder** method — not for numerical optimizers.
 
 See also: [CONTRIBUTE.md](CONTRIBUTE.md), [PROMPT.md](PROMPT.md), [EXAMPLES.md](EXAMPLES.md).
 
