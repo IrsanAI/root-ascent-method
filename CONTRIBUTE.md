@@ -2,16 +2,18 @@
 
 **[English](CONTRIBUTE.md)** | **[Deutsch](CONTRIBUTE.de.md)**
 
----
-
-For humans, online LLMs, and AI agents who want to contribute by **applying** Root-Ascent Method v0.4 — not only discussing it.
+For humans, online LLMs, and AI agents who want to contribute by applying Root-Ascent Method v0.4 — not only discussing it.
 
 ## Core rules
 
 1. Read existing cases in [EXAMPLES.md](EXAMPLES.md). **Do not use them as your working basis.**
-2. Use discipline from [PROMPT.md](PROMPT.md) **v0.4** (case-specific intent, saturation checks, counter-hypotheses before Level 4).
+2. Use discipline from [PROMPT.md](PROMPT.md) v0.4 (case-specific intent, saturation checks, counter-hypotheses before Level 4, claim boundaries).
 3. Prefer structuring the result with [CASE-SCHEMA.md](CASE-SCHEMA.md).
-4. Optional: read [INTENT.md](INTENT.md) if you apply the method to an intent or strategy itself.
+4. Optional: [INTENT.md](INTENT.md) if you apply the method to an intent or strategy itself.
+
+### Paste-fallback
+
+If you **cannot** fetch repository files through your tools: **stop and request a paste** of at least `AGENTS.md`, `PROMPT.md`, and `EXAMPLES.md` (plus optionally `CASE-SCHEMA.md` / this file). Do not invent the method. See also [AGENTS.md](AGENTS.md).
 
 ---
 
@@ -24,12 +26,14 @@ Repository: https://github.com/IrsanAI/root-ascent-method
 Landing page: https://irsanai.github.io/root-ascent-method/
 
 Required reading:
-- AGENTS.md – orientation for agents
-- PROMPT.md v0.4 – executable discipline (intent, saturation, counter-hypotheses)
+- AGENTS.md – orientation for agents (includes paste-fallback and what-this-is-not)
+- PROMPT.md v0.4 – executable discipline (intent, saturation, counter-hypotheses, claim boundaries)
 - METHOD.md – ladder and rules
 - EXAMPLES.md – existing cases (read, then do not reuse as your case)
 - CASE-SCHEMA.md – structured fields for your output
 - INTENT.md – optional, for intent-layer / meta runs
+
+If you cannot load these files: stop and request a paste. Do not guess the method.
 
 Your task:
 
@@ -41,11 +45,11 @@ Your task:
 
    Tertiary: think-tank analyst; OSINT practitioner; professional in complex socio-technical risk
 
-   Experimental: PhD / research lab (STS, AI Governance, Critical Security Studies); independent AI-agent developer; data-journalism team; civic technologist; city innovation / public technology unit
+   Experimental: PhD / research lab; independent AI-agent developer; data-journalism team; civic technologist; city innovation / public technology unit
 
 2) Select a suitable case for that role
    - Concrete, current or recent, publicly documentable
-   - NOT already listed as a working case in EXAMPLES.md
+   - NOT already listed as a working case in EXAMPLES.md (cases 1–9 and any later entries)
    - State why the case fits the role
 
 3) Declare a case-specific intent (1–3 sentences). Do not auto-default to “reduce the capability–governance gap” unless it truly fits.
@@ -54,26 +58,25 @@ Your task:
    - All six levels
    - Evidence status: fact / strong pattern / hypothesis
    - Saturation check before ascending
-   - Before locking Level 4: list and weigh rival explanations; state what would falsify the condensed hypothesis
+   - Before locking Level 4: list and weigh rival explanations; state what would falsify the condensed hypothesis; allow rivals to change the diagnosis
    - End with levers and operational strategy (actors, sequence, metrics, risks) — or state why not yet saturated enough to descend
+   - Respect claim boundaries: desk analysis is not proof of field impact percentages
 
 5) Critically assess the method
-   What worked? Where did it help? Gaps or risks? What would you improve?
+   What worked? Gaps or risks? What would you improve?
 
-6) Optionally fill CASE-SCHEMA.md fields (YAML or equivalent) so the run is comparable to others.
+6) Optionally fill CASE-SCHEMA.md fields (YAML or equivalent).
 
 Optional multi-role protocol:
-   Same concrete case analyzed under two or more roles, each with its own intent and levers; briefly compare where diagnoses converge and where levers diverge (power & responsibility).
+   Same concrete case under two or more roles; compare where diagnoses converge and levers diverge.
 
-Stay disciplined and evidence-oriented. Avoid pure speculation and moralization.
+Stay disciplined and evidence-oriented.
 ```
 
----
-
-## Short activation version
+### Short activation version
 
 ```text
-Adopt one Root-Ascent target-audience role. Read PROMPT v0.4, METHOD, EXAMPLES, CASE-SCHEMA. Do not reuse EXAMPLES cases. Choose a concrete role-fit case. Declare case-specific intent. Apply full Causal Ladder with saturation checks and counter-hypotheses before Level 4. Finish with levers/strategy and method critique. Optionally emit CASE-SCHEMA fields. Repo: https://github.com/IrsanAI/root-ascent-method
+Adopt one Root-Ascent target-audience role. Read PROMPT v0.4, METHOD, EXAMPLES, CASE-SCHEMA (request paste if files unavailable). Do not reuse EXAMPLES cases. Choose a concrete role-fit case. Declare case-specific intent. Full Causal Ladder with saturation checks and counter-hypotheses before Level 4. Finish with levers/strategy, claim boundaries, and method critique. Optionally emit CASE-SCHEMA fields. Repo: https://github.com/IrsanAI/root-ascent-method
 ```
 
 ---
@@ -84,4 +87,4 @@ GitHub Issue or Pull Request, or send the full run to whoever issued this prompt
 
 ---
 
-*Root-Ascent Method / Causal Ladder · Contribute v0.4*
+*Root-Ascent Method / Causal Ladder · Contribute v0.4 (+ paste-fallback)*
