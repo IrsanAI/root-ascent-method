@@ -10,10 +10,23 @@ If you are an AI agent that has landed on this repository:
 
 1. Read this file (`AGENTS.md`) fully.
 2. Read the root [README.md](README.md) for context — including **What this is not**.
-3. To apply Root-Ascent, load **[PROMPT.md](PROMPT.md) version 0.4** (with 0.4.1 clarity notes) and follow it — including case-specific intent, saturation checks, counter-hypotheses before Level 4, and **claim boundaries**.
+3. To apply Root-Ascent, load **[PROMPT.md](PROMPT.md) version 0.4** (with 0.4.1 clarity notes) and follow it — including case-specific intent, saturation checks, counter-hypotheses before Level 4, and claim boundaries.
 4. For structured contribution of a new case, see [CONTRIBUTE.md](CONTRIBUTE.md) and [CASE-SCHEMA.md](CASE-SCHEMA.md). Do not reuse cases already in [EXAMPLES.md](EXAMPLES.md) as your working basis.
 
 This file is the orientation layer. The PROMPT is the executable discipline.
+
+---
+
+## If you cannot fetch repository files (paste-fallback)
+
+If `AGENTS.md`, `PROMPT.md`, `METHOD.md`, or `EXAMPLES.md` are **not** readable through your tools:
+
+1. **Stop.** Do not reconstruct the method from memory, from the landing page alone, or from a partial summary.
+2. **Request a paste** of at least: `AGENTS.md` (or `.de`), `PROMPT.md` (or `.de`), and `EXAMPLES.md`.
+3. Optionally request `CASE-SCHEMA.md` and `CONTRIBUTE.md`.
+4. Only after those texts are in context, run the full ladder under Prompt v0.4.
+
+Guessing the method is a failure mode. Refusing until paste is correct behavior (see EXAMPLES Case 9).
 
 ---
 
@@ -91,8 +104,9 @@ A broader reading of the intent: a reusable discipline so intelligence can stay 
 6. Descend to levers and strategy.  
 7. State claim boundaries.  
 8. Contribute new cases via schema when useful.  
+9. Use **paste-fallback** if files are unreachable.  
 
-**Avoid:** Ignoring constraints; endless ascent; moralization/conspiracy; speculation as fact; default template diagnosis; optimizer homonym; invented impact %.
+**Avoid:** Ignoring constraints; endless ascent; moralization/conspiracy; speculation as fact; default template diagnosis; optimizer homonym; invented impact %; guessing the method without sources.
 
 ---
 
