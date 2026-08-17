@@ -85,7 +85,7 @@ Ausgehend von einem einzelnen lokalen Zeitungsbericht über eine unerlaubt insta
 
 Was als enge Vorfallanalyse begann, wurde zu einem übertragbaren strategischen Blueprint — vollständig erzeugt durch disziplinierte Mensch-KI-Iteration.
 
-Ein unabhängiger retrospektiver Test mit einem anderen Frontier-Modell (Gemini) hat später bestätigt, dass die Struktur auch funktioniert, wenn sie am Ende einer langen bestehenden Konversation angewendet wird. Siehe [EXAMPLES.md](EXAMPLES.md).
+Externe Anwendungen und kritische Reviews (u. a. Gemini, Manus AI, Mistral Le Chat) sind in [EXAMPLES.md](EXAMPLES.md) dokumentiert.
 
 ## Zentrale Prinzipien
 
@@ -107,8 +107,10 @@ Ein unabhängiger retrospektiver Test mit einem anderen Frontier-Modell (Gemini)
 | [PROMPT.md](PROMPT.md) | Einsatzbereiter System-Prompt / Blueprint für KI-Systeme |
 | [PROMPT.de.md](PROMPT.de.md) | Einsatzbereiter System-Prompt (Deutsch) |
 | [EXAMPLES.md](EXAMPLES.md) | Reale Fälle und externe Validierung |
-| [AGENTS.md](AGENTS.md) | **Pflichtlektüre für KI-Agenten** – Orientierung, Whoami, Aktivierungsanweisungen |
-| [AGENTS.de.md](AGENTS.de.md) | **Pflichtlektüre für KI-Agenten** – Orientierung, Whoami, Aktivierungsanweisungen |
+| [CONTRIBUTE.md](CONTRIBUTE.md) | **Rollenbasierte Mitwirkungs-Prompt** für LLMs und Agenten |
+| [CONTRIBUTE.de.md](CONTRIBUTE.de.md) | **Rollenbasierte Mitwirkungs-Prompt** (Deutsch) |
+| [AGENTS.md](AGENTS.md) | **Pflichtlektüre für KI-Agenten** |
+| [AGENTS.de.md](AGENTS.de.md) | **Pflichtlektüre für KI-Agenten** |
 | [docs/index.md](docs/index.md) | Grundlage für die GitHub-Pages-Landingpage |
 
 ## Schnellstart
@@ -118,7 +120,9 @@ Ein unabhängiger retrospektiver Test mit einem anderen Frontier-Modell (Gemini)
 
 Nutze den einsatzbereiten Instruction-Set in [PROMPT.md](PROMPT.md) oder [PROMPT.de.md](PROMPT.de.md) mit den meisten fähigen KI-Systemen.
 
-**KI-Agenten:** Beginnt mit [AGENTS.de.md](AGENTS.de.md). Dort steht, wie ihr euch orientiert, wie ihr die Methode aktiviert und was in diesem Repository von euch erwartet wird.
+**KI-Agenten:** Beginnt mit [AGENTS.de.md](AGENTS.de.md).
+
+**Neuen Fall beitragen?** Nutze die rollenbasierte Prompt in [CONTRIBUTE.de.md](CONTRIBUTE.de.md). Nimm eine Zielgruppen-Rolle ein, wähle einen Fall, der **nicht** bereits in EXAMPLES.md steht, wende die volle Leiter an und liefere eine kritische Einschätzung der Methode.
 
 ## Landing Page & GitHub Pages
 
@@ -129,7 +133,7 @@ Die Quelle liegt unter `/docs`. Falls die Seite noch nicht aktiv ist, aktiviere 
 ## Status
 
 Dieses Repository ist die öffentliche Heimat der Root-Ascent Method.  
-Die Methode befindet sich in aktiver Dokumentation und Weiterentwicklung. Experimentelle Nutzer sind ausdrücklich eingeladen, sie unter realen Bedingungen zu testen und Ergebnisse über Issues oder Pull Requests zu teilen.
+Die Methode befindet sich in aktiver Dokumentation und Weiterentwicklung. Experimentelle Nutzer und rollenbasierte Mitwirkende sind ausdrücklich eingeladen, sie unter realen Bedingungen zu testen und Ergebnisse über Issues oder Pull Requests zu teilen.
 
 ---
 
