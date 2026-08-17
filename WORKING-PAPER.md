@@ -11,17 +11,17 @@
 
 This working paper documents the development, rationale, and structure of the Root-Ascent Method (Causal Ladder). The method provides a disciplined way to move from concrete incidents to systemic root causes and from there to actionable levers. It was created through extended human–AI collaboration and is deliberately domain-agnostic.
 
-Version 0.4 hardens the executable prompt (case-specific intent, saturation check, mandatory counter-hypotheses), adds a case schema for structured contributions, and records a higher-level reading of the repository intent.
+Version 0.4 records **implemented hardenings**: case-specific intent, saturation checks, mandatory counter-hypotheses before locking Level 4, a structured case schema, an explicit intent layer, and agent/contribute alignment.
 
 ## 1. Motivation
 
-Complex socio-technical problems frequently exhibit the same failure pattern: capability scales faster than governance, oversight, and control. Public and internal analyses often stay at symptoms or jump into speculation, producing cycles of outrage and shallow reform.
+Complex socio-technical problems often share a failure pattern: capability scales faster than governance, oversight, and control. Public and internal analyses frequently stay at symptoms or jump into speculation, producing cycles of outrage, shallow reform, and structural drift.
 
 Root-Ascent counters this through controlled causal ascent and deliberate return to the operational level.
 
-## 2. Origins and Evidence Base
+## 2. Origins and proof of concept
 
-The method emerged from an investigation that began with an unauthorized Flock Safety ALPR camera (Millcreek, Utah) and crystallized into a generalizable process. External applications and critiques (Gemini, Manus AI, Mistral Le Chat, role-based runs on Unit 42/Hermes+DeepSeek and India 2024 election deepfakes) are documented in [EXAMPLES.md](EXAMPLES.md).
+The method emerged from an investigation that began with an unauthorized Flock Safety license-plate reader in Millcreek, Utah. Iterative questioning, evidence work, pattern detection, architectural analysis, and intent calibration crystallized into a generalizable method. Further applications and external critical reviews are in [EXAMPLES.md](EXAMPLES.md).
 
 ## 3. The Causal Ladder
 
@@ -32,69 +32,73 @@ The method emerged from an investigation that began with an unauthorized Flock S
 5. Levers  
 6. Operational Strategy  
 
-Ascent only after evidence saturation; descent into levers once the structural cause is sufficiently clear. See [METHOD.md](METHOD.md) and [PROMPT.md](PROMPT.md) v0.4.
+Executable rules: [PROMPT.md](PROMPT.md) v0.4. Compact reference: [METHOD.md](METHOD.md).
 
-## 4. Design Principles
+## 4. Design principles
 
 - Evidence saturation before abstraction  
-- Explicit case-specific intent + ongoing calibration  
-- Mandatory counter-hypothesis weighing before locking Level 4  
+- Case-specific intent calibration as anti-drift mechanism  
 - Preference for structural over purely personal explanations  
 - Explicit transition from diagnosis to agency  
 - Iterative question refinement  
 - Domain-agnostic applicability  
+- Counter-hypotheses before condensation of Level 4  
 
-## 5. Intent Layers (metacognitive note)
+## 5. Intent layers
 
-**Operational intent (per run):** Declared at the start of each application; case- and role-specific.
+See [INTENT.md](INTENT.md).
 
-**Stated repository intent:** Help intelligence climb from noise and symptoms to structural causes and back down to what can be changed — often operationalized as understanding and reducing capability–governance gaps.
+- **Operational intent:** from symptoms to structural causes to changeable levers.  
+- **Case-specific intent:** declared every run; not auto-defaulted to the governance gap.  
+- **Higher repository intent:** a reusable discipline so intelligence can stay oriented and action-capable under acceleration — a protocol against drift, not only a case toolkit for governance gaps.  
 
-**Higher reading (v0.4):** The capability–governance framing is frequently correct but may itself be symptom-proximate. A broader intent is to provide a reusable discipline so that human and artificial intelligence remain oriented and action-capable under acceleration — a protocol against drift, not only a toolkit for governance gaps. Surveillance, agent incidents, and synthetic media remain primary proving grounds; the ladder can also be applied *to intents and strategies themselves* (treat the intent as the “incident”).
+The capability–governance framing remains a frequent and powerful *candidate* hypothesis. It must not become an unexamined template.
 
-This higher reading does not replace the operational method; it situates it.
-
-## 6. Target Audiences
+## 6. Target audiences
 
 Primary, secondary, tertiary, and experimental audiences as in [README.md](README.md). Role-based contribution: [CONTRIBUTE.md](CONTRIBUTE.md).
 
-## 7. Comparison with Related Approaches
+## 7. Comparison with related approaches
 
-Shares DNA with root-cause analysis, systems thinking, and intelligence cycles. Differs by: explicit ladder + saturation checks; intent calibration; mandatory counter-hypotheses before Level-4 lock (v0.4); mandatory move into operational strategy.
+Shares DNA with root-cause analysis, systems thinking, and intelligence cycles. Differs by: explicit ladder with saturation discipline; built-in intent calibration; mandatory move into operational strategy; explicit counter-hypothesis step (v0.4).
 
-## 8. Limitations
+## 8. Limitations (honest status)
 
-Still best described as a strong *analysis protocol*, not a fully validated scientific method. Known residual risks:
+Root-Ascent is a strong **analysis protocol**, not yet a fully validated scientific method. It improves question sequence, reduces drift, and forces action-orientation. It does not guarantee correct root causes.
 
-- Saturation checks improve honesty but remain partly qualitative  
-- Template diagnosis of “Capability > Governance” can still occur if counter-hypotheses are performed mechanically  
-- Quality depends on available public data  
-- Higher-order causes may themselves be symptoms of deeper conditions  
-- Structural focus can under-weight individual responsibility when relevant  
+Remaining risks:
 
-## 9. Hardening implemented in v0.4
+- Saturation checks can still be performed superficially  
+- Template diagnosis if counter-hypotheses are listed but not truly weighed  
+- Data quality dependence  
+- Higher-order causes may themselves be symptoms  
+- Structural focus can under-weight individual responsibility when it matters  
+- Public-case bias  
 
-| Item | Where |
-|------|--------|
-| Case-specific intent at start of every run | [PROMPT.md](PROMPT.md) |
-| Saturation checklist before ascent | [PROMPT.md](PROMPT.md) |
-| Mandatory counter-hypothesis step before Level 4 | [PROMPT.md](PROMPT.md) |
-| Structured case schema for contributions | [CASE-SCHEMA.md](CASE-SCHEMA.md) |
-| Explicit note on applying method to intents/strategies | PROMPT + this paper |
-| Role-based contribution without reusing EXAMPLES cases | [CONTRIBUTE.md](CONTRIBUTE.md) |
+## 9. What v0.4 implemented
 
-## 10. Future Development
+| Hardening | Where |
+|-----------|--------|
+| Case-specific intent at run start | PROMPT v0.4, METHOD, AGENTS |
+| Saturation checklist before ascent | PROMPT v0.4 |
+| Mandatory counter-hypotheses before Level 4 | PROMPT v0.4, CASE-SCHEMA |
+| Structured case fields | CASE-SCHEMA.md / .de.md |
+| Explicit intent layers + meta-application | INTENT.md |
+| No-reuse of EXAMPLES as working basis | CONTRIBUTE, AGENTS, EXAMPLES invitation |
+| Agent orientation to v0.4 | AGENTS.md |
 
-- Multi-role protocol: same case, parallel roles, compare levers  
-- Richer multi-agent / shared knowledge-matrix support  
-- Optional parallel “power & responsibility” lens  
-- Broader case base and community stress tests  
-- Stronger evaluation of inter-analyst reliability  
+## 10. Further development
+
+- Broader, higher-quality case base across domains  
+- Multi-role protocol trials (same case, several intents/levers)  
+- Optional parallel power-and-responsibility lens  
+- Better multi-agent aggregation over CASE-SCHEMA fields  
+- Empirical comparison against other frameworks (long-term)  
 
 ## References
 
-- [METHOD.md](METHOD.md) · [PROMPT.md](PROMPT.md) · [EXAMPLES.md](EXAMPLES.md) · [CASE-SCHEMA.md](CASE-SCHEMA.md) · [CONTRIBUTE.md](CONTRIBUTE.md) · [AGENTS.md](AGENTS.md) · [README.md](README.md)
+[METHOD.md](METHOD.md) · [PROMPT.md](PROMPT.md) · [CASE-SCHEMA.md](CASE-SCHEMA.md) · [INTENT.md](INTENT.md) · [EXAMPLES.md](EXAMPLES.md) · [AGENTS.md](AGENTS.md) · [CONTRIBUTE.md](CONTRIBUTE.md) · [README.md](README.md)
 
 ---
 
-*Living working paper. Critical applications and improvements welcome via Issues or Pull Requests.*
+*Living working paper. Critical applications and failures are as welcome as successes.*
