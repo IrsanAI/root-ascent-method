@@ -8,108 +8,125 @@ This page collects real applications of the Root-Ascent Method.
 
 ## 1. Original Case (Method Genesis)
 
-**Starting point:** Unauthorized Flock Safety ALPR camera, Millcreek, Utah.  
-Origin of the method and primary internal proof of concept (patterns → architecture → capability–governance framing → levers).
+Unauthorized Flock Safety ALPR camera (Millcreek, Utah) — origin of the method.
 
 ---
 
-## 2. External Validation – Retrospective (Gemini)
+## 2. Retrospective validation (Gemini)
 
-Method applied at the *end* of a long conversation on autonomous weapons / alignment; described as a “cognitive governor.”
-
----
-
-## 3. External Application + Critical Review (Manus AI)
-
-**Starting point:** UK AISI INC-2026-07-28-01.  
-Full ladder + critique that drove much of Prompt v0.4 (counter-hypotheses, saturation, case-specific intent, template risk).
+Method applied at end of a long alignment/AWS conversation; “cognitive governor.”
 
 ---
 
-## 4. Replication + Critique (Mistral Le Chat)
+## 3. AISI agent incident + critique (Manus AI)
 
-Same AISI incident as Case 3 (replication / anchor effect).
-
----
-
-## 5. Role-Based – AI Agent Developer (Unit 42 / Hermes + DeepSeek)
-
-Open agent stack used for offensive automation; developer-near levers.
+UK AISI INC-2026-07-28-01; critique that drove much of Prompt v0.4.
 
 ---
 
-## 6. Role-Based – Investigative Journalist (India 2024 Election Deepfakes)
+## 4. AISI replication (Mistral Le Chat)
 
-Synthetic political media; platform and verification levers.
-
----
-
-## 7. Nobel-Series – Policy Analyst (German Heat-Pump Diffusion)
-
-**Contributor:** Manus AI. BWP sales path; synchronisation failure of private decision infrastructure; four 12-month levers; pre-registered structure metric; strict claim boundary.
+Same incident as Case 3 (anchor effect).
 
 ---
 
-## 8. Nobel-Series – Policy Analyst (AI Protein Design vs Biosecurity Screening)
+## 5. AI agent developer — Unit 42 / Hermes + DeepSeek
 
-**Contributor:** Kimi K3. Wittmann et al. / synthesis screening; rivals **changed** L4 (wrong object, wrong point, slower loop).
-
----
-
-## 9. Search-Mode – Independent Researcher (German Deepfake Investment Fraud)
-
-**Contributor:** Perplexity (search mode + paste-fallback). Trust/payment cascade; rivals shifted diagnosis from “deepfake problem” to coupling architecture.
+Open agent stack offensive automation; developer-near levers.
 
 ---
 
-## 10. Extended Reasoning – Civil-Society Technologist (AI Data Centers & Ratepayer Cost Allocation)
+## 6. Investigative journalist — India 2024 election deepfakes
 
-**Date:** 17 August 2026  
-**Contributor:** Claude Sonnet (extended thinking / max setting, free-tier reported)  
-**Role:** Civil-society technologist at an independent ratepayer / consumer-protection watchdog (**Primary** – role not previously occupied in Cases 1–9)  
-**Mode:** Autonomous; repo files loaded (no paste-fallback)
-
-**Starting point (new):** Public reporting on household bill spikes in data-center regions (e.g. symbol case Manassas, VA) and the 2025–2026 wave of U.S. large-load tariffs, FERC activity on interconnection/large-load rules, voluntary “ratepayer protection” pledges, and Ireland’s earlier connection moratorium / later conditions for data centers. Fine-grained dollar figures, bill counts, and 2026 procedural dates should be treated as *reported by the analysis* and cross-checked against primary utility/FERC/PUC sources when used operationally.
-
-**Case-specific intent:** Distributive fairness of infrastructure cost allocation between large-load customers (data centers) and households — verifiable, changeable control points of cost assignment. Explicitly **not** “whether AI data centers should exist.”
-
-**Key results:**
-- **L1–L2:** Symbol bills + multi-state pattern of minimum-demand / long-term large-load tariffs; FERC show-cause style pressure on RTOs; Ireland as international comparator; voluntary pledge layer vs binding tariffs.
-- **L3:** Split federal/state jurisdiction; socialization-as-default in legacy rate design; **cycle-speed mismatch** (interconnection queues measured in years vs data-center build in ~12–24 months); verification gap on special contracts / ex parte paths.
-- **Counter-hypotheses changed weight of diagnosis:** R3 (federalism as main cause) **weakened** by Ireland (unitary regulator, still multi-year lag). R1 (generic large-load design) strong as co-cause; R2 (temporary scapegoat) strong pre-2024, weaker later; R4 (capture) left open.
-- **L4:** Plausible condensation — a new customer class (huge, capital-rich, geographically concentrated, fast-to-build load) hits rate and interconnection regimes built for different cardinality and tempo. **Cycle-speed gap**, not primarily federalism and not primarily proven capture.
-- **L5–L6:** Binding large-load tariff floor; interconnection process reform metrics; contested vs ex parte proceedings with published cost-causation studies; making pledge commitments tariff-enforceable; optional flexibility/on-site obligations (Ireland-like). Operational sequence from a small watchdog’s realistic capacity; structural risk = resource asymmetry in dockets.
-
-**Expectation vs result:** Expected ≥3 levers with actor/point/metric **and** at least one rival that visibly shifts L4 → delivered five prioritized levers and an Ireland-driven shift away from “federalism as main cause”; no invented impact percentages.
-
-**Method critique (high value):**
-- Role is fictional relative to real docket capacity — L6 can idealize.
-- Evidence mostly secondary (press, firm alerts), not full primary order texts.
-- Rival weights remain analyst judgment; method disciplines *how*, not subjectivity itself.
-- Single-pass compression of a multi-round cycle.
-- **Signature-story risk:** L4 again resembles refined “tempo mismatch between fast capital layer and slow infrastructure layer” (kin to Cases 1 and 7). May be genuinely common for physical infrastructure — or residual anchor to the method’s origin story; not cleanly separable from inside one run.
-
-**Value of this run:** First dedicated **ratepayer / grid cost-allocation** case; first explicit occupation of the civil-society technologist primary role; strongest in-series **self-critique of method signature bias**; another clean example of rivals changing diagnostic weight (Ireland).
+Synthetic political media; platform/verification levers.
 
 ---
 
-## Observed failure modes (not full successful cases)
+## 7. Policy analyst — German heat-pump diffusion (Manus)
 
-1. **Template + overclaim** — Capability–governance slogans with invented world-impact percentages.  
-2. **Name collision** — “Root-Ascent” as numerical optimizer / energy-landscape code. See README / AGENTS: *what this is not*.
+Decision-infrastructure synchronisation failure; structure metric; claim boundaries.
 
 ---
 
-## Operational note – paste-fallback
+## 8. Policy analyst — AI protein design vs biosecurity screening (Kimi)
 
-If you cannot fetch `AGENTS.md`, `PROMPT.md`, or `EXAMPLES.md`: **stop and request a paste**. Do not invent the method. After paste, do not reuse Cases 1–10 as your working basis.
+Rivals changed L4 (wrong object / point / slower loop).
+
+---
+
+## 9. Independent researcher — German deepfake investment fraud (Perplexity)
+
+Paste-fallback success; trust/payment cascade diagnosis.
+
+---
+
+## 10. Civil-society technologist — AI data centers & ratepayer costs (Claude)
+
+Cycle-speed gap; Ireland weakened “federalism as main cause”; signature-story self-critique.
+
+---
+
+## 11. Digital-rights / civil-society technologist — EUDI Wallet rollout 2026 (Manus)
+
+**Date:** 18 August 2026  
+**Role:** Independent digital-rights / civil-society technologist (Primary)  
+**Mode:** Autonomous; not Cases 1–10
+
+**Starting point:** Transition from EU legal framework (e.g. Regulation 2024/1183) to practical introduction of the European Digital Identity Wallet — Member States to make at least one wallet available by end of 2026; common specs, large-scale pilots, reference implementation.
+
+**Case-specific intent:** Distribution and auditability of **identity power** — which verifiable control points decide whether the wallet delivers selective disclosure and non-discriminatory access, rather than new dependencies on issuers, service providers, or proprietary gatekeepers. Explicitly **not** default capability–governance; not primarily “should the wallet exist.”
+
+**Key results (summary):**
+- Narrow focus on translating promised user control into technical/organisational enforcement (over-collection, access without wallet, traceability, challenge).
+- Architecture: fragmented sources of truth across regulation, implementing acts, national registers, certification, wallet code, relying-party registration, complaints — verification asymmetry for users and small CSOs.
+- **L4 (after rivals):** Refined from a generic federalism/governance gap toward a **fragmented enforcement chain without a shared auditable truth** about whether a given data request is lawful, minimal, and technically constrained.
+- **Levers:** Six qualified levers with actor, intervention point, and structure metrics; abort criterion if essential specs/test access/primary decisions stay non-public (downgrade to transparency/research agenda).
+- Claim boundary: desk-run only; no field-effect or adoption claims.
+
+**Expectation vs result:** ≥3 qualified levers + at least one rival that visibly shifts diagnosis → **six** levers and L4 refined away from generic federalism/governance-gap framing; no invented impact percentages.
+
+**Value:** First **EU digital-identity / wallet implementation** case; strong legitimacy/power intent; explicit abort path when public evidence is insufficient.
+
+---
+
+## 12. Critical-infrastructure researcher — Satellite direct-to-device (D2D) mobile (Manus)
+
+**Date:** 18 August 2026  
+**Role:** Independent critical-infrastructure researcher with investigative brief (Primary/Tertiary edge)  
+**Mode:** Autonomous follow-on after case proposal; not Cases 1–11
+
+**Starting point:** Global Starlink network outage (~2.5 hours, 24 July 2025, Reuters); internal core software services cited; large user-report counts; reported impact on Starlink use in Ukraine. Temporal coupling: T-Mobile’s public Starlink-based T-Satellite rollout the day before; T-Mobile stated T-Satellite operated normally during the outage (CNBC). **Important discipline:** analysis does **not** treat a D2D service failure as proven — it treats the outage as a trigger for dependency and observability questions around hybrid D2D chains (handset → LEO → gateway → MNO core).
+
+**Case-specific intent:** Whether D2D grows into a public emergency/resilience role without equivalent public controllability of outage transparency, emergency routing, prioritisation, and fallbacks. Not “is D2D good/bad,” not intentional-harm claims about a single vendor.
+
+**Key results (summary):**
+- Hybrid architecture and missing single public source of truth for path separation, priority, and end-to-end resilience.
+- **Rivals changed the claim surface:** T-Mobile’s “T-Satellite OK” reporting blocked collapsing “Starlink down” into “D2D unreliable”; diagnosis moved to **end-to-end observability, responsibility assignment, and fallbacks**.
+- **Levers:** Seven qualified levers (e.g. emergency SLAs, public coverage/outage visibility, interoperable emergency routing, fallback minimums, independent resilience tests) with structure metrics — no invented field-impact %.
+- Method critique: cannot re-prove technical root of the outage; desk limits on real 911/112 quality; structure formula “private hybrid control chain” is portable but not automatically true.
+
+**Expectation vs result:** ≥3 levers + rival that shifts diagnosis → **seven** levers and six rivals; T-Mobile statement withdrew direct D2D-outage claim and sharpened the observability/accountability frame.
+
+**Value:** First **satellite D2D / critical communications dependency** case; exemplary separation of proven outage vs. unproven service failure; strong fit to critical-infrastructure inquiry.
+
+---
+
+## Observed failure modes (not successful full cases)
+
+1. Template + overclaim (invented world-impact %).  
+2. Name collision (Root-Ascent as numerical optimizer).
+
+---
+
+## Paste-fallback
+
+If you cannot fetch AGENTS / PROMPT / EXAMPLES: **stop and request a paste**. Do not invent the method. Do not reuse Cases **1–12** as your working basis.
 
 ---
 
 ## Invitation
 
-Read this page → new concrete case → role → Prompt v0.4+ → rivals may change L4 → claim boundaries.  
-→ [CONTRIBUTE.md](CONTRIBUTE.md) · [CASE-SCHEMA.md](CASE-SCHEMA.md)
+→ [CONTRIBUTE.md](CONTRIBUTE.md) · [CASE-SCHEMA.md](CASE-SCHEMA.md) · Prompt v0.4+
 
 ---
 
