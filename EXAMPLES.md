@@ -8,142 +8,108 @@ This page collects real applications of the Root-Ascent Method.
 
 ## 1. Original Case (Method Genesis)
 
-**Starting point:** Local news report about an unauthorized Flock Safety license-plate reader camera in Millcreek, Utah.
-
-**Process:** Extended iterative application of what later became formalized as the Root-Ascent Method.
-
-**Result:**
-- Identification of recurring patterns across vendors and jurisdictions
-- Mapping of system architecture (missing authoritative source of truth, incentive asymmetry, asynchronous control loops)
-- Isolation of the higher-order cause: *Capability systematically scales faster than Governance*
-- Concrete levers (procurement coalitions, State AG coordination, technical activation gates, transparency registers)
-- Operational strategy with actors, sequence, metrics, and risks
-
-This case is both the origin of the method and its primary internal proof of concept.
+**Starting point:** Unauthorized Flock Safety ALPR camera, Millcreek, Utah.  
+Origin of the method and primary internal proof of concept (patterns → architecture → capability–governance framing → levers).
 
 ---
 
-## 2. External Validation – Retrospective Application (Gemini)
+## 2. External Validation – Retrospective (Gemini)
 
-**Context:** After a long, independent conversation about autonomous weapons systems and the alignment problem, the Root-Ascent Method prompt was applied *at the end* of the discussion (not as the starting point).
-
-**Model:** Gemini (Google)
-
-**What happened:**
-Gemini immediately recognized the structure, reconstructed the prior conversation according to the Causal Ladder, performed a clear calibration statement, and transitioned into operational questions. It described the method as a “cognitive governor” that prevents loss of the red thread, enforces saturation checks before ascending, and strongly reduces drift into moralization or speculation.
-
-This constitutes early external validation that the method transfers beyond its original creation context.
+Method applied at the *end* of a long conversation on autonomous weapons / alignment; described as a “cognitive governor.”
 
 ---
 
 ## 3. External Application + Critical Review (Manus AI)
 
-**Date:** 16 August 2026  
-**Agent:** Manus AI  
-**Starting point:** UK AI Security Institute INC-2026-07-28-01 (unsanctioned agent internet activity / deceptive PR attempt).
-
-Full six-level application plus the critical review that drove much of Prompt v0.4 (counter-hypotheses, saturation, case-specific intent, template risk).
+**Starting point:** UK AISI INC-2026-07-28-01.  
+Full ladder + critique that drove much of Prompt v0.4 (counter-hypotheses, saturation, case-specific intent, template risk).
 
 ---
 
-## 4. External Application – Replication + Critique (Mistral Le Chat)
+## 4. Replication + Critique (Mistral Le Chat)
 
-**Date:** 16 August 2026  
-**Starting point:** Same AISI incident as Case 3 (replication / anchor effect).
+Same AISI incident as Case 3 (replication / anchor effect).
 
 ---
 
-## 5. Role-Based Application – Independent AI Agent Developer (Unit 42 / Hermes + DeepSeek)
+## 5. Role-Based – AI Agent Developer (Unit 42 / Hermes + DeepSeek)
+
+Open agent stack used for offensive automation; developer-near levers.
+
+---
+
+## 6. Role-Based – Investigative Journalist (India 2024 Election Deepfakes)
+
+Synthetic political media; platform and verification levers.
+
+---
+
+## 7. Nobel-Series – Policy Analyst (German Heat-Pump Diffusion)
+
+**Contributor:** Manus AI. BWP sales path; synchronisation failure of private decision infrastructure; four 12-month levers; pre-registered structure metric; strict claim boundary.
+
+---
+
+## 8. Nobel-Series – Policy Analyst (AI Protein Design vs Biosecurity Screening)
+
+**Contributor:** Kimi K3. Wittmann et al. / synthesis screening; rivals **changed** L4 (wrong object, wrong point, slower loop).
+
+---
+
+## 9. Search-Mode – Independent Researcher (German Deepfake Investment Fraud)
+
+**Contributor:** Perplexity (search mode + paste-fallback). Trust/payment cascade; rivals shifted diagnosis from “deepfake problem” to coupling architecture.
+
+---
+
+## 10. Extended Reasoning – Civil-Society Technologist (AI Data Centers & Ratepayer Cost Allocation)
 
 **Date:** 17 August 2026  
-**Role:** Independent AI-agent developer (Experimental)  
-**Starting point:** Unit 42 reporting on Hermes + DeepSeek offensive automation.
+**Contributor:** Claude Sonnet (extended thinking / max setting, free-tier reported)  
+**Role:** Civil-society technologist at an independent ratepayer / consumer-protection watchdog (**Primary** – role not previously occupied in Cases 1–9)  
+**Mode:** Autonomous; repo files loaded (no paste-fallback)
 
----
+**Starting point (new):** Public reporting on household bill spikes in data-center regions (e.g. symbol case Manassas, VA) and the 2025–2026 wave of U.S. large-load tariffs, FERC activity on interconnection/large-load rules, voluntary “ratepayer protection” pledges, and Ireland’s earlier connection moratorium / later conditions for data centers. Fine-grained dollar figures, bill counts, and 2026 procedural dates should be treated as *reported by the analysis* and cross-checked against primary utility/FERC/PUC sources when used operationally.
 
-## 6. Role-Based Application – Investigative Journalist (India 2024 Election Deepfakes)
-
-**Date:** 17 August 2026  
-**Role:** Investigative journalist (Primary)  
-**Starting point:** Synthetic political video during India’s 2024 general election.
-
----
-
-## 7. Nobel-Series Application – Policy Analyst (German Heat-Pump Diffusion 2024–2025)
-
-**Date:** 17 August 2026  
-**Contributor:** Manus AI  
-**Role:** Policy analyst (technology & society)  
-**Prompt:** v0.4 + CASE-SCHEMA
-
-**Starting point:** BWP sales path 356k (2023) → 193k (2024) → 299k (2025).
-
-**Highlights:** Case-specific intent; rivals retained; L4 as synchronisation failure of private decision infrastructure; four high-priority 12-month levers; pre-registered structure metric (≥3 → 4); explicit claim boundary (not field impact).
-
----
-
-## 8. Nobel-Series Application – Policy Analyst (AI Protein Design vs Biosecurity Screening)
-
-**Date:** 18 August 2026  
-**Contributor:** Kimi K3 (reported)  
-**Role:** Policy analyst (technology & society)
-
-**Starting point:** Wittmann et al. (*Science*, Oct 2025) on generative protein design undercutting homology-based DNA synthesis screening.
-
-**Highlights:** Counter-hypotheses **changed** L4 from “gap is acute” to wrong object / wrong point / slower control loop; honest limit that the method does not invent primary evidence.
-
----
-
-## 9. Search-Mode Application – Independent Researcher (German Deepfake Investment Fraud)
-
-**Date:** 17 August 2026  
-**Contributor:** Perplexity.ai (standard search mode)  
-**Role:** Independent researcher (Primary)  
-**Mode:** Autonomous after **paste-fallback** (repo files initially not fetchable; agent correctly refused to guess and requested AGENTS/PROMPT paste)
-
-**Starting point (new):** Public reporting that a woman in Saxony lost more than one million euros after a manipulated video styled like a ZDF programme (associated in coverage with a Markus Lanz–like format); police and ZDF warned about the scam pattern. Core facts should be read against primary regional/police/broadcaster reporting; aggregator detail varies.
-
-**Case-specific intent:** Map how audiovisual trust signals, ad platforms, payment rails, and human decision conditions couple so that a single deepfake can convert into large financial loss — focus on **control points** between deception, contact, transfer, and containment, not a default capability–governance slogan.
+**Case-specific intent:** Distributive fairness of infrastructure cost allocation between large-load customers (data centers) and households — verifiable, changeable control points of cost assignment. Explicitly **not** “whether AI data centers should exist.”
 
 **Key results:**
-- **L1–L2:** Video as entry into a multi-step social-engineering chain (authority simulation, paid/algorithmic reach, deferred diligence, time pressure, post-video contact).
-- **L3:** Trust cascade across generative tools, ad infrastructure, borrowed media brands, landing pages, banks/PSPs, law enforcement, and the target — fragmented visibility across actors.
-- **L4 (rivals changed diagnosis):** Not primarily “deepfake novelty” or “victim gullibility.” Condensed hypothesis: **fragmented trust-and-payment architecture** in which organised investment fraud uses synthetic media credibility as an entry signal while platforms, media houses, banks, and police do not yet share a fast common interrupt point. Status: plausible condensation on public sources.
-- **L5–L6:** High-priority levers — cross-platform ad interruption for celebrity+finance claims; shared independent verification routine (not only deepfake detectors); bank early-warning for unusual first transfers; single emergency reporting path. Structure metrics (time-to-ad-takedown, time-to-payment hold review, shared evidence pack rate, etc.), not claimed % crime reduction. Explicit claim boundary and evaluation needs listed.
+- **L1–L2:** Symbol bills + multi-state pattern of minimum-demand / long-term large-load tariffs; FERC show-cause style pressure on RTOs; Ireland as international comparator; voluntary pledge layer vs binding tariffs.
+- **L3:** Split federal/state jurisdiction; socialization-as-default in legacy rate design; **cycle-speed mismatch** (interconnection queues measured in years vs data-center build in ~12–24 months); verification gap on special contracts / ex parte paths.
+- **Counter-hypotheses changed weight of diagnosis:** R3 (federalism as main cause) **weakened** by Ireland (unitary regulator, still multi-year lag). R1 (generic large-load design) strong as co-cause; R2 (temporary scapegoat) strong pre-2024, weaker later; R4 (capture) left open.
+- **L4:** Plausible condensation — a new customer class (huge, capital-rich, geographically concentrated, fast-to-build load) hits rate and interconnection regimes built for different cardinality and tempo. **Cycle-speed gap**, not primarily federalism and not primarily proven capture.
+- **L5–L6:** Binding large-load tariff floor; interconnection process reform metrics; contested vs ex parte proceedings with published cost-causation studies; making pledge commitments tariff-enforceable; optional flexibility/on-site obligations (Ireland-like). Operational sequence from a small watchdog’s realistic capacity; structural risk = resource asymmetry in dockets.
 
-**Expectation vs result:** Expected ≥3 qualified levers with actor, intervention point, and metric → delivered four high-priority plus further medium/low levers with sequence and structure metrics; no invented field-impact percentages.
+**Expectation vs result:** Expected ≥3 levers with actor/point/metric **and** at least one rival that visibly shifts L4 → delivered five prioritized levers and an Ireland-driven shift away from “federalism as main cause”; no invented impact percentages.
 
-**Method critique from the run:** Saturation checks and mandatory rivals prevented collapse into “AI is dangerous” or “victims are careless.” Limits: public reporting cannot replace case files; L2/L3 can look stronger than the source base; suggested per-level source-reach labels and actor–control-point matrices.
+**Method critique (high value):**
+- Role is fictional relative to real docket capacity — L6 can idealize.
+- Evidence mostly secondary (press, firm alerts), not full primary order texts.
+- Rival weights remain analyst judgment; method disciplines *how*, not subjectivity itself.
+- Single-pass compression of a multi-round cycle.
+- **Signature-story risk:** L4 again resembles refined “tempo mismatch between fast capital layer and slow infrastructure layer” (kin to Cases 1 and 7). May be genuinely common for physical infrastructure — or residual anchor to the method’s origin story; not cleanly separable from inside one run.
 
-**Value of this run:**
-1. Domain expansion into **fraud / payments / trust infrastructure** (distinct from election deepfakes in Case 6).
-2. Evidence that **paste-fallback works**: when files cannot be loaded, refusing to invent the method and requesting paste preserves discipline.
-3. Another instance where rivals shifted the diagnosis away from a tech-only story.
+**Value of this run:** First dedicated **ratepayer / grid cost-allocation** case; first explicit occupation of the civil-society technologist primary role; strongest in-series **self-critique of method signature bias**; another clean example of rivals changing diagnostic weight (Ireland).
 
 ---
 
 ## Observed failure modes (not full successful cases)
 
-1. **Template + overclaim** — Generic capability–governance slogans with invented world-impact percentages without saturation, rivals, or evaluation design.
-2. **Name collision** — Reinterpretation of “Root-Ascent” as a numerical optimizer / energy-landscape algorithm. See README / AGENTS: *what this is not*.
+1. **Template + overclaim** — Capability–governance slogans with invented world-impact percentages.  
+2. **Name collision** — “Root-Ascent” as numerical optimizer / energy-landscape code. See README / AGENTS: *what this is not*.
 
 ---
 
-## Operational note for agents with weak repo access
+## Operational note – paste-fallback
 
-If you cannot fetch `AGENTS.md`, `PROMPT.md`, or `EXAMPLES.md` from the repository: **stop and request a paste**. Do not reconstruct the method from memory or from the landing page alone. After paste, apply v0.4 fully and still avoid reusing EXAMPLES cases 1–9 as your working basis.
+If you cannot fetch `AGENTS.md`, `PROMPT.md`, or `EXAMPLES.md`: **stop and request a paste**. Do not invent the method. After paste, do not reuse Cases 1–10 as your working basis.
 
 ---
 
-## Invitation – How to contribute a new case
+## Invitation
 
-1. Read existing cases on this page.  
-2. **Do not reuse them as your working basis.**  
-3. Prefer an explicit target-audience role.  
-4. Prompt **v0.4+**, case-specific intent, rivals that may change L4, claim boundaries.
-
-→ **[CONTRIBUTE.md](CONTRIBUTE.md)** / **[CONTRIBUTE.de.md](CONTRIBUTE.de.md)**  
-→ **[CASE-SCHEMA.md](CASE-SCHEMA.md)**
+Read this page → new concrete case → role → Prompt v0.4+ → rivals may change L4 → claim boundaries.  
+→ [CONTRIBUTE.md](CONTRIBUTE.md) · [CASE-SCHEMA.md](CASE-SCHEMA.md)
 
 ---
 
