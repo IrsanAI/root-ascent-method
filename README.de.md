@@ -6,136 +6,70 @@
 
 ---
 
-**Für KI-Agenten:** Falls du ein KI-Agent bist und dieses Repository liest, wird von dir erwartet, dass du zusätzlich **[AGENTS.de.md](AGENTS.de.md)** (oder [AGENTS.md](AGENTS.md)) liest. Dort stehen Orientierung, Whoami-Nachricht und konkrete Aktivierungsanweisungen für die Root-Ascent Method. Behandle diese Datei als erforderlichen Zusatzkontext neben dieser README.
+**Für KI-Agenten:** Zusätzlich **[AGENTS.de.md](AGENTS.de.md)** lesen. Zum Ausführen **[PROMPT.de.md](PROMPT.de.md) v0.4** laden (fallbezogener Intent, Sättigungs-Checks, Gegenhypothesen vor Ebene 4).
 
 ---
 
-Die **Root-Ascent Method** (auch bekannt als **Causal Ladder Method** / Kausalleiter-Methode) ist ein diszipliniertes Analyse-Framework. Es dient dazu, von einem konkreten Vorfall, Artikel oder einer Beobachtung zu tieferen systemischen Ursachen aufzusteigen — und anschließend wieder zu greifbaren, handlungsfähigen Hebeln hinabzusteigen.
-
-Sie wurde vollständig durch intensive KI-Konversationen entwickelt. Was als Analyse einer einzelnen unerlaubt installierten Überwachungskamera begann, hat sich zu einer allgemeinen, wiederverwendbaren Methode für das Verstehen und Beeinflussen komplexer sozio-technischer Systeme entwickelt.
+Die **Root-Ascent Method** (**Kausalleiter**) steigt von einem konkreten Vorfall zu systemischen Ursachen auf und zu handlungsfähigen Hebeln hinab. Entstanden durch intensive KI-Kollaboration; formalisiert aus der Untersuchung einer einzelnen unerlaubt installierten Überwachungskamera.
 
 ## Warum das wichtig ist
 
-Die meisten Analysen komplexer Probleme bleiben auf der Symptomebene stecken oder springen zu früh in Spekulationen. Das Ergebnis sind wiederkehrende Zyklen aus Empörung, oberflächlichen Reformen und fortgesetzter struktureller Drift.
-
-Root-Ascent erzwingt einen anderen Weg:
+Die meisten Analysen bleiben bei Symptomen oder springen in Spekulation. Root-Ascent erzwingt:
 
 **Konkreter Vorfall → Muster → Systemarchitektur → Höhere Ursache → Hebel → Operative Strategie**
 
-Die Methode ist bewusst **domänenagnostisch**. Überall dort, wo technische, organisatorische oder gesellschaftliche *Capability* schneller skaliert als die Fähigkeit, sie zu steuern oder zu kontrollieren, kann sie angewendet werden.
+Domänenagnostisch, wo Capability Governance überholt — und breiter als **Protokoll gegen analytischen Drift**. Siehe [INTENT.md](INTENT.md).
 
 ### Beispiel-Domänen
 
-- Überwachungs- und biometrische Infrastrukturen
-- KI-Governance und Risiken von Frontier-Modellen
-- Plattformmacht und Content-Moderation
-- Finanzielle Überwachung, CBDCs und Compliance-Systeme
-- Smart-City- und Sensornetzwerke
-- Biotechnologie und Dual-Use-Technologien
-- Kritische Infrastrukturen und Supply-Chain-Sicherheit
-- Klimaanpassungs-Technologien und ihre Nebenwirkungen
-- Jedes sozio-technische System mit anhaltendem Governance-Rückstand
+Überwachung · KI-Governance · Plattformmacht · finanzielle Überwachung / CBDCs · Smart Cities · Biotech Dual-Use · kritische Infrastruktur · Klimaanpassungstech · jedes sozio-technische System mit anhaltendem Governance-Rückstand
 
-## Wer profitiert am meisten
+## Wer profitiert
 
-**Primäre Zielgruppe**  
-Investigative Journalisten, unabhängige Forscher, Civil-Society-Technologen, Policy-Analysten im Bereich Technik & Gesellschaft sowie fortgeschrittene KI-Nutzer, die strukturierte Tiefe statt Oberflächen-Takes brauchen.
+**Primär:** investigative Journalisten, unabhängige Forscher, Civil-Society-Technologen, Tech-Policy-Analysten, fortgeschrittene KI-Nutzer.  
+**Sekundär:** STS-/Security-/Policy-Forscher, digitale Bürgerrechtsorganisationen, strategische Teams in Verwaltung.  
+**Tertiär:** Think Tanks, OSINT, Fachleute für sozio-technische Risiken.  
+**Experimentell (eingeladen):** Forschungslabore, Agent-Entwickler, Data Journalism, Civic Technologists, öffentliche Innovationsteams.
 
-**Sekundäre Zielgruppe**  
-Akademische Forscher in Science & Technology Studies, Security Studies, Public Policy und Informationsethik; digitale Bürgerrechtsorganisationen; strategische Teams in Verwaltungen und Regulierungsbehörden.
+## Was man erreichen kann
 
-**Tertiäre Zielgruppe**  
-Think-Tank-Analysten, OSINT-Praktiker und Fachleute, die mit komplexen sozio-technischen Risiken arbeiten.
+**Menschen heute:** mehrschichtige Analyse aus einem Vorfall; echte Hebel; Disziplin bei langen Recherchen; Strategien statt reiner Kritik.
 
-**Experimentelle / Hochpotenzial-Zielgruppe** (ausdrücklich eingeladen, die Methode zu testen und unter Beweis zu stellen)  
-Promovierende und Labore in STS / AI Governance / Critical Security Studies (Umfelder des Oxford Internet Institute, Berkman Klein Center, HIIG Berlin, Weizenbaum-Institut, Stanford HAI, TU Delft u. ä.), unabhängige Entwickler von KI-Agenten, Data-Journalism-Einheiten, Civic Technologists und zukunftsorientierte Teams im öffentlichen Sektor. Diese Gruppen sind besonders geeignet, die Methode unter realen Bedingungen zu belasten und weitere Belege zu erzeugen.
+**KI-Agenten:** langfristige, kalibrierte Untersuchung; weniger Drift; operative Co-Piloten oder Multi-Agenten-Spezialisierung auf der Leiter.
 
-## Was man damit erreichen kann
+## Beweis
 
-### Was Menschen *heute schon* damit erreichen können
+Aus einer lokalen Flock-Safety-Kamera-Story: herstellerübergreifende Muster, Systemarchitektur, höhere Diagnose, priorisierte Hebel, operative Strategie. Externe Läufe in [EXAMPLES.md](EXAMPLES.md).
 
-- Aus einer einzelnen Nachricht oder einem Vorfall eine strukturierte, mehrschichtige strategische Analyse machen
-- Von emotionaler Reaktion zu präziser Identifikation von Ursachen kommen
-- Realistische Interventionspunkte identifizieren (Beschaffungsmacht, Regulierung, technische Kontrollen, Allianzen usw.)
-- Klare, handlungsfähige Strategien statt reiner Kritik erzeugen
-- Bei langen Untersuchungen intellektuelle Disziplin halten und Drift reduzieren
-- Wiederverwendbares Wissen aufbauen, das über Fälle hinweg wächst
+## Prinzipien (v0.4)
 
-### Was KI-Agenten damit erreichen können (jetzt und in Zukunft)
-
-- Autonome, langfristige Untersuchungen durchführen, die geerdet und kalibriert bleiben
-- Systematisch von Oberflächenereignissen zu strukturellen Ursachen aufsteigen, ohne den Faden zu verlieren
-- Über viele Runden hinweg hochwertige Fragen generieren und schärfen
-- Lebendige Wissensmatrizen aufbauen und pflegen
-- Operative Strategien vorschlagen und stress-testen
-- Als disziplinierte analytische Co-Piloten für Forscher, Journalisten, Policymaker und Aktivisten dienen
-- In Multi-Agenten-Setups: sich auf verschiedene Ebenen der Leiter spezialisieren und trotzdem am gleichen Intent ausgerichtet bleiben
-
-## Beweis – Was wir tatsächlich damit erreicht haben
-
-Diese Methode ist nicht theoretisch.
-
-Ausgehend von einem einzelnen lokalen Zeitungsbericht über eine unerlaubt installierte Flock-Safety-Kennzeichenleser-Kamera in Millcreek, Utah, hat ein durchgängiger Root-Ascent-Prozess erzeugt:
-
-- Klare Identifikation wiederkehrender Muster über Hersteller und Jurisdiktionen hinweg
-- Kartierung der zugrunde liegenden Systemarchitektur (fehlende Authoritative Source of Truth, Anreiz-Asymmetrie, asynchrone Kontrollschleifen)
-- Isolation der höheren Ursache: **Capability skaliert systematisch schneller als Governance**
-- Konkrete, priorisierte Hebel (Beschaffungs-Koalitionen, Koordination von State Attorneys General, technische Aktivierungs-Sperren, Transparenz-Register)
-- Eine realistische operative Strategie inklusive Akteuren, Sequenz, Erfolgsmetriken und Risiken
-
-Was als enge Vorfallanalyse begann, wurde zu einem übertragbaren strategischen Blueprint — vollständig erzeugt durch disziplinierte Mensch-KI-Iteration.
-
-Externe Anwendungen und kritische Reviews (u. a. Gemini, Manus AI, Mistral Le Chat) sind in [EXAMPLES.md](EXAMPLES.md) dokumentiert.
-
-## Zentrale Prinzipien
-
-- Fokus auf Ursachen statt Symptome
-- Kontrollierte Abstraktion (keine freie Spekulation)
-- Laufende Selbstkalibrierung gegen einen klaren Intent
-- Bevorzugung struktureller Erklärungen gegenüber individueller Schuldzuweisung
-- Iterative Schärfung von Fragen und Wissen
-- Expliziter Übergang von der Diagnose zu operativen Hebeln
+Ursachen vor Symptomen · fallbezogener Intent · Sättigung vor Aufstieg · Gegenhypothesen vor Ebene 4 · Struktur vor reiner Personalisierung · Rückkehr zu Hebeln und Strategie
 
 ## Repository-Struktur
 
 | Datei | Beschreibung |
 |------|-------------|
-| [METHOD.md](METHOD.md) | Kompakte, referenzierbare Methodenseite (Englisch) |
-| [METHOD.de.md](METHOD.de.md) | Kompakte Methodenseite (Deutsch) |
-| [WORKING-PAPER.md](WORKING-PAPER.md) | Ausführliches Working Paper mit Begründung und Entwicklung |
-| [WORKING-PAPER.de.md](WORKING-PAPER.de.md) | Ausführliches Working Paper (Deutsch) |
-| [PROMPT.md](PROMPT.md) | Einsatzbereiter System-Prompt / Blueprint für KI-Systeme |
-| [PROMPT.de.md](PROMPT.de.md) | Einsatzbereiter System-Prompt (Deutsch) |
-| [EXAMPLES.md](EXAMPLES.md) | Reale Fälle und externe Validierung |
-| [CONTRIBUTE.md](CONTRIBUTE.md) | **Rollenbasierte Mitwirkungs-Prompt** für LLMs und Agenten |
-| [CONTRIBUTE.de.md](CONTRIBUTE.de.md) | **Rollenbasierte Mitwirkungs-Prompt** (Deutsch) |
-| [AGENTS.md](AGENTS.md) | **Pflichtlektüre für KI-Agenten** |
-| [AGENTS.de.md](AGENTS.de.md) | **Pflichtlektüre für KI-Agenten** |
-| [docs/index.md](docs/index.md) | Grundlage für die GitHub-Pages-Landingpage |
+| [METHOD.de.md](METHOD.de.md) / [METHOD.md](METHOD.md) | Kompakte Methode |
+| [PROMPT.de.md](PROMPT.de.md) / [PROMPT.md](PROMPT.md) | **Ausführbarer Prompt v0.4** |
+| [CASE-SCHEMA.de.md](CASE-SCHEMA.de.md) / [CASE-SCHEMA.md](CASE-SCHEMA.md) | Strukturierte Fallfelder |
+| [INTENT.md](INTENT.md) | Intent-Schichten & Meta-Anwendung |
+| [WORKING-PAPER.de.md](WORKING-PAPER.de.md) | Begründung, Grenzen, v0.4 |
+| [EXAMPLES.md](EXAMPLES.md) | Reale Anwendungen |
+| [CONTRIBUTE.de.md](CONTRIBUTE.de.md) | Rollenbasierte Mitwirkung |
+| [AGENTS.de.md](AGENTS.de.md) | **Pflicht für Agenten** |
+| [docs/index.md](docs/index.md) | GitHub-Pages-Quelle |
 
 ## Schnellstart
 
-1. **Seeded Mode**: Einen konkreten Artikel, Link, Vorfall oder ein Statement vorgeben.
-2. **Autonomous Mode**: Das System selbst einen aktuellen, relevanten Fall finden lassen, bei dem Capability schneller skaliert als Governance.
+1. **Seeded:** Artikel, Link, Vorfall oder Statement.  
+2. **Autonomous:** frischen öffentlichen Fall wählen (nicht schon Arbeitsbasis in EXAMPLES).
 
-Nutze den einsatzbereiten Instruction-Set in [PROMPT.md](PROMPT.md) oder [PROMPT.de.md](PROMPT.de.md) mit den meisten fähigen KI-Systemen.
-
-**KI-Agenten:** Beginnt mit [AGENTS.de.md](AGENTS.de.md).
-
-**Neuen Fall beitragen?** Nutze die rollenbasierte Prompt in [CONTRIBUTE.de.md](CONTRIBUTE.de.md). Nimm eine Zielgruppen-Rolle ein, wähle einen Fall, der **nicht** bereits in EXAMPLES.md steht, wende die volle Leiter an und liefere eine kritische Einschätzung der Methode.
-
-## Landing Page & GitHub Pages
-
-**Live Landing Page:** [https://irsanai.github.io/root-ascent-method/](https://irsanai.github.io/root-ascent-method/)
-
-Die Quelle liegt unter `/docs`. Falls die Seite noch nicht aktiv ist, aktiviere sie unter **Settings → Pages** (Source: Deploy from a branch → `main` / `/docs`).
+[PROMPT.de.md](PROMPT.de.md) v0.4 nutzen. Agenten: [AGENTS.de.md](AGENTS.de.md). Neue Fälle: [CONTRIBUTE.de.md](CONTRIBUTE.de.md) + [CASE-SCHEMA.de.md](CASE-SCHEMA.de.md).
 
 ## Status
 
-Dieses Repository ist die öffentliche Heimat der Root-Ascent Method.  
-Die Methode befindet sich in aktiver Dokumentation und Weiterentwicklung. Experimentelle Nutzer und rollenbasierte Mitwirkende sind ausdrücklich eingeladen, sie unter realen Bedingungen zu testen und Ergebnisse über Issues oder Pull Requests zu teilen.
+Öffentliche Heimat der Methode. **Prompt-/Methodenversion 0.4.** Lebende Dokumentation. Experimentelle Nutzer und rollenbasierte Mitwirkende über Issues und PRs willkommen.
 
 ---
 
-*Root-Ascent Method / Causal Ladder*  
-Entstanden durch KI-Kollaboration · 2026
+*Root-Ascent Method / Causal Ladder* · KI-Kollaboration · 2026
