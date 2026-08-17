@@ -57,6 +57,7 @@ Ursachen vor Symptomen · fallbezogener Intent · Sättigung vor Aufstieg · Geg
 | [EXAMPLES.md](EXAMPLES.md) | Reale Anwendungen |
 | [CONTRIBUTE.de.md](CONTRIBUTE.de.md) | Rollenbasierte Mitwirkung |
 | [AGENTS.de.md](AGENTS.de.md) | **Pflicht für Agenten** |
+| [CHANGELOG.md](CHANGELOG.md) | Versionshistorie (0.1–0.4) |
 | [docs/index.md](docs/index.md) | GitHub-Pages-Quelle |
 
 ## Schnellstart
@@ -68,7 +69,7 @@ Ursachen vor Symptomen · fallbezogener Intent · Sättigung vor Aufstieg · Geg
 
 ## Status
 
-Öffentliche Heimat der Methode. **Prompt-/Methodenversion 0.4.** Lebende Dokumentation. Experimentelle Nutzer und rollenbasierte Mitwirkende über Issues und PRs willkommen.
+Öffentliche Heimat der Methode. **Prompt-/Methodenversion 0.4.** Siehe [CHANGELOG.md](CHANGELOG.md). Lebende Dokumentation. Experimentelle Nutzer und rollenbasierte Mitwirkende über Issues und PRs willkommen.
 
 ---
 
