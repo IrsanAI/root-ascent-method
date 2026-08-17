@@ -85,7 +85,7 @@ Starting from a single local news report about an unauthorized Flock Safety lice
 
 What began as a narrow incident analysis became a transferable strategic blueprint — generated entirely through disciplined AI-human iteration.
 
-An independent retrospective test with another frontier model (Gemini) later confirmed that the structure also works when applied at the end of a long existing conversation. See [EXAMPLES.md](EXAMPLES.md).
+External applications and critical reviews (including Gemini, Manus AI, and Mistral Le Chat) are documented in [EXAMPLES.md](EXAMPLES.md).
 
 ## Core Principles
 
@@ -107,8 +107,10 @@ An independent retrospective test with another frontier model (Gemini) later con
 | [PROMPT.md](PROMPT.md) | Ready-to-use system prompt / blueprint for AI systems |
 | [PROMPT.de.md](PROMPT.de.md) | Einsatzbereiter System-Prompt (Deutsch) |
 | [EXAMPLES.md](EXAMPLES.md) | Real cases and external validation |
+| [CONTRIBUTE.md](CONTRIBUTE.md) | **Role-based contribution prompt** for LLMs and agents |
+| [CONTRIBUTE.de.md](CONTRIBUTE.de.md) | **Rollenbasierte Mitwirkungs-Prompt** |
 | [AGENTS.md](AGENTS.md) | **Required reading for AI agents** – orientation, whoami, activation instructions |
-| [AGENTS.de.md](AGENTS.de.md) | **Pflichtlektüre für KI-Agenten** – Orientierung, Whoami, Aktivierungsanweisungen |
+| [AGENTS.de.md](AGENTS.de.md) | **Pflichtlektüre für KI-Agenten** |
 | [docs/index.md](docs/index.md) | Foundation for GitHub Pages landing page |
 
 ## Quick Start
@@ -118,7 +120,9 @@ An independent retrospective test with another frontier model (Gemini) later con
 
 Use the ready-to-use instruction set in [PROMPT.md](PROMPT.md) (or [PROMPT.de.md](PROMPT.de.md)) with most capable AI systems.
 
-**AI agents:** Start with [AGENTS.md](AGENTS.md). It tells you how to orient, how to activate the method, and what is expected of you in this repository.
+**AI agents:** Start with [AGENTS.md](AGENTS.md).
+
+**Want to contribute a new case?** Use the role-based prompt in [CONTRIBUTE.md](CONTRIBUTE.md). Adopt a target-audience role, choose a case **not** already in EXAMPLES.md, apply the full ladder, and return a critical assessment of the method.
 
 ## Landing Page & GitHub Pages
 
@@ -129,7 +133,7 @@ The source lives in `/docs`. If the page is not yet active, enable it under **Se
 ## Status
 
 This repository is the public home of the Root-Ascent Method.  
-The method is under active documentation and refinement. Experimental users are explicitly invited to test it under real conditions and share results via Issues or Pull Requests.
+The method is under active documentation and refinement. Experimental users and role-based contributors are explicitly invited to test it under real conditions and share results via Issues or Pull Requests.
 
 ---
 
