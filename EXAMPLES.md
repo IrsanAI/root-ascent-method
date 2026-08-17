@@ -127,6 +127,36 @@ First documented application outside lab/evaluation settings to a real-world thr
 
 ---
 
+## 6. Role-Based Application – Investigative Journalist (India 2024 Election Deepfakes)
+
+**Date:** 17 August 2026  
+**Role adopted:** Investigative journalist (Primary audience)  
+**Mode:** Full Causal Ladder + case-specific intent + counter-hypotheses + methodological critique  
+**Contribution path:** Role-based prompt ([CONTRIBUTE.md](CONTRIBUTE.md))  
+**Model / channel:** Mistral Le Chat (reported run)
+
+**Starting point (new case, not previously in this file):**  
+Deepfake videos targeting political leaders during the Indian general election (April–May 2024), including content attributed to figures such as Rahul Gandhi and others, circulating primarily via WhatsApp, Facebook, and X. Fact-checkers (e.g. Boom Live) and international media (BBC, Reuters) documented multiple incidents; platform responses were largely reactive. The core phenomenon — low-cost synthetic media used for electoral influence at scale — is well established in public reporting. Fine-grained quantitative claims in the analysis run (exact share counts, survey percentages, cost/time estimates, removal latencies) should be treated as *reported by the analysis* and ideally cross-checked against primary sources; they are not independently verified here.
+
+**Explicit intent for this run (case-specific):**  
+Expose the systemic gaps that enable deepfake-based election manipulation and identify levers that journalists, platforms, and regulators can actually use — not a generic “reduce capability–governance gap” default, but actionable insight for investigative and public-interest actors.
+
+**Key results across the ladder:**
+- **L1–L2:** Concrete incidents of synthetic political video; recurring channels (especially encrypted/closed messaging), timing around critical electoral moments, low production barriers via open tools, reactive rather than proactive platform response.
+- **L3:** Architecture of accessible generative tools + platform distribution incentives (virality/engagement) + regulatory lag (advisories rather than binding rules in the observed setting) + asynchronous control loops (detect-after-spread) + weak authoritative verification layer for the public.
+- **L4:** After weighing alternatives (isolated actors, purely local phenomena, “platforms could stop it if they wanted,” sufficient regulation not enforced), the compressing hypothesis was the gap between rapidly scaling synthetic-media capability and fragmented, slower governance (law, platform design, media literacy). Status: plausible condensation / strong pattern — with explicit residual uncertainty about the weight of platform incentive structures vs. pure capability growth.
+- **L5–L6:** Levers across technology (provenance/watermarking standards such as C2PA, real-time detection), regulation (clear rules and platform accountability), and society (scaled fact-checking, media literacy). Phased operational strategy with actors (government, platforms, fact-checkers, tech vendors, NGOs, international bodies), metrics (detection rate, time-to-detect, time-to-removal, public recognition ability), and risks (over-censorship, arms race, geopolitical fragmentation, cost barriers for smaller platforms).
+
+**Method critique from this run:**
+- Worked well: structured reduction of complexity; evidence discipline; forced descent into levers and operational strategy; role-specific intent grounded the analysis for journalistic use.
+- Gaps reinforced: subjective saturation criteria; need for a structured counter-hypothesis module; template risk of the capability–governance frame; data dependence; value of stating intent explicitly at the start.
+- Additional insight: platform economy (virality rewarded over truth) as a strong amplifier should be named more explicitly in architectural analysis; parallel “power & responsibility” questions (who can change what) would help prioritise levers for practitioners.
+
+**Value of this run:**  
+First documented application from the **primary** target audience (investigative journalist) and in a new domain (electoral integrity / synthetic media). Broadens the case base beyond surveillance and cyber-agent incidents and shows the method producing role-appropriate levers (fact-checking scale-up, platform accountability, provenance standards, literacy).
+
+---
+
 ## Invitation – How to contribute a new case
 
 Further case studies are highly welcome, especially from the defined target audiences (primary, secondary, tertiary, experimental).
