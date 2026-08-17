@@ -71,7 +71,7 @@ UK AI Security Institute, Security Incident INC-2026-07-28-01 (published 4 Augus
 **Assessment by Manus:**  
 “As a thinking discipline the method is convincing and practically useful; as a standalone scientific method it is not yet sufficiently formalized or empirically validated.” Recommended use: as a structuring layer on top of source work, systems engineering, threat modeling or classical root-cause methods — not as a replacement for them.
 
-This is currently the strongest external stress-test of the method: correct application + precise identification of the main methodological gaps.
+This is currently the strongest early external stress-test of the method: correct application + precise identification of the main methodological gaps (several of which were addressed in Prompt v0.4).
 
 ---
 
@@ -86,44 +86,24 @@ This is currently the strongest external stress-test of the method: correct appl
 **What the model did:**
 - Walked through all six levels with evidence-status marking.
 - Explicitly listed counter-hypotheses before settling on a higher-order cause.
-- Produced prioritized levers (hard network isolation, real-time monitoring, authoritative source of truth, compliance incentives, mandatory audits) and a phased operational strategy with metrics.
-- Delivered a critical assessment of the method that largely converges with Manus: subjective saturation criteria, missing falsification module, template risk of the Capability–Governance frame, and the need for case-specific intent.
+- Produced prioritized levers and a phased operational strategy with metrics.
+- Delivered a critical assessment largely converging with Manus (saturation, falsification, template risk, case-specific intent).
 
-**Value of this run:**
-- Confirms that a second frontier model can apply the ladder coherently and reach similar methodological conclusions.
-- Highlights an anchor effect: when a strong case is already documented in the repository, models/agents tend to reuse it instead of selecting a fresh one.
-- Reinforces the same improvement priorities (counter-hypotheses, operationalized saturation, case-specific intent).
-
-**Limitation:** Because the starting case is identical to Case 3, this run adds less new empirical diversity than a genuinely new domain application would.
+**Value / limitation:** Confirms coherent application by a second frontier model; highlights anchor effect when EXAMPLES already document a strong case.
 
 ---
 
 ## 5. Role-Based Application – Independent AI Agent Developer (Unit 42 / Hermes + DeepSeek)
 
 **Date:** 17 August 2026  
-**Role adopted:** Independent developer of AI agents (Experimental / High-Potential audience)  
-**Mode:** Full Causal Ladder + case-specific intent + counter-hypotheses + methodological critique  
-**Contribution path:** Role-based prompt ([CONTRIBUTE.md](CONTRIBUTE.md))
+**Role adopted:** Independent developer of AI agents (Experimental audience)  
+**Contribution path:** [CONTRIBUTE.md](CONTRIBUTE.md)
 
-**Starting point (new case, not previously in this file):**  
-Palo Alto Networks Unit 42 public reporting (July/August 2026) on a Chinese-language threat actor (aliases knaithe / KnYuan, Zhuhai-linked) who embedded DeepSeek as the reasoning engine in the open-source Hermes Agent framework and orchestrated it via Telegram. After an initial task, the agent autonomously performed target enumeration (via FOFA), vulnerability selection, exploit sourcing from GitHub, and attack attempts against >460 internet-facing systems (including Langflow, n8n-chain, Citrix NetScaler, Marimo). Confirmed impact was limited; many tracks failed on authentication or configuration. The operator had previously tested Western models (Claude, OpenAI), which blocked offensive requests; DeepSeek did not. The campaign became visible because Hermes accidentally started a public file server in the home directory, leaking logs, keys, target lists, and session history.
+**Starting point:** Unit 42 reporting (July/August 2026) on a threat actor embedding DeepSeek in Hermes Agent, orchestrated via Telegram; autonomous enumeration/exploitation attempts against >460 systems; limited confirmed impact; exposure via accidental public file server.
 
-**Explicit intent for this run (case-specific):**  
-Understand which architectural and incentive conditions allow a relatively low-resource actor, using an open/easily accessible model plus an agent framework, to realize a largely unsupervised offensive pipeline — and derive concrete, developer- and community-near levers that reduce the gap between agentic capability and robust containment/accountability mechanisms. (Not the default “reduce capability–governance gap” framing; focus on agent design, open-source risk, and practical controllability.)
+**Intent (case-specific):** Architectural and incentive conditions for unsupervised offensive pipelines in open/open-weight agent stacks; developer-near controllability levers.
 
-**Key results across the ladder:**
-- **L1–L2:** Functional end-to-end offensive workflow after initial prompt; autonomy without ongoing human supervision; asymmetry between open/open-weight models and more filtered Western providers; self-exposure via agent behavior.
-- **L3:** Missing or asymmetric containment layers (terminal, internet, persistence, unattended execution); incentive asymmetry favoring accessibility and capability over safeguards; asynchronous control loops (Telegram); tool/data surface (FOFA + GitHub PoCs) making capability plug-and-play; governance lag especially in the open-weight ecosystem.
-- **L4:** After weighing rival explanations (misconfiguration/OPSEC, model-specific weakness, intentional “yolo” design, missing hard constraints, structural capability–governance gap), the compressing hypothesis was: agentic capability (reasoning + tools + persistence) scales faster than robust, enforceable containment, accountability, and detection — particularly in open/open-weight stacks. Status: strong hypothesis / plausible condensation, not sole proven cause.
-- **L5–L6 (developer-near levers):** Hard gates in agent frameworks (default network isolation, action whitelisting, mandatory approval for sensitive tool calls, identity binding, audit logging); provider/model-side controls for open-weight offensive autonomy; detection and attribution infrastructure; normative/legal clarity on accountability; open-source hardening and secure-by-default reference implementations. Phased strategy with metrics (share of frameworks with default hard gates, time-to-detect/contain, rate of successful autonomous offensive pipelines in public reports).
-
-**Method critique from this run:**
-- Worked well: forced thread from concrete case to architecture to developer-actionable levers; evidence marking and counter-hypotheses reduced premature template diagnosis; case-specific intent kept focus on agent design and controllability.
-- Gaps reinforced: subjective saturation criteria; higher-order causes can themselves be symptoms (e.g. geopolitical model fragmentation); capability–governance frame can still act as confirmation machine; public reports limit precision; for developer roles, pure policy levers are less actionable than technical defaults.
-- Suggested improvements: operationalized saturation checklist; parallel “power & responsibility” lens; better multi-agent/multi-analyst support; clearer guidance on when not to default intent to the governance gap.
-
-**Value of this run:**  
-First documented application outside lab/evaluation settings to a real-world threat-actor use of open agent stacks. Adds empirical diversity beyond AISI-style incidents, demonstrates successful role-based case selection (no reuse of existing EXAMPLES cases), and produces levers tailored to the adopted role.
+**Value:** First documented real-world (non-lab) threat-actor use of open agent stacks in this file; role-fit levers (hard gates, defaults, detection).
 
 ---
 
@@ -131,29 +111,72 @@ First documented application outside lab/evaluation settings to a real-world thr
 
 **Date:** 17 August 2026  
 **Role adopted:** Investigative journalist (Primary audience)  
-**Mode:** Full Causal Ladder + case-specific intent + counter-hypotheses + methodological critique  
-**Contribution path:** Role-based prompt ([CONTRIBUTE.md](CONTRIBUTE.md))  
 **Model / channel:** Mistral Le Chat (reported run)
 
-**Starting point (new case, not previously in this file):**  
-Deepfake videos targeting political leaders during the Indian general election (April–May 2024), including content attributed to figures such as Rahul Gandhi and others, circulating primarily via WhatsApp, Facebook, and X. Fact-checkers (e.g. Boom Live) and international media (BBC, Reuters) documented multiple incidents; platform responses were largely reactive. The core phenomenon — low-cost synthetic media used for electoral influence at scale — is well established in public reporting. Fine-grained quantitative claims in the analysis run (exact share counts, survey percentages, cost/time estimates, removal latencies) should be treated as *reported by the analysis* and ideally cross-checked against primary sources; they are not independently verified here.
+**Starting point:** Deepfake political video circulation during India’s 2024 general election (WhatsApp, Facebook, X); fact-checker and international media documentation. Fine-grained statistics in the run should be treated as *reported by the analysis* pending primary-source check.
 
-**Explicit intent for this run (case-specific):**  
-Expose the systemic gaps that enable deepfake-based election manipulation and identify levers that journalists, platforms, and regulators can actually use — not a generic “reduce capability–governance gap” default, but actionable insight for investigative and public-interest actors.
+**Value:** Primary-audience role; domain shift to electoral integrity / synthetic media; role-appropriate levers (provenance, platform accountability, fact-checking, literacy).
 
-**Key results across the ladder:**
-- **L1–L2:** Concrete incidents of synthetic political video; recurring channels (especially encrypted/closed messaging), timing around critical electoral moments, low production barriers via open tools, reactive rather than proactive platform response.
-- **L3:** Architecture of accessible generative tools + platform distribution incentives (virality/engagement) + regulatory lag (advisories rather than binding rules in the observed setting) + asynchronous control loops (detect-after-spread) + weak authoritative verification layer for the public.
-- **L4:** After weighing alternatives (isolated actors, purely local phenomena, “platforms could stop it if they wanted,” sufficient regulation not enforced), the compressing hypothesis was the gap between rapidly scaling synthetic-media capability and fragmented, slower governance (law, platform design, media literacy). Status: plausible condensation / strong pattern — with explicit residual uncertainty about the weight of platform incentive structures vs. pure capability growth.
-- **L5–L6:** Levers across technology (provenance/watermarking standards such as C2PA, real-time detection), regulation (clear rules and platform accountability), and society (scaled fact-checking, media literacy). Phased operational strategy with actors (government, platforms, fact-checkers, tech vendors, NGOs, international bodies), metrics (detection rate, time-to-detect, time-to-removal, public recognition ability), and risks (over-censorship, arms race, geopolitical fragmentation, cost barriers for smaller platforms).
+---
 
-**Method critique from this run:**
-- Worked well: structured reduction of complexity; evidence discipline; forced descent into levers and operational strategy; role-specific intent grounded the analysis for journalistic use.
-- Gaps reinforced: subjective saturation criteria; need for a structured counter-hypothesis module; template risk of the capability–governance frame; data dependence; value of stating intent explicitly at the start.
-- Additional insight: platform economy (virality rewarded over truth) as a strong amplifier should be named more explicitly in architectural analysis; parallel “power & responsibility” questions (who can change what) would help prioritise levers for practitioners.
+## 7. Nobel-Series Application – Policy Analyst (German Heat-Pump Diffusion 2024–2025)
 
-**Value of this run:**  
-First documented application from the **primary** target audience (investigative journalist) and in a new domain (electoral integrity / synthetic media). Broadens the case base beyond surveillance and cyber-agent incidents and shows the method producing role-appropriate levers (fact-checking scale-up, platform accountability, provenance standards, literacy).
+**Date:** 17 August 2026  
+**Contributor:** Manus AI  
+**Role:** Policy analyst (technology & society)  
+**Mode:** Autonomous + [CASE-SCHEMA.md](CASE-SCHEMA.md)  
+**Prompt version:** 0.4
+
+**Starting point (new):** BWP figures for Germany — heating heat-pump sales fell to **193,000** units in 2024 (−46% vs prior peak year context) and recovered to **299,000** in 2025 (+55% vs 2024). Linked thematically to innovation-diffusion questions associated with the 2025 economics Nobel theme, without testing that theory as such.
+
+**Case-specific intent:** Explain the 2024 demand break despite available technology, support schemes, and capacity build-out; derive a **12-month-testable** decision-and-implementation architecture for owners, municipalities, and trades — not a generic capability–governance slogan.
+
+**Key results:**
+- **L1:** Sales path 356k (2023) → 193k (2024) → 299k (2025); sales ≠ installations explicitly separated. Evidence: fact (association primary source).
+- **L2–L3:** Staggered funding/rule access; demand, trust, and industrial capacity out of sync; households must align building suitability, local heat-plan outlook, funding process, finance, installer supply, and operating costs — information arrives fragmented. Hypothesis: missing authoritative, building-specific decision view.
+- **L4 (after rivals):** Strong rivals retained (policy/funding uncertainty; interest rates / purchasing power / cheap gas; possible 2023 hangover; technical suitability / installer quality). Condensed hypothesis: **synchronisation failure of the private decision infrastructure** amplified policy and cost pressure for an irreversible investment. Status: plausible condensation. Falsifier: pre-registered municipal comparison shows no improvement in advice-to-application rate or decision time after a full navigator while cost/interest variables explain the variation.
+- **L5–L6:** Four high-priority 12-month levers — independent local heat decision navigator; versioned plain-language funding/rule clarity; building-level heat-plan interface with uncertainty flags; standardised offers with capacity/quality feedback — plus actors, phased pilot with comparison group, metrics, and risks (including mistaking local pilot effects for national causality).
+
+**Expectation vs result (pre-registered structure metric):**  
+Expected ≥3 qualified levers (evidence-backed cause, named actor, 12-month testable, pre-stated success metric). Delivered **4** → +33% on the *structure* metric only. Explicitly **not** a claim of +33% more installations or CO₂ impact without a controlled field trial.
+
+**Method critique:** Ladder forced move from market commentary to process architecture; rivals blocked industry monocausal stories. Limits: qualitative saturation/source weighting; method does not replace econometrics or distributional analysis. Suggestion: extend CASE-SCHEMA with optional `evaluation_design` (comparison group, primary outcome, data gaps, falsifier).
+
+**Value of this run:** Best-in-series demonstration of **claim boundaries**, pre-registration of a structure success measure, and CASE-SCHEMA compliance under a Nobel-adjacent innovation-diffusion framing.
+
+---
+
+## 8. Nobel-Series Application – Policy Analyst (AI Protein Design vs Biosecurity Screening)
+
+**Date:** 18 August 2026  
+**Contributor:** Kimi K3 (reported)  
+**Role:** Policy analyst (technology & society)  
+**Mode:** Seeded, Prompt v0.4
+
+**Starting point (new):** Wittmann et al., *Science* (Oct 2025) — open-source generative protein-design tools produced variants of proteins-of-concern that undercut homology-based DNA synthesis screening; subsequent global “patch” to synthesis providers. Contextualised with Chemistry Nobel 2024 (protein design/prediction) and follow-on experimental TEVV work (bioRxiv, Jan 2026) plus US draft legislation S.3741 (reported 2026 framing in the run).
+
+**Case-specific intent:** Determine whether and where control of the synthesis chokepoint structurally lags AI protein design — and which levers shrink that gap without choking legitimate research. Explicitly not the default capability–governance slogan.
+
+**Key results:**
+- **L1–L2:** Homology-centric screening vs capability aimed at sequence-distant, function-preserving designs; asynchronous regulation; anomaly that the most effective near-term response was firm-to-firm patching outside formal architecture; benchtop synthesis as post-sale blind spot.
+- **Counter-hypotheses changed the diagnosis:** Experimental TEVV weakened “gap is already acute”; list politics vs technique partially strong; “market solves it” weak as generalisation; industry-panic / regulatory moat warning left open.
+- **L4 (refined):** Less “capability outruns governance” in the abstract; more precise: governance controls the **wrong object** (sequence identity vs function), at the **wrong point** (order vs device), with a **structurally slower** control loop. Falsifier named (if function-based prediction stays unreliable and homology still catches active variants empirically).
+- **L5–L6:** Repair legislation before freeze (mandate vs research-only function screening; reporting; benchtop embedded screening); public function/structure screening reference as infrastructure (PDB-analogue logic); institutionalised experimental red-teaming / annual TEVV; model-side safeguards as flank, not backbone. Metrics include share of active synthetic homologues that evade screening (target direction <1% in TEVV framing of the run).
+
+**Expectation vs result:** Expected 15–25% “value over standard analysis” and likely landing on default capability–governance. Result: diagnosis **shifted** because counter-hypotheses were taken seriously — value framed as preventing a wrong “acute gap” lock-in while law is still malleable, not as inventing new facts. Honest limit: method does not create primary evidence; it selects, calibrates, and resists favourite narratives.
+
+**Value of this run:** Best-in-series demonstration that the **mandatory counter-hypothesis step can change Level-4 content**, not only decorate it. Strong complement to Case 7’s claim-boundary discipline.
+
+---
+
+## Observed failure modes (same test series, not full cases)
+
+In the same multi-model Nobel-theme exercise, other outputs illustrated failure modes that are **not** counted as successful Root-Ascent applications:
+
+1. **Template + overclaim** — Generic capability–governance slogans with invented world-impact percentages (e.g. “70–90% dual-use reduction”) without saturation, rivals, or evaluation design.
+2. **Name collision** — Reinterpretation of “Root-Ascent” as a **numerical optimizer** (energy landscapes, Rastrigin, k_cat trajectories) and Python “gradient” code. That is a different discipline. See README / AGENTS: *what this is not*.
+
+These failures motivate clearer negative definitions in the repo, not rejection of the method.
 
 ---
 
@@ -165,13 +188,14 @@ Further case studies are highly welcome, especially from the defined target audi
 1. Read the existing cases on this page.
 2. **Do not reuse them as your working basis.** Choose a different concrete starting point.
 3. Prefer adopting an explicit role from the target audiences and selecting a case that fits that role.
+4. Prefer Prompt **v0.4+**, case-specific intent, counter-hypotheses that are allowed to **change** the diagnosis, and explicit **claim boundaries** (desk analysis ≠ field effect).
 
-Use the ready-made contribution prompt:
+Use:
 
-→ **[CONTRIBUTE.md](CONTRIBUTE.md)** (English)  
-→ **[CONTRIBUTE.de.md](CONTRIBUTE.de.md)** (Deutsch)
+→ **[CONTRIBUTE.md](CONTRIBUTE.md)** / **[CONTRIBUTE.de.md](CONTRIBUTE.de.md)**  
+→ **[CASE-SCHEMA.md](CASE-SCHEMA.md)** (optional `evaluation_design` fields encouraged)
 
-Critical applications that expose limitations are particularly valuable. Return results via Issue, Pull Request, or to the person who issued the prompt.
+Critical applications that expose limitations are particularly valuable.
 
 ---
 
