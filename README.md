@@ -58,10 +58,11 @@ From one local Flock Safety camera story: cross-vendor patterns, system architec
 | [PROMPT.md](PROMPT.md) / [PROMPT.de.md](PROMPT.de.md) | **Executable prompt v0.4** |
 | [CASE-SCHEMA.md](CASE-SCHEMA.md) / [CASE-SCHEMA.de.md](CASE-SCHEMA.de.md) | Structured case fields |
 | [INTENT.md](INTENT.md) | Intent layers & meta-application |
-| [WORKING-PAPER.md](WORKING-PAPER.md) / [.de](WORKING-PAPER.de.md) | Rationale, limits, v0.4 changelog |
+| [WORKING-PAPER.md](WORKING-PAPER.md) / [.de](WORKING-PAPER.de.md) | Rationale, limits, v0.4 changelog notes |
 | [EXAMPLES.md](EXAMPLES.md) | Real applications |
 | [CONTRIBUTE.md](CONTRIBUTE.md) / [.de](CONTRIBUTE.de.md) | Role-based contribution |
 | [AGENTS.md](AGENTS.md) / [.de](AGENTS.de.md) | **Required for agents** |
+| [CHANGELOG.md](CHANGELOG.md) | Version history (0.1–0.4) |
 | [docs/index.md](docs/index.md) | GitHub Pages source |
 
 ## Quick start
@@ -73,7 +74,7 @@ Use [PROMPT.md](PROMPT.md) v0.4. Agents: start at [AGENTS.md](AGENTS.md). New ca
 
 ## Status
 
-Public home of the method. **Prompt / method version 0.4.** Living documentation. Experimental users and role-based contributors invited via Issues and PRs.
+Public home of the method. **Prompt / method version 0.4.** See [CHANGELOG.md](CHANGELOG.md). Living documentation. Experimental users and role-based contributors invited via Issues and PRs.
 
 ---
 
