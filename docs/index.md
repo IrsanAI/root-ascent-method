@@ -7,15 +7,13 @@ title: Root-Ascent Method
 
 **Causal Ladder** — A disciplined framework for moving from concrete incidents to systemic root causes and actionable levers.
 
-**Current version: 0.4** · Created through intensive AI collaboration.
+**Current version: 0.4** (+ 0.4.1 documentation clarity) · Created through intensive AI collaboration.
 
 ---
 
 ## Why it exists
 
-Most analyses of complex socio-technical problems stay at the symptom level or drift into speculation. The result is recurring cycles of outrage and shallow fixes while structural gaps persist.
-
-Root-Ascent forces a controlled climb — and a deliberate return to action:
+Most analyses of complex socio-technical problems stay at the symptom level or drift into speculation. Root-Ascent forces a controlled climb — and a deliberate return to action:
 
 **Concrete Incident → Patterns → System Architecture → Higher-Order Cause → Levers → Operational Strategy**
 
@@ -25,16 +23,19 @@ Broader reading of the project intent: a reusable **protocol against drift** so 
 
 ## Domain-agnostic
 
-Wherever capability is scaling faster than governance, oversight, or control — and more broadly wherever long analyses lose the thread:
+Validated application areas in the public case base (see EXAMPLES) include among others:
 
 - Surveillance & biometric systems  
-- AI governance & frontier / agent systems  
-- Platform power & synthetic media  
-- Financial surveillance & CBDCs  
-- Smart cities & sensor networks  
-- Biotechnology dual-use  
-- Critical infrastructure  
-- Climate adaptation technologies  
+- AI agents, evaluation incidents, open agent stacks  
+- Synthetic media, election integrity, investment fraud  
+- Innovation diffusion (e.g. heat pumps)  
+- Biosecurity / dual-use screening  
+- Grid costs & ratepayer protection  
+- Digital identity (e.g. EUDI wallet rollout)  
+- Satellite direct-to-device communications  
+- Housing markets & algorithmic pricing  
+- Transport safety / hazard-to-action coupling  
+- Regional IT value architecture (seeded commercial, anonymized)  
 
 ## Who it is for
 
@@ -52,7 +53,7 @@ Wherever capability is scaling faster than governance, oversight, or control —
 | Case schema | [CASE-SCHEMA.md](https://github.com/IrsanAI/root-ascent-method/blob/main/CASE-SCHEMA.md) |
 | Intent layers | [INTENT.md](https://github.com/IrsanAI/root-ascent-method/blob/main/INTENT.md) |
 | Working paper | [WORKING-PAPER.md](https://github.com/IrsanAI/root-ascent-method/blob/main/WORKING-PAPER.md) |
-| Examples & validation | [EXAMPLES.md](https://github.com/IrsanAI/root-ascent-method/blob/main/EXAMPLES.md) |
+| Examples & validation (**Cases 1–15**) | [EXAMPLES.md](https://github.com/IrsanAI/root-ascent-method/blob/main/EXAMPLES.md) |
 | Contribute (role-based) | [CONTRIBUTE.md](https://github.com/IrsanAI/root-ascent-method/blob/main/CONTRIBUTE.md) |
 | For AI agents | [AGENTS.md](https://github.com/IrsanAI/root-ascent-method/blob/main/AGENTS.md) |
 | Changelog | [CHANGELOG.md](https://github.com/IrsanAI/root-ascent-method/blob/main/CHANGELOG.md) |
@@ -62,9 +63,9 @@ German mirrors: `*.de.md` where available.
 
 ## Proof
 
-The method was not designed only in the abstract. It emerged from a real investigation that began with a single unauthorized license-plate reader camera and produced systemic diagnosis plus operational strategy. External applications and critical reviews (including other frontier models and role-based runs) are documented in [EXAMPLES.md](https://github.com/IrsanAI/root-ascent-method/blob/main/EXAMPLES.md).
+The method was not designed only in the abstract. It emerged from a real investigation that began with a single unauthorized license-plate reader camera. External applications and critical reviews across multiple frontier systems are documented as **Cases 1–15** in [EXAMPLES.md](https://github.com/IrsanAI/root-ascent-method/blob/main/EXAMPLES.md).
 
 ---
 
-*Root-Ascent Method / Causal Ladder · v0.4*  
+*Root-Ascent Method / Causal Ladder · v0.4 (+0.4.1)*  
 [GitHub Repository](https://github.com/IrsanAI/root-ascent-method)
