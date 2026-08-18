@@ -4,21 +4,22 @@
 
 ## [0.4.1] – 2026-08-17/18
 
-Clarity release (ladder unchanged from 0.4) + case-base growth.
+Clarity release + case-base growth (ladder unchanged from 0.4).
 
-### Cases 7–13 (validation set expansion)
+### Cases 7–14
 
 | # | Domain | Contributor |
 |---|--------|-------------|
-| 7 | DE heat-pump diffusion | Manus |
-| 8 | Protein design / biosecurity | Kimi |
-| 9 | DE deepfake investment fraud | Perplexity |
-| 10 | Data-center ratepayer costs | Claude |
-| 11 | EUDI Wallet rollout | Manus |
-| 12 | Satellite D2D / critical comms | Manus |
-| **13** | **RealPage housing data-pool pricing** | **Qwen** |
+| 7 | DE heat pumps | Manus |
+| 8 | Protein / biosecurity | Kimi |
+| 9 | DE deepfake fraud | Perplexity |
+| 10 | Data-center rates | Claude |
+| 11 | EUDI Wallet | Manus |
+| 12 | Satellite D2D | Manus |
+| 13 | RealPage housing data pool | Qwen |
+| **14** | **Lewes derailment / hazard-to-action** | **ChatGPT** |
 
-### Repo clarity
+### Clarity
 
 What-this-is-not · paste-fallback · claim boundaries · rivals may change L4
 
@@ -26,13 +27,13 @@ What-this-is-not · paste-fallback · claim boundaries · rivals may change L4
 
 ## [0.4] – 2026-08-17
 
-Case-specific intent · saturation · counter-hypotheses · CASE-SCHEMA · CONTRIBUTE
+Intent · saturation · counter-hypotheses · CASE-SCHEMA · CONTRIBUTE
 
 ---
 
 ## [0.3]–[0.1]
 
-Manus critique → hardening · dual-language core · Flock genesis
+Manus critique → hardening · dual-language · Flock genesis
 
 ---
 
