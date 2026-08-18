@@ -6,7 +6,7 @@
 
 ---
 
-**For AI agents:** Also read **[AGENTS.md](AGENTS.md)**. Load **[PROMPT.md](PROMPT.md) v0.4** (behavioral rules updated for clarity in v0.4.1 notes) to run the method.
+**For AI agents:** Also read **[AGENTS.md](AGENTS.md)**. Load **[PROMPT.md](PROMPT.md) v0.4** (with v0.4.1 clarity notes) to run the method.
 
 ---
 
@@ -15,7 +15,7 @@
 ## What this is not
 
 - **Not** a numerical optimizer, gradient method, energy-landscape search, or machine-learning training algorithm.  
-- **Not** a guarantee of correct root causes or of quantified real-world impact (e.g. “+X% installations” or “−Y% dual-use risk”) from a desk analysis alone.  
+- **Not** a guarantee of correct root causes or of quantified real-world impact from a desk analysis alone.  
 - **Not** a substitute for domain expertise, primary-source work, econometrics, or controlled field evaluation.
 
 If a system reinterprets “Root-Ascent” as pure math optimization, it has left this method. See [EXAMPLES.md](EXAMPLES.md) (observed failure modes).
@@ -28,9 +28,9 @@ Most analyses stay at symptoms or jump into speculation. Root-Ascent forces:
 
 Domain-agnostic wherever capability outpaces governance — and usable more broadly as a **protocol against analytical drift**. See [INTENT.md](INTENT.md).
 
-### Example domains
+### Example domains (also reflected in the case base)
 
-Surveillance · AI governance · platform power · biosecurity / dual-use biology · financial surveillance / CBDCs · smart cities · critical infrastructure · innovation diffusion (e.g. heat pumps) · any socio-technical system with persistent governance or decision-architecture lag
+Surveillance · AI agents & evaluation incidents · synthetic media / fraud · innovation diffusion · biosecurity screening · grid & ratepayer costs · digital identity (e.g. EUDI) · satellite direct-to-device comms · housing / algorithmic pricing · transport safety · regional IT value architecture · critical infrastructure more generally
 
 ## Who benefits
 
@@ -47,9 +47,9 @@ Surveillance · AI governance · platform power · biosecurity / dual-use biolog
 
 ## Proof
 
-Genesis: Flock Safety camera case. External and role-based runs — including AISI agent incidents, Unit 42/Hermes, election deepfakes, **German heat-pump diffusion (Case 7)**, and **AI protein design vs synthesis screening (Case 8)** — are in [EXAMPLES.md](EXAMPLES.md).
+Genesis: Flock Safety camera case. The validation set in [EXAMPLES.md](EXAMPLES.md) currently documents **Cases 1–15**, including external runs by Manus, Kimi, Perplexity, Claude, Qwen, ChatGPT and others across policy, infrastructure, biosecurity, identity, fraud, housing markets, transport safety, and seeded commercial analysis (one commercial case is anonymized by design).
 
-Strong runs show: (1) counter-hypotheses that **change** Level-4 diagnoses; (2) pre-registered structure metrics and explicit **claim boundaries** (desk strategy ≠ field effect).
+Strong runs show: (1) counter-hypotheses that **change** Level-4 diagnoses; (2) pre-registered structure metrics and explicit **claim boundaries** (desk strategy ≠ field effect); (3) paste-fallback when repo files cannot be fetched.
 
 ## Core principles (v0.4 / 0.4.1 clarity)
 
@@ -70,7 +70,7 @@ Strong runs show: (1) counter-hypotheses that **change** Level-4 diagnoses; (2) 
 | [CASE-SCHEMA.md](CASE-SCHEMA.md) / [CASE-SCHEMA.de.md](CASE-SCHEMA.de.md) | Structured case fields |
 | [INTENT.md](INTENT.md) | Intent layers & meta-application |
 | [WORKING-PAPER.md](WORKING-PAPER.md) / [.de](WORKING-PAPER.de.md) | Rationale, limits |
-| [EXAMPLES.md](EXAMPLES.md) | Real applications (Cases 1–8) |
+| [EXAMPLES.md](EXAMPLES.md) | Real applications (**Cases 1–15**) |
 | [CONTRIBUTE.md](CONTRIBUTE.md) / [.de](CONTRIBUTE.de.md) | Role-based contribution |
 | [AGENTS.md](AGENTS.md) / [.de](AGENTS.de.md) | **Required for agents** |
 | [CHANGELOG.md](CHANGELOG.md) | Version history |
@@ -78,14 +78,14 @@ Strong runs show: (1) counter-hypotheses that **change** Level-4 diagnoses; (2) 
 
 ## Quick start
 
-1. **Seeded:** supply an article, link, incident, or statement.  
-2. **Autonomous:** pick a *fresh* public case (not already the working basis in EXAMPLES).
+1. **Seeded:** supply an article, link, incident, statement, or focused question.  
+2. **Autonomous:** pick a *fresh* public case (**not** already the working basis in EXAMPLES Cases 1–15).
 
 Use [PROMPT.md](PROMPT.md). Agents: [AGENTS.md](AGENTS.md). New cases: [CONTRIBUTE.md](CONTRIBUTE.md) + [CASE-SCHEMA.md](CASE-SCHEMA.md).
 
 ## Status
 
-**Method/prompt baseline: v0.4** with **v0.4.1 documentation clarity** (negative definition, claim boundaries, EXAMPLES 7–8). See [CHANGELOG.md](CHANGELOG.md).
+**Method/prompt baseline: v0.4** with **v0.4.1 documentation clarity** (negative definition, claim boundaries, paste-fallback). Validation case base: **Cases 1–15** in [EXAMPLES.md](EXAMPLES.md). See [CHANGELOG.md](CHANGELOG.md).
 
 ---
 
