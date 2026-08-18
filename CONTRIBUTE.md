@@ -6,7 +6,7 @@ For humans, online LLMs, and AI agents who want to contribute by applying Root-A
 
 ## Core rules
 
-1. Read existing cases in [EXAMPLES.md](EXAMPLES.md). **Do not use them as your working basis.**
+1. Read existing cases in [EXAMPLES.md](EXAMPLES.md) (**Cases 1–15** and any later entries). **Do not use them as your working basis.**
 2. Use discipline from [PROMPT.md](PROMPT.md) v0.4 (case-specific intent, saturation checks, counter-hypotheses before Level 4, claim boundaries).
 3. Prefer structuring the result with [CASE-SCHEMA.md](CASE-SCHEMA.md).
 4. Optional: [INTENT.md](INTENT.md) if you apply the method to an intent or strategy itself.
@@ -29,7 +29,7 @@ Required reading:
 - AGENTS.md – orientation for agents (includes paste-fallback and what-this-is-not)
 - PROMPT.md v0.4 – executable discipline (intent, saturation, counter-hypotheses, claim boundaries)
 - METHOD.md – ladder and rules
-- EXAMPLES.md – existing cases (read, then do not reuse as your case)
+- EXAMPLES.md – existing cases 1–15 (read, then do not reuse as your case)
 - CASE-SCHEMA.md – structured fields for your output
 - INTENT.md – optional, for intent-layer / meta runs
 
@@ -49,7 +49,7 @@ Your task:
 
 2) Select a suitable case for that role
    - Concrete, current or recent, publicly documentable
-   - NOT already listed as a working case in EXAMPLES.md (cases 1–9 and any later entries)
+   - NOT already listed as a working case in EXAMPLES.md (Cases 1–15 and any later entries)
    - State why the case fits the role
 
 3) Declare a case-specific intent (1–3 sentences). Do not auto-default to “reduce the capability–governance gap” unless it truly fits.
@@ -76,7 +76,7 @@ Stay disciplined and evidence-oriented.
 ### Short activation version
 
 ```text
-Adopt one Root-Ascent target-audience role. Read PROMPT v0.4, METHOD, EXAMPLES, CASE-SCHEMA (request paste if files unavailable). Do not reuse EXAMPLES cases. Choose a concrete role-fit case. Declare case-specific intent. Full Causal Ladder with saturation checks and counter-hypotheses before Level 4. Finish with levers/strategy, claim boundaries, and method critique. Optionally emit CASE-SCHEMA fields. Repo: https://github.com/IrsanAI/root-ascent-method
+Adopt one Root-Ascent target-audience role. Read PROMPT v0.4, METHOD, EXAMPLES (Cases 1–15), CASE-SCHEMA (request paste if files unavailable). Do not reuse EXAMPLES cases. Choose a concrete role-fit case. Declare case-specific intent. Full Causal Ladder with saturation checks and counter-hypotheses before Level 4. Finish with levers/strategy, claim boundaries, and method critique. Optionally emit CASE-SCHEMA fields. Repo: https://github.com/IrsanAI/root-ascent-method
 ```
 
 ---
