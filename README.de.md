@@ -6,11 +6,19 @@
 
 ---
 
-**Für KI-Agenten:** Zusätzlich **[AGENTS.de.md](AGENTS.de.md)** lesen. Zum Ausführen **[PROMPT.de.md](PROMPT.de.md) v0.4** laden (fallbezogener Intent, Sättigungs-Checks, Gegenhypothesen vor Ebene 4).
+**Für KI-Agenten:** Zusätzlich **[AGENTS.de.md](AGENTS.de.md)** lesen. Zum Ausführen **[PROMPT.de.md](PROMPT.de.md) v0.4** laden (Klarheitshinweise auch in PROMPT.md EN / v0.4.1).
 
 ---
 
 Die **Root-Ascent Method** (**Kausalleiter**) steigt von einem konkreten Vorfall zu systemischen Ursachen auf und zu handlungsfähigen Hebeln hinab. Entstanden durch intensive KI-Kollaboration; formalisiert aus der Untersuchung einer einzelnen unerlaubt installierten Überwachungskamera.
+
+## Was das nicht ist
+
+- **Kein** numerischer Optimizer, Gradientenverfahren oder Energielandschafts-Algorithmus.  
+- **Keine** Garantie korrekter Ursachen oder quantifizierter Feldwirkung allein aus einem Schreibtischlauf.  
+- **Kein** Ersatz für Fachwissen, Primärquellen, Ökonometrie oder kontrollierte Feldevaluation.
+
+Wer „Root-Ascent“ als reine Mathe-Optimierung liest, hat die Methode verlassen. Siehe [EXAMPLES.md](EXAMPLES.md) (Observed failure modes).
 
 ## Warum das wichtig ist
 
@@ -20,9 +28,9 @@ Die meisten Analysen bleiben bei Symptomen oder springen in Spekulation. Root-As
 
 Domänenagnostisch, wo Capability Governance überholt — und breiter als **Protokoll gegen analytischen Drift**. Siehe [INTENT.md](INTENT.md).
 
-### Beispiel-Domänen
+### Beispiel-Domänen (auch in der Fallbasis)
 
-Überwachung · KI-Governance · Plattformmacht · finanzielle Überwachung / CBDCs · Smart Cities · Biotech Dual-Use · kritische Infrastruktur · Klimaanpassungstech · jedes sozio-technische System mit anhaltendem Governance-Rückstand
+Überwachung · KI-Agenten · synthetische Medien / Betrug · Innovationsdiffusion · Biosecurity-Screening · Netzentgelte / Ratepayer · digitale Identität (z. B. EUDI) · Satelliten-Direktmobilfunk · Wohnungsmarkt / algorithmische Preise · Verkehrssicherheit · regionale IT-Wertschöpfung · kritische Infrastruktur allgemein
 
 ## Wer profitiert
 
@@ -33,17 +41,19 @@ Domänenagnostisch, wo Capability Governance überholt — und breiter als **Pro
 
 ## Was man erreichen kann
 
-**Menschen heute:** mehrschichtige Analyse aus einem Vorfall; echte Hebel; Disziplin bei langen Recherchen; Strategien statt reiner Kritik.
+**Menschen heute:** mehrschichtige Analyse aus einem Vorfall; echte Hebel; Disziplin bei langen Recherchen; Strategien statt reiner Kritik; Widerstand gegen Lieblingsnarrative durch Pflicht-Rivalen.
 
-**KI-Agenten:** langfristige, kalibrierte Untersuchung; weniger Drift; operative Co-Piloten oder Multi-Agenten-Spezialisierung auf der Leiter.
+**KI-Agenten:** langfristige, kalibrierte Untersuchung; weniger Drift — *wenn* der echte Prompt geladen wird, keine Optimizer-Homonyme.
 
 ## Beweis
 
-Aus einer lokalen Flock-Safety-Kamera-Story: herstellerübergreifende Muster, Systemarchitektur, höhere Diagnose, priorisierte Hebel, operative Strategie. Externe Läufe in [EXAMPLES.md](EXAMPLES.md).
+Genesis: Flock-Safety-Kamera-Fall. Die Validierungsbasis in [EXAMPLES.md](EXAMPLES.md) dokumentiert derzeit **Fälle 1–15** (u. a. Manus, Kimi, Perplexity, Claude, Qwen, ChatGPT) über Policy, Infrastruktur, Biosecurity, Identität, Betrug, Wohnungsmarkt, Verkehrssicherheit und einen **anonymisierten** kommerziellen Seeded-Lauf.
 
-## Prinzipien (v0.4)
+Starke Läufe zeigen: Rivalen, die L4 **ändern**; Strukturmetriken und **Claim-Grenzen**; Paste-Fallback bei fehlendem Repo-Zugriff.
 
-Ursachen vor Symptomen · fallbezogener Intent · Sättigung vor Aufstieg · Gegenhypothesen vor Ebene 4 · Struktur vor reiner Personalisierung · Rückkehr zu Hebeln und Strategie
+## Prinzipien (v0.4 / 0.4.1)
+
+Ursachen vor Symptomen · fallbezogener Intent · Sättigung vor Aufstieg · Gegenhypothesen vor Ebene 4 (Diagnose darf sich ändern) · Struktur vor reiner Personalisierung · Rückkehr zu Hebeln und Strategie · keine erfundenen Wirkungsprozente ohne Evaluationsdesign
 
 ## Repository-Struktur
 
@@ -52,24 +62,24 @@ Ursachen vor Symptomen · fallbezogener Intent · Sättigung vor Aufstieg · Geg
 | [METHOD.de.md](METHOD.de.md) / [METHOD.md](METHOD.md) | Kompakte Methode |
 | [PROMPT.de.md](PROMPT.de.md) / [PROMPT.md](PROMPT.md) | **Ausführbarer Prompt v0.4** |
 | [CASE-SCHEMA.de.md](CASE-SCHEMA.de.md) / [CASE-SCHEMA.md](CASE-SCHEMA.md) | Strukturierte Fallfelder |
-| [INTENT.md](INTENT.md) | Intent-Schichten & Meta-Anwendung |
-| [WORKING-PAPER.de.md](WORKING-PAPER.de.md) | Begründung, Grenzen, v0.4 |
-| [EXAMPLES.md](EXAMPLES.md) | Reale Anwendungen |
+| [INTENT.md](INTENT.md) | Intent-Schichten |
+| [WORKING-PAPER.de.md](WORKING-PAPER.de.md) | Begründung, Grenzen |
+| [EXAMPLES.md](EXAMPLES.md) | Reale Anwendungen (**Fälle 1–15**) |
 | [CONTRIBUTE.de.md](CONTRIBUTE.de.md) | Rollenbasierte Mitwirkung |
 | [AGENTS.de.md](AGENTS.de.md) | **Pflicht für Agenten** |
-| [CHANGELOG.md](CHANGELOG.md) | Versionshistorie (0.1–0.4) |
+| [CHANGELOG.md](CHANGELOG.md) | Versionshistorie |
 | [docs/index.md](docs/index.md) | GitHub-Pages-Quelle |
 
 ## Schnellstart
 
-1. **Seeded:** Artikel, Link, Vorfall oder Statement.  
-2. **Autonomous:** frischen öffentlichen Fall wählen (nicht schon Arbeitsbasis in EXAMPLES).
+1. **Seeded:** Artikel, Link, Vorfall, Statement oder gezielte Frage.  
+2. **Autonomous:** frischen öffentlichen Fall wählen (**nicht** schon Arbeitsbasis in EXAMPLES Fälle 1–15).
 
-[PROMPT.de.md](PROMPT.de.md) v0.4 nutzen. Agenten: [AGENTS.de.md](AGENTS.de.md). Neue Fälle: [CONTRIBUTE.de.md](CONTRIBUTE.de.md) + [CASE-SCHEMA.de.md](CASE-SCHEMA.de.md).
+[PROMPT.de.md](PROMPT.de.md) nutzen. Agenten: [AGENTS.de.md](AGENTS.de.md). Neue Fälle: [CONTRIBUTE.de.md](CONTRIBUTE.de.md) + [CASE-SCHEMA.de.md](CASE-SCHEMA.de.md).
 
 ## Status
 
-Öffentliche Heimat der Methode. **Prompt-/Methodenversion 0.4.** Siehe [CHANGELOG.md](CHANGELOG.md). Lebende Dokumentation. Experimentelle Nutzer und rollenbasierte Mitwirkende über Issues und PRs willkommen.
+**Methoden-/Prompt-Basis: v0.4** mit **Dokumentationsklarheit v0.4.1**. Validierungsfallbasis: **Fälle 1–15**. Siehe [CHANGELOG.md](CHANGELOG.md).
 
 ---
 
