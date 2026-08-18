@@ -6,18 +6,14 @@
 
 Clarity release + case-base growth (ladder unchanged from 0.4).
 
-### Cases 7–14
+### Cases 7–15
 
 | # | Domain | Contributor |
 |---|--------|-------------|
-| 7 | DE heat pumps | Manus |
-| 8 | Protein / biosecurity | Kimi |
-| 9 | DE deepfake fraud | Perplexity |
-| 10 | Data-center rates | Claude |
-| 11 | EUDI Wallet | Manus |
-| 12 | Satellite D2D | Manus |
-| 13 | RealPage housing data pool | Qwen |
-| **14** | **Lewes derailment / hazard-to-action** | **ChatGPT** |
+| 7–14 | heat pumps … Lewes derailment | Manus, Kimi, Perplexity, Claude, Qwen, ChatGPT |
+| **15** | **Regional IT / AI monetization (seeded, anonymized)** | **external seeded run** |
+
+Case 15 omits company name, location, and website by design.
 
 ### Clarity
 
