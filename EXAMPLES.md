@@ -14,7 +14,7 @@ Unauthorized Flock Safety ALPR camera (Millcreek, Utah) — origin of the method
 
 ## 2. Retrospective validation (Gemini)
 
-Method applied at end of a long alignment/AWS conversation; “cognitive governor.”
+Method applied at end of a long alignment conversation; “cognitive governor.”
 
 ---
 
@@ -62,52 +62,43 @@ Paste-fallback success; trust/payment cascade diagnosis.
 
 ## 10. Civil-society technologist — AI data centers & ratepayer costs (Claude)
 
-Cycle-speed gap; Ireland weakened “federalism as main cause”; signature-story self-critique.
+Cycle-speed gap; Ireland weakened federalism-as-main-cause; signature-story self-critique.
 
 ---
 
-## 11. Digital-rights / civil-society technologist — EUDI Wallet rollout 2026 (Manus)
+## 11. Digital-rights technologist — EUDI Wallet rollout 2026 (Manus)
 
-**Date:** 18 August 2026  
-**Role:** Independent digital-rights / civil-society technologist (Primary)  
-**Mode:** Autonomous; not Cases 1–10
-
-**Starting point:** Transition from EU legal framework (e.g. Regulation 2024/1183) to practical introduction of the European Digital Identity Wallet — Member States to make at least one wallet available by end of 2026; common specs, large-scale pilots, reference implementation.
-
-**Case-specific intent:** Distribution and auditability of **identity power** — which verifiable control points decide whether the wallet delivers selective disclosure and non-discriminatory access, rather than new dependencies on issuers, service providers, or proprietary gatekeepers. Explicitly **not** default capability–governance; not primarily “should the wallet exist.”
-
-**Key results (summary):**
-- Narrow focus on translating promised user control into technical/organisational enforcement (over-collection, access without wallet, traceability, challenge).
-- Architecture: fragmented sources of truth across regulation, implementing acts, national registers, certification, wallet code, relying-party registration, complaints — verification asymmetry for users and small CSOs.
-- **L4 (after rivals):** Refined from a generic federalism/governance gap toward a **fragmented enforcement chain without a shared auditable truth** about whether a given data request is lawful, minimal, and technically constrained.
-- **Levers:** Six qualified levers with actor, intervention point, and structure metrics; abort criterion if essential specs/test access/primary decisions stay non-public (downgrade to transparency/research agenda).
-- Claim boundary: desk-run only; no field-effect or adoption claims.
-
-**Expectation vs result:** ≥3 qualified levers + at least one rival that visibly shifts diagnosis → **six** levers and L4 refined away from generic federalism/governance-gap framing; no invented impact percentages.
-
-**Value:** First **EU digital-identity / wallet implementation** case; strong legitimacy/power intent; explicit abort path when public evidence is insufficient.
+Identity power / fragmented enforcement without shared auditable truth; six levers; abort criterion.
 
 ---
 
-## 12. Critical-infrastructure researcher — Satellite direct-to-device (D2D) mobile (Manus)
+## 12. Critical-infrastructure researcher — Satellite D2D mobile (Manus)
 
-**Date:** 18 August 2026  
-**Role:** Independent critical-infrastructure researcher with investigative brief (Primary/Tertiary edge)  
-**Mode:** Autonomous follow-on after case proposal; not Cases 1–11
+Starlink outage as dependency trigger (not proven D2D failure); observability & fallbacks; seven levers.
 
-**Starting point:** Global Starlink network outage (~2.5 hours, 24 July 2025, Reuters); internal core software services cited; large user-report counts; reported impact on Starlink use in Ukraine. Temporal coupling: T-Mobile’s public Starlink-based T-Satellite rollout the day before; T-Mobile stated T-Satellite operated normally during the outage (CNBC). **Important discipline:** analysis does **not** treat a D2D service failure as proven — it treats the outage as a trigger for dependency and observability questions around hybrid D2D chains (handset → LEO → gateway → MNO core).
+---
 
-**Case-specific intent:** Whether D2D grows into a public emergency/resilience role without equivalent public controllability of outage transparency, emergency routing, prioritisation, and fallbacks. Not “is D2D good/bad,” not intentional-harm claims about a single vendor.
+## 13. Policy analyst — RealPage algorithmic pricing / housing data pool (Qwen)
 
-**Key results (summary):**
-- Hybrid architecture and missing single public source of truth for path separation, priority, and end-to-end resilience.
-- **Rivals changed the claim surface:** T-Mobile’s “T-Satellite OK” reporting blocked collapsing “Starlink down” into “D2D unreliable”; diagnosis moved to **end-to-end observability, responsibility assignment, and fallbacks**.
-- **Levers:** Seven qualified levers (e.g. emergency SLAs, public coverage/outage visibility, interoperable emergency routing, fallback minimums, independent resilience tests) with structure metrics — no invented field-impact %.
-- Method critique: cannot re-prove technical root of the outage; desk limits on real 911/112 quality; structure formula “private hybrid control chain” is portable but not automatically true.
+**Date:** 18 August 2026 (reported)  
+**Contributor:** Qwen 3.8  
+**Role:** Policy analyst (competition & housing policy)  
+**Mode:** Autonomous; not Cases 1–12
 
-**Expectation vs result:** ≥3 levers + rival that shifts diagnosis → **seven** levers and six rivals; T-Mobile statement withdrew direct D2D-outage claim and sharpened the observability/accountability frame.
+**Starting point:** U.S. DOJ (with several states) antitrust complaint against RealPage (YieldStar / related property-management software), filed August 2024. Allegations center on orchestration of anticompetitive pricing via software that ingests non-public real-time lessor data (closing rents, vacancy, concessions) and returns recommendations; investigative reporting and complaint excerpts describe mechanisms that discourage undercutting recommendations and, in some accounts, tolerate vacancy to protect portfolio yield. Macro drivers of rent (rates, construction, scarcity) remain competing causes — not isolated in a desk run.
 
-**Value:** First **satellite D2D / critical communications dependency** case; exemplary separation of proven outage vs. unproven service failure; strong fit to critical-infrastructure inquiry.
+**Case-specific intent:** Structural architecture of **algorithmic collusion / hub-and-spoke data cartels** in rental housing — how SaaS data pools under yield management can substitute for decentralized price competition, and whether competition-law tools can address the architectural bottleneck (centralized proprietary real-time data pool) without wrecking useful software infrastructure. Explicitly **not** default capability–governance or generic “AI risk” framing.
+
+**Key results:**
+- **L1–L2:** Concrete litigation + investigative record; pattern of revenue-management software in concentrated markets; anomalous collective vacancy/price discipline relative to decentralized local landlords.
+- **L3:** Hub-and-spoke (landlords as spokes, software as hub); revenue-share incentives aligned with extracting local yield; missing public high-frequency competitive rent truth; information asymmetry vs tenants and enforcers.
+- **Counter-hypotheses changed L4:** Rival C weighted **strong** — harm can be driven by the **exclusive data pool**, not by “AI” as such; any simple model on the same closed data could reproduce the effect. Rivals A (neutral scarcity meter) and B (mere enforcement lag under classic agreement doctrine) weighted weaker for the architectural question.
+- **L4:** Privatization and centralization of market-feedback data via SaaS — competitive markets need decentralized transaction signals; monopolized, re-sold “optimization” feedback collapses competition into a simulated market. Core issue framed as **architectural exclusivity of the real-time data moat**, not model complexity. Falsifier: independent audits showing same collective rent dynamics from models trained only on public aggregates.
+- **L5–L6:** Four levers — restrict competitor non-public data pooling; transparency / no bid-down penalties on public baselines; open market-truth tools; exclusion clauses in subsidized housing finance. Sequence via discovery → sector inquiries focused on data pooling → structural rules; structure metrics (disclosures, municipal clauses, pooling-focused probes). Risks: synthetic/DP workarounds; innovation-framing lobbying.
+
+**Expectation vs result:** ≥3 structural levers + a rival that shifts diagnosis from “malicious AI” to data-pool architecture → **four** levers and successful shift to hub-and-spoke **data moat**; no invented impact percentages. Explicit limit: cannot quantify algorithm vs macro scarcity without econometrics.
+
+**Value of this run:** First **housing / PropTech antitrust architecture** case in the set; clean demonstration that rivals can move the target from “regulate the model” to “open or separate the data pool.”
 
 ---
 
@@ -120,7 +111,7 @@ Cycle-speed gap; Ireland weakened “federalism as main cause”; signature-stor
 
 ## Paste-fallback
 
-If you cannot fetch AGENTS / PROMPT / EXAMPLES: **stop and request a paste**. Do not invent the method. Do not reuse Cases **1–12** as your working basis.
+If you cannot fetch AGENTS / PROMPT / EXAMPLES: **stop and request a paste**. Do not invent the method. Do not reuse Cases **1–13** as your working basis.
 
 ---
 
