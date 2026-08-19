@@ -2,20 +2,15 @@
 
 ---
 
-## [0.4.1] – 2026-08-17/18
+## [0.4.1] – 2026-08-17/19
 
-Clarity release + case-base growth (ladder unchanged from 0.4).
+### Added
 
-### Cases 7–15
+- **PROMPT-FACTORY.md** / **PROMPT-FACTORY.de.md** — decision path, full-run templates, **embed snippets** (NotebookLM-style audio, music/style fields, mid-thread, end synthesis)
+- README, landing page, AGENTS links to Prompt Factory
+- Cases **7–15** in EXAMPLES (heat pumps through anonymized regional IT monetization; Lewes; etc.)
 
-| # | Domain | Contributor |
-|---|--------|-------------|
-| 7–14 | heat pumps … Lewes derailment | Manus, Kimi, Perplexity, Claude, Qwen, ChatGPT |
-| **15** | **Regional IT / AI monetization (seeded, anonymized)** | **external seeded run** |
-
-Case 15 omits company name, location, and website by design.
-
-### Clarity
+### Clarity (unchanged ladder rules from 0.4)
 
 What-this-is-not · paste-fallback · claim boundaries · rivals may change L4
 
@@ -23,13 +18,13 @@ What-this-is-not · paste-fallback · claim boundaries · rivals may change L4
 
 ## [0.4] – 2026-08-17
 
-Intent · saturation · counter-hypotheses · CASE-SCHEMA · CONTRIBUTE
+Case-specific intent · saturation · counter-hypotheses · CASE-SCHEMA · CONTRIBUTE · INTENT
 
 ---
 
 ## [0.3]–[0.1]
 
-Manus critique → hardening · dual-language · Flock genesis
+Manus critique → hardening · dual-language core · Flock genesis
 
 ---
 
