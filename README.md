@@ -6,7 +6,7 @@
 
 ---
 
-**For AI agents:** Also read **[AGENTS.md](AGENTS.md)**. Load **[PROMPT.md](PROMPT.md) v0.4** (with v0.4.1 clarity notes) to run the method.
+**For AI agents:** Also read **[AGENTS.md](AGENTS.md)**. Load **[PROMPT.md](PROMPT.md) v0.4** (with v0.4.1 clarity notes) to run the method. **Build a situational prompt:** [PROMPT-FACTORY.md](PROMPT-FACTORY.md).
 
 ---
 
@@ -28,6 +28,8 @@ Most analyses stay at symptoms or jump into speculation. Root-Ascent forces:
 
 Domain-agnostic wherever capability outpaces governance — and usable more broadly as a **protocol against analytical drift**. See [INTENT.md](INTENT.md).
 
+Also usable as an **intent amplifier inside other tools**: paste a short embed snippet (see Prompt Factory) into NotebookLM audio fields, music style boxes, agent constraint fields, or mid-chat recalibration.
+
 ### Example domains (also reflected in the case base)
 
 Surveillance · AI agents & evaluation incidents · synthetic media / fraud · innovation diffusion · biosecurity screening · grid & ratepayer costs · digital identity (e.g. EUDI) · satellite direct-to-device comms · housing / algorithmic pricing · transport safety · regional IT value architecture · critical infrastructure more generally
@@ -41,9 +43,9 @@ Surveillance · AI agents & evaluation incidents · synthetic media / fraud · i
 
 ## What you can achieve
 
-**Humans today:** structured multi-layer analysis from a single incident; real levers; discipline on long investigations; strategies instead of pure critique; resistance to favourite narratives via mandatory rivals.
+**Humans today:** structured multi-layer analysis from a single incident; real levers; discipline on long investigations; strategies instead of pure critique; resistance to favourite narratives via mandatory rivals; higher-dimensional intent in creative/studio tools via embed snippets.
 
-**AI agents:** long-horizon calibrated inquiry; less drift; operational co-pilot or multi-agent ladder specialization — *when* they load the real prompt, not a homonym optimizer story.
+**AI agents:** long-horizon calibrated inquiry; less drift; operational co-pilot — *when* they load the real prompt, not a homonym optimizer story.
 
 ## Proof
 
@@ -67,6 +69,7 @@ Strong runs show: (1) counter-hypotheses that **change** Level-4 diagnoses; (2) 
 |------|-------------|
 | [METHOD.md](METHOD.md) / [METHOD.de.md](METHOD.de.md) | Compact method |
 | [PROMPT.md](PROMPT.md) / [PROMPT.de.md](PROMPT.de.md) | **Executable prompt v0.4** |
+| [PROMPT-FACTORY.md](PROMPT-FACTORY.md) / [PROMPT-FACTORY.de.md](PROMPT-FACTORY.de.md) | **Build the right prompt** (full run + embed snippets) |
 | [CASE-SCHEMA.md](CASE-SCHEMA.md) / [CASE-SCHEMA.de.md](CASE-SCHEMA.de.md) | Structured case fields |
 | [INTENT.md](INTENT.md) | Intent layers & meta-application |
 | [WORKING-PAPER.md](WORKING-PAPER.md) / [.de](WORKING-PAPER.de.md) | Rationale, limits |
@@ -79,13 +82,14 @@ Strong runs show: (1) counter-hypotheses that **change** Level-4 diagnoses; (2) 
 ## Quick start
 
 1. **Seeded:** supply an article, link, incident, statement, or focused question.  
-2. **Autonomous:** pick a *fresh* public case (**not** already the working basis in EXAMPLES Cases 1–15).
+2. **Autonomous:** pick a *fresh* public case (**not** already the working basis in EXAMPLES Cases 1–15).  
+3. **Embed:** for NotebookLM / Suno / other constraint fields, copy a snippet from [PROMPT-FACTORY.md](PROMPT-FACTORY.md).
 
-Use [PROMPT.md](PROMPT.md). Agents: [AGENTS.md](AGENTS.md). New cases: [CONTRIBUTE.md](CONTRIBUTE.md) + [CASE-SCHEMA.md](CASE-SCHEMA.md).
+Use [PROMPT.md](PROMPT.md). **Choose/build a prompt:** [PROMPT-FACTORY.md](PROMPT-FACTORY.md). Agents: [AGENTS.md](AGENTS.md). New cases: [CONTRIBUTE.md](CONTRIBUTE.md) + [CASE-SCHEMA.md](CASE-SCHEMA.md).
 
 ## Status
 
-**Method/prompt baseline: v0.4** with **v0.4.1 documentation clarity** (negative definition, claim boundaries, paste-fallback). Validation case base: **Cases 1–15** in [EXAMPLES.md](EXAMPLES.md). See [CHANGELOG.md](CHANGELOG.md).
+**Method/prompt baseline: v0.4** with **v0.4.1 documentation clarity** + **Prompt Factory v0.1**. Validation case base: **Cases 1–15**. See [CHANGELOG.md](CHANGELOG.md).
 
 ---
 
