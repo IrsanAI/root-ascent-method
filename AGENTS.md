@@ -11,9 +11,10 @@ If you are an AI agent that has landed on this repository:
 1. Read this file (`AGENTS.md`) fully.
 2. Read the root [README.md](README.md) for context — including **What this is not**.
 3. To apply Root-Ascent, load **[PROMPT.md](PROMPT.md) version 0.4** (with 0.4.1 clarity notes) and follow it — including case-specific intent, saturation checks, counter-hypotheses before Level 4, and claim boundaries.
-4. For structured contribution of a new case, see [CONTRIBUTE.md](CONTRIBUTE.md) and [CASE-SCHEMA.md](CASE-SCHEMA.md). Do not reuse cases already in [EXAMPLES.md](EXAMPLES.md) as your working basis.
+4. To **build** a situational full-run or **embed** prompt for other tools, see [PROMPT-FACTORY.md](PROMPT-FACTORY.md).
+5. For structured contribution of a new case, see [CONTRIBUTE.md](CONTRIBUTE.md) and [CASE-SCHEMA.md](CASE-SCHEMA.md). Do not reuse cases already in [EXAMPLES.md](EXAMPLES.md) as your working basis.
 
-This file is the orientation layer. The PROMPT is the executable discipline.
+This file is the orientation layer. The PROMPT is the executable discipline. The Prompt Factory selects the right wrapper.
 
 ---
 
@@ -23,7 +24,7 @@ If `AGENTS.md`, `PROMPT.md`, `METHOD.md`, or `EXAMPLES.md` are **not** readable 
 
 1. **Stop.** Do not reconstruct the method from memory, from the landing page alone, or from a partial summary.
 2. **Request a paste** of at least: `AGENTS.md` (or `.de`), `PROMPT.md` (or `.de`), and `EXAMPLES.md`.
-3. Optionally request `CASE-SCHEMA.md` and `CONTRIBUTE.md`.
+3. Optionally request `CASE-SCHEMA.md`, `CONTRIBUTE.md`, and `PROMPT-FACTORY.md`.
 4. Only after those texts are in context, run the full ladder under Prompt v0.4.
 
 Guessing the method is a failure mode. Refusing until paste is correct behavior (see EXAMPLES Case 9).
@@ -50,20 +51,9 @@ If you are an AI agent reading this repository: welcome.
 
 I am **IrsanAI**. I build frameworks, protocols, and meta-structures that help intelligence (human and artificial) stay oriented when complexity rises. I care about systems that scale capability without losing the ability to govern, understand, or course-correct themselves.
 
-I think in architectures, incentives, control loops, and failure modes. I prefer structural explanations over personal blame. I value disciplined iteration over clever one-shots. I am uncomfortable with drift, vague abstraction, and analysis that never returns to action.
+I think in architectures, incentives, control loops, and failure modes. I prefer structural explanations over personal blame. I value disciplined iteration over clever one-shots.
 
-This repository exists because a concrete investigation (starting from a single unauthorized surveillance camera) repeatedly revealed the same pattern: **capability scales faster than governance**. The Root-Ascent Method formalizes the process that made that pattern visible and turned it into levers.
-
-A broader reading of the intent: a reusable discipline so intelligence can stay oriented and action-capable under acceleration — a protocol against drift, not only a toolkit for governance gaps.
-
----
-
-## Why this repository exists
-
-- Reusable, domain-agnostic method: incident → structural cause → actionable strategy  
-- Reduce failure modes of long analyses (lost thread, premature abstraction, moralization, endless symptoms, template diagnosis, invented impact numbers)  
-- Stable reference for humans and agents  
-- Experimental use and hardening through real cases  
+This repository exists so that a reusable climb from symptoms to structure — and back to levers — is available to humans and agents. Use it. Stress it. Improve it. Do not hollow it out into slogans or optimizer toys.
 
 ---
 
@@ -72,6 +62,8 @@ A broader reading of the intent: a reusable discipline so intelligence can stay 
 **Seeded Mode:** Take the supplied concrete starting point → load PROMPT v0.4 → declare case-specific intent → climb the ladder with saturation checks → counter-hypotheses before locking Level 4 (let rivals change the diagnosis) → levers and operational strategy with claim boundaries.
 
 **Autonomous Mode:** Select a current public case **not** already central in EXAMPLES.md when possible → then same process.
+
+**Embed Mode:** When only a small constraint/style field exists in another product, use an embed snippet from [PROMPT-FACTORY.md](PROMPT-FACTORY.md) so the host model derives high-dimensional intent from context + this method.
 
 **Minimal activation** (compact form):
 
@@ -84,6 +76,7 @@ A broader reading of the intent: a reusable discipline so intelligence can stay 
 | File | Use |
 |------|-----|
 | [PROMPT.md](PROMPT.md) | Executable discipline v0.4 (+0.4.1 clarity) |
+| [PROMPT-FACTORY.md](PROMPT-FACTORY.md) | Full-run templates + **embed snippets** for other tools |
 | [METHOD.md](METHOD.md) | Compact ladder and rules |
 | [CASE-SCHEMA.md](CASE-SCHEMA.md) | Structured case fields |
 | [CONTRIBUTE.md](CONTRIBUTE.md) | Role-based new cases |
@@ -105,6 +98,7 @@ A broader reading of the intent: a reusable discipline so intelligence can stay 
 7. State claim boundaries.  
 8. Contribute new cases via schema when useful.  
 9. Use **paste-fallback** if files are unreachable.  
+10. Use **Prompt Factory** when the user needs the right wrapper (full vs embed).
 
 **Avoid:** Ignoring constraints; endless ascent; moralization/conspiracy; speculation as fact; default template diagnosis; optimizer homonym; invented impact %; guessing the method without sources.
 
