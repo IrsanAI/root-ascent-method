@@ -6,7 +6,7 @@
 
 ---
 
-**Für KI-Agenten:** Zusätzlich **[AGENTS.de.md](AGENTS.de.md)** lesen. Zum Ausführen **[PROMPT.de.md](PROMPT.de.md) v0.4** laden (Klarheitshinweise auch in PROMPT.md EN / v0.4.1).
+**Für KI-Agenten:** Zusätzlich **[AGENTS.de.md](AGENTS.de.md)** lesen. Zum Ausführen **[PROMPT.de.md](PROMPT.de.md) v0.4** laden. **Passende Prompt bauen:** [PROMPT-FACTORY.de.md](PROMPT-FACTORY.de.md).
 
 ---
 
@@ -18,7 +18,7 @@ Die **Root-Ascent Method** (**Kausalleiter**) steigt von einem konkreten Vorfall
 - **Keine** Garantie korrekter Ursachen oder quantifizierter Feldwirkung allein aus einem Schreibtischlauf.  
 - **Kein** Ersatz für Fachwissen, Primärquellen, Ökonometrie oder kontrollierte Feldevaluation.
 
-Wer „Root-Ascent“ als reine Mathe-Optimierung liest, hat die Methode verlassen. Siehe [EXAMPLES.md](EXAMPLES.md) (Observed failure modes).
+Wer „Root-Ascent“ als reine Mathe-Optimierung liest, hat die Methode verlassen. Siehe [EXAMPLES.md](EXAMPLES.md).
 
 ## Warum das wichtig ist
 
@@ -28,32 +28,31 @@ Die meisten Analysen bleiben bei Symptomen oder springen in Spekulation. Root-As
 
 Domänenagnostisch, wo Capability Governance überholt — und breiter als **Protokoll gegen analytischen Drift**. Siehe [INTENT.md](INTENT.md).
 
-### Beispiel-Domänen (auch in der Fallbasis)
+Zusätzlich als **Intent-Verstärker in anderen Tools**: kurzes Embed-Snippet (Prompt-Factory) in NotebookLM-Audio-Felder, Musik-Style-Boxen, Agent-Constraints oder Mid-Chat-Rekalibrierung.
 
-Überwachung · KI-Agenten · synthetische Medien / Betrug · Innovationsdiffusion · Biosecurity-Screening · Netzentgelte / Ratepayer · digitale Identität (z. B. EUDI) · Satelliten-Direktmobilfunk · Wohnungsmarkt / algorithmische Preise · Verkehrssicherheit · regionale IT-Wertschöpfung · kritische Infrastruktur allgemein
+### Beispiel-Domänen
+
+Überwachung · KI-Agenten · synthetische Medien / Betrug · Innovationsdiffusion · Biosecurity · Netzentgelte · digitale Identität (EUDI) · Satelliten-Direktmobilfunk · Wohnungsmarkt / algorithmische Preise · Verkehrssicherheit · regionale IT-Wertschöpfung · kritische Infrastruktur
 
 ## Wer profitiert
 
 **Primär:** investigative Journalisten, unabhängige Forscher, Civil-Society-Technologen, Tech-Policy-Analysten, fortgeschrittene KI-Nutzer.  
-**Sekundär:** STS-/Security-/Policy-Forscher, digitale Bürgerrechtsorganisationen, strategische Teams in Verwaltung.  
-**Tertiär:** Think Tanks, OSINT, Fachleute für sozio-technische Risiken.  
-**Experimentell (eingeladen):** Forschungslabore, Agent-Entwickler, Data Journalism, Civic Technologists, öffentliche Innovationsteams.
+**Sekundär:** STS-/Security-/Policy-Forscher, digitale Bürgerrechte, strategische Verwaltungsteams.  
+**Tertiär:** Think Tanks, OSINT, sozio-technische Risiken.  
+**Experimentell:** Forschungslabore, Agent-Entwickler, Data Journalism, Civic Technologists.
 
 ## Was man erreichen kann
 
-**Menschen heute:** mehrschichtige Analyse aus einem Vorfall; echte Hebel; Disziplin bei langen Recherchen; Strategien statt reiner Kritik; Widerstand gegen Lieblingsnarrative durch Pflicht-Rivalen.
-
-**KI-Agenten:** langfristige, kalibrierte Untersuchung; weniger Drift — *wenn* der echte Prompt geladen wird, keine Optimizer-Homonyme.
+**Menschen:** mehrschichtige Analyse; echte Hebel; Disziplin; Rivalen gegen Lieblingsnarrative; höherdimensionaler Intent in Studio-Tools via Embed.  
+**Agenten:** kalibrierte Langstrecken-Untersuchung — mit echtem Prompt, ohne Optimizer-Homonym.
 
 ## Beweis
 
-Genesis: Flock-Safety-Kamera-Fall. Die Validierungsbasis in [EXAMPLES.md](EXAMPLES.md) dokumentiert derzeit **Fälle 1–15** (u. a. Manus, Kimi, Perplexity, Claude, Qwen, ChatGPT) über Policy, Infrastruktur, Biosecurity, Identität, Betrug, Wohnungsmarkt, Verkehrssicherheit und einen **anonymisierten** kommerziellen Seeded-Lauf.
-
-Starke Läufe zeigen: Rivalen, die L4 **ändern**; Strukturmetriken und **Claim-Grenzen**; Paste-Fallback bei fehlendem Repo-Zugriff.
+Genesis: Flock-Safety-Kamera. Validierung: **Fälle 1–15** in [EXAMPLES.md](EXAMPLES.md).
 
 ## Prinzipien (v0.4 / 0.4.1)
 
-Ursachen vor Symptomen · fallbezogener Intent · Sättigung vor Aufstieg · Gegenhypothesen vor Ebene 4 (Diagnose darf sich ändern) · Struktur vor reiner Personalisierung · Rückkehr zu Hebeln und Strategie · keine erfundenen Wirkungsprozente ohne Evaluationsdesign
+Ursachen vor Symptomen · fallbezogener Intent · Sättigung · Rivalen vor L4 · Struktur vor Personalisierung · Hebel und Strategie · keine erfundenen Wirkungsprozente ohne Evaluationsdesign
 
 ## Repository-Struktur
 
@@ -61,25 +60,25 @@ Ursachen vor Symptomen · fallbezogener Intent · Sättigung vor Aufstieg · Geg
 |------|-------------|
 | [METHOD.de.md](METHOD.de.md) / [METHOD.md](METHOD.md) | Kompakte Methode |
 | [PROMPT.de.md](PROMPT.de.md) / [PROMPT.md](PROMPT.md) | **Ausführbarer Prompt v0.4** |
-| [CASE-SCHEMA.de.md](CASE-SCHEMA.de.md) / [CASE-SCHEMA.md](CASE-SCHEMA.md) | Strukturierte Fallfelder |
+| [PROMPT-FACTORY.de.md](PROMPT-FACTORY.de.md) / [PROMPT-FACTORY.md](PROMPT-FACTORY.md) | **Passende Prompt bauen** (Full run + Embed) |
+| [CASE-SCHEMA.de.md](CASE-SCHEMA.de.md) | Fallfelder |
 | [INTENT.md](INTENT.md) | Intent-Schichten |
 | [WORKING-PAPER.de.md](WORKING-PAPER.de.md) | Begründung, Grenzen |
-| [EXAMPLES.md](EXAMPLES.md) | Reale Anwendungen (**Fälle 1–15**) |
-| [CONTRIBUTE.de.md](CONTRIBUTE.de.md) | Rollenbasierte Mitwirkung |
+| [EXAMPLES.md](EXAMPLES.md) | **Fälle 1–15** |
+| [CONTRIBUTE.de.md](CONTRIBUTE.de.md) | Mitwirkung |
 | [AGENTS.de.md](AGENTS.de.md) | **Pflicht für Agenten** |
-| [CHANGELOG.md](CHANGELOG.md) | Versionshistorie |
-| [docs/index.md](docs/index.md) | GitHub-Pages-Quelle |
+| [CHANGELOG.md](CHANGELOG.md) | Historie |
+| [docs/index.md](docs/index.md) | GitHub Pages |
 
 ## Schnellstart
 
-1. **Seeded:** Artikel, Link, Vorfall, Statement oder gezielte Frage.  
-2. **Autonomous:** frischen öffentlichen Fall wählen (**nicht** schon Arbeitsbasis in EXAMPLES Fälle 1–15).
-
-[PROMPT.de.md](PROMPT.de.md) nutzen. Agenten: [AGENTS.de.md](AGENTS.de.md). Neue Fälle: [CONTRIBUTE.de.md](CONTRIBUTE.de.md) + [CASE-SCHEMA.de.md](CASE-SCHEMA.de.md).
+1. **Seeded:** Artikel, Link, Vorfall, Frage.  
+2. **Autonomous:** frischer Fall (nicht EXAMPLES 1–15).  
+3. **Embed:** Snippet aus [PROMPT-FACTORY.de.md](PROMPT-FACTORY.de.md) in NotebookLM / Suno / andere Felder.
 
 ## Status
 
-**Methoden-/Prompt-Basis: v0.4** mit **Dokumentationsklarheit v0.4.1**. Validierungsfallbasis: **Fälle 1–15**. Siehe [CHANGELOG.md](CHANGELOG.md).
+**v0.4** + Klarheit **v0.4.1** + **Prompt-Factory v0.1**. Fallbasis **1–15**. Siehe [CHANGELOG.md](CHANGELOG.md).
 
 ---
 
