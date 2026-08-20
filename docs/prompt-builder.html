@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Root-Ascent · Prompt Builder</title>
+  <style>
+    :root {
+      --bg: #0b0f14;
+      --panel: #121821;
+      --line: #243041;
+      --text: #e7eef7;
+      --muted: #9bb0c7;
+      --accent: #5b9fd4;
+      --good: #3dba8a;
+      --warn: #d4a15b;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      background: radial-gradient(1200px 600px at 10% -10%, #1a2740 0%, var(--bg) 55%);
+      color: var(--text);
+      line-height: 1.5;
+      min-height: 100vh;
+    }
+    .wrap { max-width: 920px; margin: 0 auto; padding: 2rem 1.25rem 4rem; }
+    h1 { font-size: 1.75rem; margin: 0 0 0.35rem; letter-spacing: -0.02em; }
+    .sub { color: var(--muted); margin-bottom: 1.5rem; }
+    a { color: var(--accent); }
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 1.25rem;
+      margin-bottom: 1rem;
+    }
+    label { display: block; font-size: 0.85rem; color: var(--muted); margin-bottom: 0.4rem; }
+    textarea, select, input[type="text"] {
+      width: 100%;
+      background: #0a1018;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      color: var(--text);
+      padding: 0.75rem 0.9rem;
+      font: inherit;
+    }
+    textarea { min-height: 140px; resize: vertical; }
+    .row { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 0.75rem; }
+    .row > * { flex: 1 1 160px; }
+    button {
+      cursor: pointer;
+      border: 0;
+      border-radius: 10px;
+      padding: 0.7rem 1rem;
+      font: inherit;
+      font-weight: 600;
+    }
+    .btn-primary { background: var(--accent); color: #061018; }
+    .btn-secondary { background: #1c2736; color: var(--text); border: 1px solid var(--line); }
+    .btn-good { background: var(--good); color: #04140e; }
+    .pill {
+      display: inline-block;
+      padding: 0.2rem 0.55rem;
+      border-radius: 999px;
+      background: #1a2838;
+      border: 1px solid var(--line);
+      font-size: 0.8rem;
+      color: var(--muted);
+      margin-right: 0.35rem;
+    }
+    .pill strong { color: var(--text); }
+    pre {
+      white-space: pre-wrap;
+      word-break: break-word;
+      background: #0a1018;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      padding: 1rem;
+      font-size: 0.86rem;
+      max-height: 420px;
+      overflow: auto;
+    }
+    .hint { font-size: 0.85rem; color: var(--muted); margin-top: 0.75rem; }
+    .nav { margin-bottom: 1.25rem; font-size: 0.9rem; }
+    .match { border-left: 3px solid var(--good); padding-left: 0.75rem; margin: 0.5rem 0 1rem; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="nav">
+      <a href="./index.html">← Root-Ascent</a> ·
+      <a href="https://github.com/IrsanAI/root-ascent-method">GitHub</a> ·
+      <a href="https://github.com/IrsanAI/root-ascent-method/blob/main/PROMPT-FACTORY.md">Factory (MD)</a>
+    </div>
+    <h1>Prompt Builder</h1>
+    <p class="sub">
+      Paste a URL, question, or note. A <strong>local heuristic</strong> (no server, no model call)
+      suggests the best Root-Ascent use case and builds a <strong>copy-ready prompt</strong>.
+      Not a claim of optimal routing — a transparent starter, like a dashboard scan.
+    </p>
+
+    <div class="panel">
+      <label for="seed">Your seed (URL, article gist, question, brief…)</label>
+      <textarea id="seed" placeholder="e.g. https://… or: Why is X pushing back against Y’s watermark policy?"></textarea>
+      <div class="row">
+        <div>
+          <label for="lang">Language</label>
+          <select id="lang">
+            <option value="de">Deutsch</option>
+            <option value="en">English</option>
+          </select>
+        </div>
+        <div>
+          <label for="role">Preferred role (optional)</label>
+          <select id="role">
+            <option value="">Auto</option>
+            <option value="investigative journalist">Investigative journalist</option>
+            <option value="civil-society technologist">Civil-society technologist</option>
+            <option value="policy analyst">Policy analyst</option>
+            <option value="independent researcher">Independent researcher</option>
+            <option value="business/technology analyst">Business/technology analyst</option>
+          </select>
+        </div>
+        <div>
+          <label for="force">Force mode (optional)</label>
+          <select id="force">
+            <option value="">Auto-detect</option>
+            <option value="seeded_full">Seeded full analysis</option>
+            <option value="autonomous">Autonomous</option>
+            <option value="commercial">Seeded commercial</option>
+            <option value="investigation_open">Investigation-open</option>
+            <option value="embed_universal">Embed · universal</option>
+            <option value="embed_audio">Embed · NotebookLM / audio</option>
+            <option value="embed_style">Embed · music/style</option>
+            <option value="mid_thread">Mid-thread recalibration</option>
+            <option value="end_synth">End-of-conversation synthesis</option>
+          </select>
+        </div>
+      </div>
+      <div class="row" style="margin-top:1rem">
+        <button class="btn-primary" type="button" id="build">Build prompt</button>
+        <button class="btn-secondary" type="button" id="clear">Clear</button>
+      </div>
+      <p class="hint">Heuristic only · runs in your browser · does not fetch the URL · you paste the prompt into Claude, ChatGPT, Manus, NotebookLM, Suno, …</p>
+    </div>
+
+    <div class="panel" id="outPanel" hidden>
+      <div id="match" class="match"></div>
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:0.75rem;flex-wrap:wrap">
+        <span class="pill">Use case: <strong id="usecase"></strong></span>
+        <button class="btn-good" type="button" id="copy">Copy prompt</button>
+      </div>
+      <pre id="prompt"></pre>
+      <p class="hint" id="copyStatus"></p>
+    </div>
+  </div>
+
+  <script>
+    const REPO = "https://github.com/IrsanAI/root-ascent-method";
+    const LANDING = "https://irsanai.github.io/root-ascent-method/";
+
+    function detect(text, force) {
+      if (force) return force;
+      const t = (text || "").toLowerCase();
+      if (/notebooklm|podcast|audio overview|studio audio/.test(t)) return "embed_audio";
+      if (/\bsuno\b|song style|musikstil|arrangement/.test(t)) return "embed_style";
+      if (/rekalibr|recalibr|mitte der konversation|mid-thread|drift/.test(t)) return "mid_thread";
+      if (/gesprächsabschluss|end of (the )?conversation|synthese am ende/.test(t)) return "end_synth";
+      if (/geld verdienen|monetiz|geschäftsmodell|umsatz|pricing for (our|my) (firm|company)|systemhaus/.test(t)) return "commercial";
+      if (/unter untersuchung|raib|ongoing investigation|noch nicht geklärt|cause unknown/.test(t)) return "investigation_open";
+      if (/https?:\/\//.test(t) || /artikel|article|vorfall|incident|klage|lawsuit|tool veröffentlicht|wasserzeichen|watermark/.test(t))
+        return "seeded_full";
+      if (t.trim().length < 40) return "autonomous";
+      return "seeded_full";
+    }
+
+    function labels(mode, lang) {
+      const de = {
+        seeded_full: ["Seeded · volle Analyse", "URL/Text als Start; Rolle + Intent + L1–L6"],
+        autonomous: ["Autonomous", "System wählt frischen Fall (nicht EXAMPLES 1–15)"],
+        commercial: ["Seeded commercial", "Wertschöpfungsarchitektur, strenge Claim-Grenzen"],
+        investigation_open: ["Investigation-open", "Provisional L4, event- vs. sektor-spezifisch"],
+        embed_universal: ["Embed · universal", "Kurzer Block für beliebige Constraint-Felder"],
+        embed_audio: ["Embed · Audio/Podcast", "NotebookLM Studio & ähnliche Audio-Felder"],
+        embed_style: ["Embed · Style/Musik", "Suno & Style-Textfelder"],
+        mid_thread: ["Mid-Thread", "Rekalibrierung in laufendem Chat"],
+        end_synth: ["Gesprächsabschluss", "Synthese mit Disziplin"]
+      };
+      const en = {
+        seeded_full: ["Seeded · full analysis", "URL/text start; role + intent + L1–L6"],
+        autonomous: ["Autonomous", "Model picks a fresh case (not EXAMPLES 1–15)"],
+        commercial: ["Seeded commercial", "Value architecture, strict claim boundaries"],
+        investigation_open: ["Investigation-open", "Provisional L4, event vs sector evidence"],
+        embed_universal: ["Embed · universal", "Short block for any constraint field"],
+        embed_audio: ["Embed · audio/podcast", "NotebookLM Studio & similar"],
+        embed_style: ["Embed · style/music", "Suno & style fields"],
+        mid_thread: ["Mid-thread", "Recalibrate an ongoing chat"],
+        end_synth: ["End synthesis", "Close the thread with discipline"]
+      };
+      return (lang === "en" ? en : de)[mode] || [mode, ""];
+    }
+
+    function buildPrompt(mode, seed, lang, role) {
+      const r = role || (lang === "de" ? "investigativer Journalist oder Civil-Society-Technologist" : "investigative journalist or civil-society technologist");
+      const seedBlock = seed.trim() || (lang === "de" ? "[Seed hier einfügen]" : "[paste seed here]");
+
+      if (mode === "embed_universal") {
+        return lang === "de"
+          ? `Wende die Root-Ascent Method (Kausalleiter) als Intent- und Qualitätsdisziplin an:\n${REPO}\nLeite aus dem hier verfügbaren Gesamtkontext einen klaren fallbezogenen Intent ab, nenne plausible Gegenhypothesen und beachte Claim-Grenzen (keine erfundenen Fakten oder Wirkungsprozente). Bevorzuge nachvollziehbare Struktur vor generischen Stil-Klischees.`
+          : `Apply the Root-Ascent Method (Causal Ladder) as intent and quality discipline:\n${REPO}\nFrom the full context available here, derive a clear case-specific intent, name plausible rival explanations, and respect claim boundaries (no invented facts or impact percentages). Prefer accountable structure over generic style clichés.`;
+      }
+      if (mode === "embed_audio") {
+        return lang === "de"
+          ? `Nutze bei der Erzeugung dieses Audio-Überblicks die Root-Ascent Method:\n${REPO}\nLeite aus den Quellen ab: präziser kommunikativer Intent, was nicht überbehauptet werden darf, rivalisierende Deutungen, Struktur von Evidenz zu Mustern und Takeaways. Keine erfundenen Zitate oder Zahlen.`
+          : `When generating this audio overview, use the Root-Ascent Method:\n${REPO}\nInfer from the sources: precise communicative intent, what must not be overclaimed, rival interpretations, structure from evidence to patterns and takeaways. No fabricated quotes or numbers.`;
+      }
+      if (mode === "embed_style") {
+        return lang === "de"
+          ? `Leite Stil-Prioritäten mit der Root-Ascent Method ab:\n${REPO}\nIntent (Publikum, Spannung, Anspruch) explizit machen; Trend-Defaults verwerfen, wenn sie dem Intent widersprechen. Ästhetische Disziplin, keine Erfolgsgarantie.`
+          : `Derive style priorities using the Root-Ascent Method:\n${REPO}\nMake intent (audience, tension, claim of the piece) explicit; reject trend defaults that conflict with that intent. Aesthetic discipline, not a success guarantee.`;
+      }
+      if (mode === "mid_thread") {
+        return lang === "de"
+          ? `Pause und Rekalibrierung mit Root-Ascent Method v0.4:\n${REPO}\nIntent aus dem bisherigen Gespräch neu formulieren. Rivalen nennen, die die Diagnose ändern könnten. Drift in Slogans oder erfundene Wirkungsprozente markieren. Erst dann fortfahren.\n\nKontext-Hinweis:\n${seedBlock}`
+          : `Pause and recalibrate with Root-Ascent Method v0.4:\n${REPO}\nRe-state intent from this conversation. List rivals that could change the diagnosis. Flag slogan drift or invented impact %. Only then continue.\n\nContext note:\n${seedBlock}`;
+      }
+      if (mode === "end_synth") {
+        return lang === "de"
+          ? `Schließe diesen Thread mit Root-Ascent-Disziplin:\n${REPO}\nSynthese: Intent → Muster → Architektur → vorläufige höhere Ursache (mit Rivalen) → Hebel oder „noch nicht gesättigt“. Keine neuen unbelegten Claims.\n\nBezug:\n${seedBlock}`
+          : `Close this thread with Root-Ascent discipline:\n${REPO}\nSynthesize: intent → patterns → architecture → provisional higher-order cause (with rivals) → levers or "not yet saturated". No new unsupported claims.\n\nReference:\n${seedBlock}`;
+      }
+      if (mode === "autonomous") {
+        return lang === "de"
+          ? `Arbeite mit ${REPO} (zuerst AGENTS, PROMPT v0.4, EXAMPLES; Paste-Fallback wenn Dateien fehlen).\nLanding: ${LANDING}\nFälle 1–15 in EXAMPLES nicht als Arbeitsgrundlage nutzen.\nRolle: ${r}. Modus: Autonomous.\nFrischen öffentlichen Fall wählen; fallbezogenen Intent deklarieren (kein automatischer Capability–Governance-Default).\nVolle Kausalleiter L1–L6: Sättigung; Rivalen vor L4 (dürfen Diagnose ändern); Hebel + operative Strategie; Claim-Grenzen.\nEnde: Erwartung vs. Ergebnis nur an Strukturmaßen. Kein numerischer Optimizer.\n\nOptionaler Hinweis des Users:\n${seedBlock}`
+          : `Work with ${REPO} (read AGENTS, PROMPT v0.4, EXAMPLES first; paste-fallback if needed).\nLanding: ${LANDING}\nDo not reuse EXAMPLES Cases 1–15 as working basis.\nRole: ${r}. Mode: Autonomous.\nPick a fresh public case; declare case-specific intent (no automatic capability–governance default).\nFull Causal Ladder L1–L6; rivals before L4; levers + strategy; claim boundaries.\nEnd: expectation vs result on structure metrics only. Not a numerical optimizer.\n\nOptional user note:\n${seedBlock}`;
+      }
+      if (mode === "commercial") {
+        return lang === "de"
+          ? `Arbeite mit ${REPO} (PROMPT v0.4, EXAMPLES; Fälle 1–15 nicht wiederverwenden).\nModus: Seeded commercial. Rolle: ${r}.\nGegenstand / Leitfrage:\n${seedBlock}\nIntent: überprüfbare Angebots- bzw. Wertschöpfungsarchitektur und Kontrollpunkte — kein Hype, keine erfundenen Umsatz-%.\nVolle Leiter; Rivalen dürfen „Tool-Weiterverkauf = Geschäft“ verwerfen; experimentelle Hebel; strenge Claim-Grenzen.`
+          : `Work with ${REPO} (PROMPT v0.4, EXAMPLES; do not reuse Cases 1–15).\nMode: Seeded commercial. Role: ${r}.\nSubject / lead question:\n${seedBlock}\nIntent: verifiable offer/value architecture and control points — no hype, no invented revenue %.\nFull ladder; rivals may kill "tool resale = business"; experiment-style levers; strict claim boundaries.`;
+      }
+      if (mode === "investigation_open") {
+        return lang === "de"
+          ? `Arbeite mit ${REPO} (PROMPT v0.4).\nModus: Investigation-open. Rolle: ${r}.\nVorfall / Seed:\n${seedBlock}\nL4 als provisional markieren. Evidenz event-spezifisch vs. sektor-weit trennen.\nRivalen müssen reinen lokalen/technischen Einzelfaktor einschließen. Keine Ursachenzuweisung über die Beleglage hinaus.\nHebel als testbare Systemproben.`
+          : `Work with ${REPO} (PROMPT v0.4).\nMode: Investigation-open. Role: ${r}.\nIncident / seed:\n${seedBlock}\nMark L4 provisional. Separate event-specific vs sector-level evidence.\nRivals must include pure local/technical single-factor explanations. No cause attribution beyond the record.\nLevers as testable system probes.`;
+      }
+      // seeded_full default
+      return lang === "de"
+        ? `Arbeite mit ${REPO}\nLanding: ${LANDING}\n\nPflicht: AGENTS.md / PROMPT.de.md v0.4 / EXAMPLES.md lesen (Paste-Fallback wenn nicht ladbar). Fälle 1–15 nicht als Arbeitsgrundlage nutzen.\n\nModus: Seeded. Rolle: ${r}.\nSeed:\n${seedBlock}\n\nFakten, journalistisches Framing und Spekulation trennen.\nFallbezogenen Intent deklarieren (kein automatischer Capability–Governance-Default) — z. B. Kontrollpunkte, Anreize, Macht- und Nachweisverteilung hinter dem Vorfall.\nVolle Root-Ascent Method L1–L6: Sättigungs-Checks; vor L4 Rivalen (dürfen die Diagnose ändern); Hebel + operative Strategie; Claim-Grenzen (keine erfundenen Wirkungsprozente).\nEnde: Erwartung vs. Ergebnis nur an Strukturmaßen. Kein numerischer Optimizer.`
+        : `Work with ${REPO}\nLanding: ${LANDING}\n\nRequired: read AGENTS.md / PROMPT.md v0.4 / EXAMPLES.md (paste-fallback if needed). Do not reuse Cases 1–15 as working basis.\n\nMode: Seeded. Role: ${r}.\nSeed:\n${seedBlock}\n\nSeparate facts, reporting frame, and speculation.\nDeclare case-specific intent (no automatic capability–governance default) — e.g. control points, incentives, distribution of power and proof behind the incident.\nFull Root-Ascent Method L1–L6: saturation checks; rivals before L4 (may change diagnosis); levers + operational strategy; claim boundaries (no invented impact %).\nEnd: expectation vs result on structure metrics only. Not a numerical optimizer.`;
+    }
+
+    const seedEl = document.getElementById("seed");
+    const outPanel = document.getElementById("outPanel");
+    const promptEl = document.getElementById("prompt");
+    const usecaseEl = document.getElementById("usecase");
+    const matchEl = document.getElementById("match");
+    const copyStatus = document.getElementById("copyStatus");
+
+    document.getElementById("build").onclick = () => {
+      const seed = seedEl.value;
+      const lang = document.getElementById("lang").value;
+      const role = document.getElementById("role").value;
+      const force = document.getElementById("force").value;
+      const mode = detect(seed, force);
+      const [title, why] = labels(mode, lang);
+      usecaseEl.textContent = title;
+      matchEl.textContent = (lang === "de" ? "Warum dieser Modus: " : "Why this mode: ") + why;
+      promptEl.textContent = buildPrompt(mode, seed, lang, role);
+      outPanel.hidden = false;
+      copyStatus.textContent = "";
+    };
+
+    document.getElementById("clear").onclick = () => {
+      seedEl.value = "";
+      outPanel.hidden = true;
+      copyStatus.textContent = "";
+    };
+
+    document.getElementById("copy").onclick = async () => {
+      const text = promptEl.textContent;
+      try {
+        await navigator.clipboard.writeText(text);
+        copyStatus.textContent = document.getElementById("lang").value === "de" ? "Kopiert." : "Copied.";
+      } catch (e) {
+        copyStatus.textContent = document.getElementById("lang").value === "de"
+          ? "Clipboard blockiert — Prompt manuell markieren."
+          : "Clipboard blocked — select the prompt manually.";
+      }
+    };
+
+    // Deep-link: ?seed=
+    const params = new URLSearchParams(location.search);
+    if (params.get("seed")) {
+      seedEl.value = params.get("seed");
+      document.getElementById("build").click();
+    }
+  </script>
+</body>
+</html>
