@@ -7,7 +7,19 @@ title: Root-Ascent Method
 
 **Causal Ladder** — From concrete incidents to systemic causes and actionable levers.
 
-**Current version: 0.4** (+ 0.4.1 clarity · **Prompt Factory v0.1**) · AI collaboration.
+**Current version: 0.4** (+ 0.4.1 clarity · **Prompt Factory v0.1** · **interactive Prompt Builder**) · AI collaboration.
+
+---
+
+## Prompt Builder (live)
+
+Paste a URL, question, or note → local heuristic picks a use case → **copy-ready prompt**.
+
+**→ [Open Prompt Builder](./prompt-builder.html)**
+
+Runs in your browser only (no server, no model API). Transparent starter — not a claim of optimal routing.
+
+Markdown templates: [PROMPT-FACTORY.md](https://github.com/IrsanAI/root-ascent-method/blob/main/PROMPT-FACTORY.md) · [DE](https://github.com/IrsanAI/root-ascent-method/blob/main/PROMPT-FACTORY.de.md)
 
 ---
 
@@ -19,9 +31,7 @@ Most analyses stay at symptoms or drift into speculation. Root-Ascent forces a c
 
 Version 0.4 requires **case-specific intent**, **saturation checks**, and **counter-hypotheses** before locking Level 4.
 
-**New:** Use the method not only as a full analysis run, but as an **intent amplifier** inside other tools (NotebookLM audio, music style fields, agent constraints, mid-chat recalibration) via short **embed snippets**.
-
-→ [PROMPT-FACTORY.md](https://github.com/IrsanAI/root-ascent-method/blob/main/PROMPT-FACTORY.md) · [Deutsch](https://github.com/IrsanAI/root-ascent-method/blob/main/PROMPT-FACTORY.de.md)
+Also usable as an **intent amplifier** inside other tools (NotebookLM audio, music style fields, agent constraints, mid-chat) via short **embed snippets**.
 
 ## Domain-agnostic
 
@@ -38,16 +48,12 @@ Cases 1–15 span surveillance, AI agents, synthetic media, diffusion, biosecuri
 
 | Resource | Link |
 |----------|------|
+| **Prompt Builder** | [prompt-builder.html](./prompt-builder.html) |
 | Compact method | [METHOD.md](https://github.com/IrsanAI/root-ascent-method/blob/main/METHOD.md) |
-| **System prompt v0.4** | [PROMPT.md](https://github.com/IrsanAI/root-ascent-method/blob/main/PROMPT.md) |
-| **Prompt Factory** (full run + embed) | [PROMPT-FACTORY.md](https://github.com/IrsanAI/root-ascent-method/blob/main/PROMPT-FACTORY.md) · [DE](https://github.com/IrsanAI/root-ascent-method/blob/main/PROMPT-FACTORY.de.md) |
-| Case schema | [CASE-SCHEMA.md](https://github.com/IrsanAI/root-ascent-method/blob/main/CASE-SCHEMA.md) |
-| Intent layers | [INTENT.md](https://github.com/IrsanAI/root-ascent-method/blob/main/INTENT.md) |
-| Working paper | [WORKING-PAPER.md](https://github.com/IrsanAI/root-ascent-method/blob/main/WORKING-PAPER.md) |
-| Examples (**Cases 1–15**) | [EXAMPLES.md](https://github.com/IrsanAI/root-ascent-method/blob/main/EXAMPLES.md) |
-| Contribute | [CONTRIBUTE.md](https://github.com/IrsanAI/root-ascent-method/blob/main/CONTRIBUTE.md) |
+| System prompt v0.4 | [PROMPT.md](https://github.com/IrsanAI/root-ascent-method/blob/main/PROMPT.md) |
+| Prompt Factory (MD) | [PROMPT-FACTORY.md](https://github.com/IrsanAI/root-ascent-method/blob/main/PROMPT-FACTORY.md) |
+| Examples (Cases 1–15) | [EXAMPLES.md](https://github.com/IrsanAI/root-ascent-method/blob/main/EXAMPLES.md) |
 | For AI agents | [AGENTS.md](https://github.com/IrsanAI/root-ascent-method/blob/main/AGENTS.md) |
-| Changelog | [CHANGELOG.md](https://github.com/IrsanAI/root-ascent-method/blob/main/CHANGELOG.md) |
 | Full repository | [github.com/IrsanAI/root-ascent-method](https://github.com/IrsanAI/root-ascent-method) |
 
 ## Proof
@@ -56,5 +62,5 @@ Emerged from a real investigation (unauthorized ALPR camera). External multi-mod
 
 ---
 
-*Root-Ascent Method / Causal Ladder · v0.4 (+0.4.1 · Prompt Factory v0.1)*  
+*Root-Ascent Method / Causal Ladder · v0.4 (+ Prompt Builder)*  
 [GitHub](https://github.com/IrsanAI/root-ascent-method)
